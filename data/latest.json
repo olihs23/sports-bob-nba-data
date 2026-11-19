@@ -1,0 +1,114 @@
+{
+  "lastSuccessfulRefreshUtc": "2026-11-19T21:48:39+00:00",
+  "player": {
+    "games": [
+      {
+        "3PA": 11,
+        "3PM": 4,
+        "AST": 5,
+        "FGA": 22,
+        "FGM": 10,
+        "FTA": 7,
+        "FTM": 7,
+        "PTS": 31,
+        "REB": 5,
+        "date": "2026-11-17",
+        "matchup": "NYK @ TOR",
+        "minutesRounded": 34
+      },
+      {
+        "3PA": 6,
+        "3PM": 3,
+        "AST": 9,
+        "FGA": 22,
+        "FGM": 9,
+        "FTA": 8,
+        "FTM": 7,
+        "PTS": 28,
+        "REB": 1,
+        "date": "2026-11-15",
+        "matchup": "NYK @ TOR",
+        "minutesRounded": 41
+      },
+      {
+        "3PA": 9,
+        "3PM": 4,
+        "AST": 11,
+        "FGA": 22,
+        "FGM": 11,
+        "FTA": 8,
+        "FTM": 7,
+        "PTS": 33,
+        "REB": 1,
+        "date": "2026-11-13",
+        "matchup": "NYK @ IND",
+        "minutesRounded": 36
+      },
+      {
+        "3PA": 8,
+        "3PM": 3,
+        "AST": 5,
+        "FGA": 23,
+        "FGM": 12,
+        "FTA": 0,
+        "FTM": 0,
+        "PTS": 27,
+        "REB": 3,
+        "date": "2026-11-11",
+        "matchup": "NYK vs. CLE",
+        "minutesRounded": 35
+      },
+      {
+        "3PA": 3,
+        "3PM": 1,
+        "AST": 2,
+        "FGA": 18,
+        "FGM": 7,
+        "FTA": 8,
+        "FTM": 8,
+        "PTS": 23,
+        "REB": 4,
+        "date": "2026-11-10",
+        "matchup": "NYK vs. MIL",
+        "minutesRounded": 28
+      }
+    ],
+    "name": "Jalen Brunson",
+    "playerId": "1628973",
+    "scope": "NBA.com last 5 displayed games only",
+    "season": "2026-27",
+    "source": "https://www.nba.com/player/1628973/jalen-brunson",
+    "sourceType": "official NBA.com player profile",
+    "verifiedAtUtc": "2026-11-19T21:48:39+00:00"
+  },
+  "schema": 1,
+  "season": "2026-27",
+  "team": {
+    "abbreviation": "NYK",
+    "season": "2026-27",
+    "seasonType": "Regular Season",
+    "source": "https://www.nba.com/team/1610612752/knicks",
+    "sourceType": "official NBA.com team profile",
+    "stats": {
+      "assistsPerGame": {
+        "nbaRank": 17,
+        "value": 26.6
+      },
+      "pointsAllowedPerGame": {
+        "nbaRank": 2,
+        "value": 103.9
+      },
+      "pointsPerGame": {
+        "nbaRank": 25,
+        "value": 110.0
+      },
+      "reboundsPerGame": {
+        "nbaRank": 3,
+        "value": 47.5
+      }
+    },
+    "team": "New York Knicks",
+    "teamId": "1610612752",
+    "verifiedAtUtc": "2026-11-19T21:48:39+00:00"
+  }
+}
