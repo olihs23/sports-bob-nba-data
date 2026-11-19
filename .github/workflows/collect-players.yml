@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate NBA.com player identities and last five game rows
         env:
-          LIMIT: ${{ github.event.inputs.limit || '2' }}
+          LIMIT: ${{ github.event.inputs.limit || '6' }}
         run: python3 scripts/collect_players_official.py --limit "$LIMIT"
       - name: Commit verified records and per-player statuses
         run: |
