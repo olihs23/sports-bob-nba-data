@@ -1,15 +1,53 @@
 {
   "batch": [
     "ATL",
-    "BOS"
+    "BOS",
+    "BKN",
+    "CHA",
+    "CHI",
+    "CLE",
+    "DAL",
+    "DEN",
+    "DET",
+    "GSW",
+    "HOU",
+    "IND",
+    "LAC",
+    "LAL",
+    "MEM",
+    "MIA",
+    "MIL",
+    "MIN",
+    "NOP",
+    "NYK",
+    "OKC",
+    "ORL",
+    "PHI",
+    "PHX",
+    "POR",
+    "SAC",
+    "SAS",
+    "TOR",
+    "UTA",
+    "WAS"
   ],
-  "checkedAtUtc": "2026-11-19T22:30:05+00:00",
+  "checkedAtUtc": "2026-11-19T22:31:22+00:00",
   "schema": 1,
   "sources": {
     "ATL": {
       "rosters": {
-        "reason": "Only 0 resolved; anchors=1 sample=[('1629027', '', 'Trae Young')] rosterNames=['Rafael Castro', 'RayJ Dennis']",
-        "status": "unavailable"
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "BKN": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
       },
       "teams": {
         "count": 0,
@@ -18,8 +56,278 @@
     },
     "BOS": {
       "rosters": {
-        "reason": "Only 0 resolved; anchors=0 sample=[] rosterNames=['Jayson Tatum', 'Mitchell Robinson']",
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "CHA": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "CHI": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "CLE": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "DAL": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "DEN": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "DET": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "GSW": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "HOU": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "IND": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "LAC": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "LAL": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "MEM": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "MIA": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "MIL": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "MIN": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "NOP": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "NYK": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "OKC": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "ORL": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "PHI": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "PHX": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "POR": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "reason": "Page identity not verified: Portland Trail Blazers",
         "status": "unavailable"
+      }
+    },
+    "SAC": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "SAS": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "TOR": {
+      "rosters": {
+        "count": 17,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "UTA": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
+      },
+      "teams": {
+        "count": 0,
+        "status": "verified"
+      }
+    },
+    "WAS": {
+      "rosters": {
+        "count": 18,
+        "status": "verified"
       },
       "teams": {
         "count": 0,

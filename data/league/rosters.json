@@ -1,0 +1,3516 @@
+{
+  "items": {
+    "ATL": {
+      "abbreviation": "ATL",
+      "players": [
+        {
+          "name": "Rafael Castro",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "RayJ Dennis",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Luguentz Dort",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jalen Johnson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Aaron Wiggins",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "CJ McCollum",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kingston Flemings",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Dyson Daniels",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Nickeil Alexander-Walker",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Dorian Finney-Smith",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Henri Veesaar",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Asa Newell",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Onyeka Okongwu",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Mouhamed Gueye",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Zuby Ejiofor",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jalen Wilson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Corey Kispert",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jock Landale",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612737",
+      "team": "Atlanta Hawks",
+      "teamId": "1610612737",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "BKN": {
+      "abbreviation": "BKN",
+      "players": [
+        {
+          "name": "Josh Minott",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Mikel Brown Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Keon Ellis",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Danny Wolf",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Drake Powell",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Egor D\u00ebmin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Joshua Jefferson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Nolan Traore",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Moritz Wagner",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Terance Mann",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Grant Nelson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Michael Porter Jr.",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Day'Ron Sharpe",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Noah Clowney",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Julius Randle",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Chaney Johnson",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Tyler Bilodeau",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ben Saraf",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612751",
+      "team": "Brooklyn Nets",
+      "teamId": "1610612751",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "BOS": {
+      "abbreviation": "BOS",
+      "players": [
+        {
+          "name": "Jayson Tatum",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Mitchell Robinson",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Ron Harper Jr.",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Derrick White",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Payton Pritchard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Chris Cenac Jr.",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Paul George",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Dillon Mitchell",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jordan Walsh",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Hugo Gonz\u00e1lez",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Sam Hauser",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Mike Conley",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Luka Garza",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Baylor Scheierman",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Amari Williams",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Neemias Queta",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Devin Carter",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612738",
+      "team": "Boston Celtics",
+      "teamId": "1610612738",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "CHA": {
+      "abbreviation": "CHA",
+      "players": [
+        {
+          "name": "Royce O'Neale",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Naz Reid",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Grant Williams",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Coby White",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Sion James",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Christian Anderson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kon Knueppel",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Grayson Allen",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Michael Ajayi",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ryan Kalkbrenner",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Moussa Diabat\u00e9",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "PJ Hall",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Dennis Schr\u00f6der",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kylan Boswell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Hannes Steinbach",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Brandon Miller",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tidjane Sala\u00fcn",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Liam McNeeley",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612766",
+      "team": "Charlotte Hornets",
+      "teamId": "1610612766",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "CHI": {
+      "abbreviation": "CHI",
+      "players": [
+        {
+          "name": "Noa Essengue",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Josh Giddey",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Dailyn Swain",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Orlando Robinson",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Buddy Hield",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Caleb Wilson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Nic Claxton",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Leonard Miller",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Zach Collins",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Matas Buzelis",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jordan Hawkins",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tobe Awaka",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jaylin Sellers",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Norman Powell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jalen Smith",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Tre Jones",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Isaac Okoro",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Patrick Williams",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612741",
+      "team": "Chicago Bulls",
+      "teamId": "1610612741",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "CLE": {
+      "abbreviation": "CLE",
+      "players": [
+        {
+          "name": "Zack Austin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "James Harden",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Thomas Bryant",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Evan Mobley",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Sam Merrill",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Peyton Watson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Craig Porter Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Meleek Thomas",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Khalifa Diop",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Jaylon Tyson",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Tyrese Proctor",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jarrett Allen",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Mario Hezonja",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Nae'Qwan Tomlin",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Donovan Mitchell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Norchad Omier",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ernest Udeh Jr.",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612739",
+      "team": "Cleveland Cavaliers",
+      "teamId": "1610612739",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "DAL": {
+      "abbreviation": "DAL",
+      "players": [
+        {
+          "name": "Max Christie",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Walter Clayton Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Dereck Lively II",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Naji Marshall",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Marcus Sasser",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jett Howard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Zaccharie Risacher",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Kyrie Irving",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tarik Biberovi\u0107",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Morez Johnson Jr.",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Caleb Martin",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Daniel Gafford",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "P.J. Washington",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Moussa Ciss\u00e9",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Cooper Flagg",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tobi Lawal",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Santi Aldama",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Sergio de Larrea",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612742",
+      "team": "Dallas Mavericks",
+      "teamId": "1610612742",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "DEN": {
+      "abbreviation": "DEN",
+      "players": [
+        {
+          "name": "Christian Braun",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cam Whitmore",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Julian Strawther",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Marvin Bagley III",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tyus Jones",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Trevon Brazile",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ryan Nembhard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "DeMar DeRozan",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Alpha Diallo",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Bryce Hopkins",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "DaRon Holmes II",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Nikola Joki\u0107",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Spencer Jones",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Zeke Nnaji",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Cameron Johnson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jamal Murray",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Aaron Gordon",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612743",
+      "team": "Denver Nuggets",
+      "teamId": "1610612743",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "DET": {
+      "abbreviation": "DET",
+      "players": [
+        {
+          "name": "Jalen Duren",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Cade Cunningham",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ronald Holland II",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Paul Reed",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Chaz Lanier",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ausar Thompson",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Taurean Prince",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Isaac Jones",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Joe",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "John Collins",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Ebuka Okorie",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Daniss Jenkins",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kevin Huerter",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Javonte Green",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ugonna Onyenso",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Tolu Smith",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Duncan Robinson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Elijah Harkless",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612765",
+      "team": "Detroit Pistons",
+      "teamId": "1610612765",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "GSW": {
+      "abbreviation": "GSW",
+      "players": [
+        {
+          "name": "Gary Payton II",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Yaxel Lendeborg",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Brandin Podziemski",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Will Richard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Moses Moody",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kristaps Porzi\u0146\u0123is",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "De'Anthony Melton",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jimmy Butler III",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Brandon Williams",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Gui Santos",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "LJ Cryer",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Al Horford",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Draymond Green",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Charles Bassey",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Stephen Curry",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Georges Niang",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Malevy Leons",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Graham Ike",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612744",
+      "team": "Golden State Warriors",
+      "teamId": "1610612744",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "HOU": {
+      "abbreviation": "HOU",
+      "players": [
+        {
+          "name": "Amen Thompson",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Bruce Thornton",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Julian Phillips",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Fred VanVleet",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kevin Durant",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jae'Sean Tate",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Oscar Tshiebwe",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Jabari Smith Jr.",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Steven Adams",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Reed Sheppard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tari Eason",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Quadir Copeland",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Crawford",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Alperen Sengun",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Clint Capela",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Bogdan Bogdanovi\u0107",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Marcus Smart",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612745",
+      "team": "Houston Rockets",
+      "teamId": "1610612745",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "IND": {
+      "abbreviation": "IND",
+      "players": [
+        {
+          "name": "Tyrese Haliburton",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Obi Toppin",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Andrew Nembhard",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Braden Smith",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jarace Walker",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "T.J. McConnell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kelly Oubre Jr.",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Johnny Furphy",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jalen Slawson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Larry Nance Jr.",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Aaron Nesmith",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Kobe Brown",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ben Sheppard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Quenton Jackson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jay Huff",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Ivica Zubac",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Pascal Siakam",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612754",
+      "team": "Indiana Pacers",
+      "teamId": "1610612754",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "LAC": {
+      "abbreviation": "LAC",
+      "players": [
+        {
+          "name": "Keaton Wagler",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Bradley Beal",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kobe Sanders",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Derrick Jones Jr.",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Brandon Ingram",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Kris Dunn",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Gradey Dick",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Darius Garland",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Brook Lopez",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Nick Martinelli",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Yanic Konan Niederh\u00e4user",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Baba Miller",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jalen Pickett",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jordan Miller",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Jackson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Cam Christie",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Rui Hachimura",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Max Strus",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612746",
+      "team": "LA Clippers",
+      "teamId": "1610612746",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "LAL": {
+      "abbreviation": "LAL",
+      "players": [
+        {
+          "name": "Adou Thiero",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jarred Vanderbilt",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Matisse Thybulle",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Quentin Grimes",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaden Hardy",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Bronny James",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Collin Sexton",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ziaire Williams",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jake LaRavia",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Walker Kessler",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Austin Reaves",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Carson Cooper",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Chris Ma\u00f1on",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cameron Carr",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Arthur Kaluma",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Sandro Mamukelashvili",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Kevon Looney",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Luka Don\u010di\u0107",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612747",
+      "team": "Los Angeles Lakers",
+      "teamId": "1610612747",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "MEM": {
+      "abbreviation": "MEM",
+      "players": [
+        {
+          "name": "Jaylen Wells",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Scotty Pippen Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ty Jerome",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Jerami Grant",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Richie Saunders",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Javon Small",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Zach Edey",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Kris Murray",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Olivier-Maxence Prosper",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jahmai Mashack",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Taylor Hendricks",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Cedric Coward",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cam Spencer",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cameron Boozer",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Stewart",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Karim L\u00f3pez",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Quinten Post",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "GG Jackson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612763",
+      "team": "Memphis Grizzlies",
+      "teamId": "1610612763",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "MIA": {
+      "abbreviation": "MIA",
+      "players": [
+        {
+          "name": "Simone Fontecchio",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Davion Mitchell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ryan Conwell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Nikola Jovi\u0107",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Giannis Antetokounmpo",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Nick Richards",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Pelle Larsson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tim Hardaway Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Klay Thompson",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Dru Smith",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Bam Adebayo",
+          "playerId": "1628389",
+          "position": "C-F",
+          "profile": "https://www.nba.com/player/1628389"
+        },
+        {
+          "name": "Myron Gardner",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Keshad Johnson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Andrew Wiggins",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tre Donaldson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Vladislav Goldin",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Bobby Portis Jr.",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 1,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612748",
+      "team": "Miami Heat",
+      "teamId": "1610612748",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "MIL": {
+      "abbreviation": "MIL",
+      "players": [
+        {
+          "name": "Jericho Sims",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Brayden Burries",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Myles Turner",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Gary Trent Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kel'el Ware",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Tyler Herro",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Caris LeVert",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ryan Rollins",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Nate Ament",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Kyle Kuzma",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Kam Jones",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "AJ Green",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ousmane Dieng",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Bogoljub Markovi\u0107",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jaime Jaquez Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kasparas Jaku\u010dionis",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cormac Ryan",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Pete Nance",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612749",
+      "team": "Milwaukee Bucks",
+      "teamId": "1610612749",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "MIN": {
+      "abbreviation": "MIN",
+      "players": [
+        {
+          "name": "Donte DiVincenzo",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "LaMelo Ball",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaden McDaniels",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Terrence Shannon Jr",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Anthony Edwards",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaylen Clark",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Bones Hyland",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cody Williams",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ayo Dosunmu",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Zyon Pullin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Joan Beringer",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Johni Broome",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jonathan Kuminga",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Rudy Gobert",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Evans",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Trey Lyles",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Rocco Zikarsky",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612750",
+      "team": "Minnesota Timberwolves",
+      "teamId": "1610612750",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "NOP": {
+      "abbreviation": "NOP",
+      "players": [
+        {
+          "name": "Jeremiah Fears",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Zion Williamson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Herbert Jones",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jordan Poole",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Dejounte Murray",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "DeAndre Jordan",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Malik Dia",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Trendon Watford",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Jaron Pierre Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Bryce McGowens",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Julian Reese",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "AJ Johnson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Karlo Matkovi\u0107",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Yves Missi",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Derik Queen",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Bennedict Mathurin",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Trey Murphy III",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Saddiq Bey",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612740",
+      "team": "New Orleans Pelicans",
+      "teamId": "1610612740",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "NYK": {
+      "abbreviation": "NYK",
+      "players": [
+        {
+          "name": "Andre Drummond",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Jordan Clarkson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Dalton Knecht",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Miles McBride",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Josh Hart",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Pac\u00f4me Dadiet",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jose Alvarado",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "OG Anunoby",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Jalen Brunson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tyler Kolek",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaden Akins",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Mikal Bridges",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Karl-Anthony Towns",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "James Wiseman",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Landry Shamet",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Mohamed Diawara",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tyler Nickel",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612752",
+      "team": "New York Knicks",
+      "teamId": "1610612752",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "OKC": {
+      "abbreviation": "OKC",
+      "players": [
+        {
+          "name": "Shai Gilgeous-Alexander",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jared McCain",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaylin Williams",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Chet Holmgren",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Jalen Williams",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Alex Caruso",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Thomas Sorber",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Bennett Stirtz",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Aday Mara",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Micah Peavy",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Nique Clifford",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Josh Dix",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Cason Wallace",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Brooks Barnhizer",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ajay Mitchell",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kenrich Williams",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Nikola Topi\u0107",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Hartenstein",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612760",
+      "team": "Oklahoma City Thunder",
+      "teamId": "1610612760",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "ORL": {
+      "abbreviation": "ORL",
+      "players": [
+        {
+          "name": "Anthony Black",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jonathan Isaac",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jevon Carter",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Desmond Bane",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jalen Suggs",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Paolo Banchero",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jamal Cain",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Nikola Vu\u010devi\u0107",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Jase Richardson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Colin Castleton",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Franz Wagner",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tristan da Silva",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Izaiyah Nelson",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Alex Morales",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Wendell Carter Jr.",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Goga Bitadze",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Noah Penda",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612753",
+      "team": "Orlando Magic",
+      "teamId": "1610612753",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "PHI": {
+      "abbreviation": "PHI",
+      "players": [
+        {
+          "name": "Tyrese Maxey",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Labaron Philon Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kentavious Caldwell-Pope",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Anfernee Simons",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaylen Brown",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Caleb Love",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Justin Edwards",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Rayan Rupert",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Joel Embiid",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "LeBron James",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Dominick Barlow",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Adem Bona",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jabari Walker",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Dean Wade",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Ariel Hukporti",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "VJ Edgecombe",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tacko Fall",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612755",
+      "team": "Philadelphia 76ers",
+      "teamId": "1610612755",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "PHX": {
+      "abbreviation": "PHX",
+      "players": [
+        {
+          "name": "Ryan Dunn",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Drew Timme",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Dillon Brooks",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Jalen Green",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Luke Kennard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Khaman Maluach",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Oso Ighodaro",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Collin Gillespie",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Devin Booker",
+          "playerId": "1626164",
+          "position": "G",
+          "profile": "https://www.nba.com/player/1626164"
+        },
+        {
+          "name": "Jamaree Bouyea",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Koa Peat",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Rasheer Fleming",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Miles Bridges",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jordan Goodwin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Mark Williams",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Duop Reath",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Pat Spencer",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 1,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612756",
+      "team": "Phoenix Suns",
+      "teamId": "1610612756",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "POR": {
+      "abbreviation": "POR",
+      "players": [
+        {
+          "name": "Damian Lillard",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Scoot Henderson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Ja Morant",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "John Tonje",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jrue Holiday",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Deni Avdija",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Micah Potter",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Branden Carlson",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Chris Youngblood",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Yang Hansen",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Shaedon Sharpe",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Donovan Clingan",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "V\u00edt Krej\u010d\u00ed",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jayson Kent",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Toumani Camara",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Robert Williams III",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Sidy Cissoko",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612757",
+      "team": "Portland Trail Blazers",
+      "teamId": "1610612757",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "SAC": {
+      "abbreviation": "SAC",
+      "players": [
+        {
+          "name": "Malik Monk",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Sean Pedulla",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Darius Acuff Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Zach LaVine",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Precious Achiuwa",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Domantas Sabonis",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Keegan Murray",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "De'Andre Hunter",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Leaky Black",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jonathan Mogbo",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ben Simmons",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Daeqwon Plowden",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Dylan Cardwell",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Alex Karaban",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Emanuel Sharp",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Maxime Raynaud",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Mason Plumlee",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612758",
+      "team": "Sacramento Kings",
+      "teamId": "1610612758",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "SAS": {
+      "abbreviation": "SAS",
+      "players": [
+        {
+          "name": "Jordan McLaughlin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Victor Wembanyama",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Dylan Harper",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Keldon Johnson",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "De'Aaron Fox",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Stephon Castle",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Luke Kornet",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Tarris Reed Jr.",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Carter Bryant",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Maliq Brown",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Ja'Kobi Gillespie",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jayden Quaintance",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tobias Harris",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Devin Vassell",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "David Jones Garcia",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Julian Champagnie",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Harrison Barnes",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612759",
+      "team": "San Antonio Spurs",
+      "teamId": "1610612759",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "TOR": {
+      "abbreviation": "TOR",
+      "players": [
+        {
+          "name": "Jamal Shead",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kawhi Leonard",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Scottie Barnes",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Immanuel Quickley",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jaden Bradley",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "RJ Barrett",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Kevin McCullar Jr.",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Nate Bittle",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Kyle Anderson",
+          "playerId": null,
+          "position": "F-G",
+          "profile": null
+        },
+        {
+          "name": "Ja'Kobe Walter",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Malachi Smith",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jakob Poeltl",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Allen Graves",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Collin Murray-Boyles",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Trayce Jackson-Davis",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Alijah Martin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Jamison Battle",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612761",
+      "team": "Toronto Raptors",
+      "teamId": "1610612761",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "UTA": {
+      "abbreviation": "UTA",
+      "players": [
+        {
+          "name": "Jonas Aidoo",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Harrison Ingram",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Kobe Bufkin",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Kyle Filipowski",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Keyonte George",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Josh Green",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Isaiah Collier",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Svi Mykhailiuk",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Jaxson Hayes",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Tony Bradley",
+          "playerId": null,
+          "position": "C-F",
+          "profile": null
+        },
+        {
+          "name": "Ace Bailey",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jaren Jackson Jr.",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Josh Okogie",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Darryn Peterson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Lauri Markkanen",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Brice Sensabaugh",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jusuf Nurki\u0107",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Mo Bamba",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612762",
+      "team": "Utah Jazz",
+      "teamId": "1610612762",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    },
+    "WAS": {
+      "abbreviation": "WAS",
+      "players": [
+        {
+          "name": "Bilal Coulibaly",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Tristan Vuk\u010devi\u0107",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Tre Mann",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Trae Young",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "AJ Dybantsa",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Jamir Watkins",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Bub Carrington",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Deandre Ayton",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Justin Champagnie",
+          "playerId": null,
+          "position": "G-F",
+          "profile": null
+        },
+        {
+          "name": "Tre Johnson",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Anthony Gill",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Kyshawn George",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Alex Sarr",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        },
+        {
+          "name": "Khris Middleton",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Anthony Davis",
+          "playerId": null,
+          "position": "F-C",
+          "profile": null
+        },
+        {
+          "name": "Reece Beekman",
+          "playerId": null,
+          "position": "G",
+          "profile": null
+        },
+        {
+          "name": "Will Riley",
+          "playerId": null,
+          "position": "F",
+          "profile": null
+        },
+        {
+          "name": "Felix Okpara",
+          "playerId": null,
+          "position": "C",
+          "profile": null
+        }
+      ],
+      "resolvedPlayerIds": 0,
+      "scope": "Current official team roster names and positions, not game participation",
+      "season": "2026-27",
+      "source": "https://www.nba.com/team/1610612764",
+      "team": "Washington Wizards",
+      "teamId": "1610612764",
+      "verifiedAtUtc": "2026-11-19T22:31:22+00:00"
+    }
+  },
+  "schema": 1,
+  "season": "2026-27"
+}
