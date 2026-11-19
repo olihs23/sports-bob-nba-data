@@ -1,0 +1,63 @@
+{
+  "games_nov15": {
+    "http": 200,
+    "bytes": 520928,
+    "ids": [
+      "0022600236",
+      "0022600237",
+      "0022600238",
+      "0022600239",
+      "0022600240",
+      "0022600241",
+      "0022600242",
+      "0022600243",
+      "0022600244",
+      "0022600272"
+    ],
+    "totalUniqueIds": 10,
+    "hasSchedule": true,
+    "title": "NBA Games - All NBA matchups | NBA.com"
+  },
+  "games_nov19": {
+    "http": 200,
+    "bytes": 344921,
+    "ids": [
+      "0022600270",
+      "0022600271",
+      "0022600272",
+      "0022600273"
+    ],
+    "totalUniqueIds": 4,
+    "hasSchedule": true,
+    "title": "NBA Games - All NBA matchups | NBA.com"
+  },
+  "games_oct20": {
+    "http": 200,
+    "bytes": 335893,
+    "ids": [
+      "0022600001",
+      "0022600002",
+      "0022600003",
+      "0022600272"
+    ],
+    "totalUniqueIds": 4,
+    "hasSchedule": true,
+    "title": "NBA Games - All NBA matchups | NBA.com"
+  },
+  "schedule": {
+    "http": 200,
+    "bytes": 203257,
+    "ids": [],
+    "totalUniqueIds": 0,
+    "hasSchedule": true,
+    "title": "NBA Schedule - NBA Games &amp; Events | NBA.com"
+  },
+  "schedule_nov19": {
+    "http": 200,
+    "bytes": 203386,
+    "ids": [],
+    "totalUniqueIds": 0,
+    "hasSchedule": true,
+    "title": "NBA Schedule - NBA Games &amp; Events | NBA.com"
+  }
+}
