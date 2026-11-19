@@ -1,7 +1,7 @@
 {
   "allDatePagesRetrieved": true,
   "candidateGameIds": 226,
-  "checkedAtUtc": "2026-11-19T23:32:24+00:00",
+  "checkedAtUtc": "2026-11-19T23:55:14+00:00",
   "completedGamesStored": 222,
   "failedGameIds": {
     "0022600270": "HTTPError: HTTP Error 403: Forbidden",
@@ -9,7 +9,7 @@
     "0022600272": "HTTPError: HTTP Error 403: Forbidden",
     "0022600273": "HTTPError: HTTP Error 403: Forbidden"
   },
-  "newGamesStored": 0,
+  "newGamesStored": 222,
   "notFinalGameIds": [],
   "officialDayPages": {
     "2026-10-20": {
