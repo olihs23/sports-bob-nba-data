@@ -1,5 +1,179 @@
 {
   "items": {
+    "1626157": {
+      "games": [
+        {
+          "3PA": 2,
+          "3PM": 1,
+          "AST": 8,
+          "FGA": 9,
+          "FGM": 7,
+          "FTA": 1,
+          "FTM": 1,
+          "PTS": 16,
+          "REB": 16,
+          "date": "2026-11-17",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 36
+        },
+        {
+          "3PA": 8,
+          "3PM": 3,
+          "AST": 3,
+          "FGA": 21,
+          "FGM": 10,
+          "FTA": 7,
+          "FTM": 5,
+          "PTS": 28,
+          "REB": 17,
+          "date": "2026-11-15",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 43
+        },
+        {
+          "3PA": 7,
+          "3PM": 3,
+          "AST": 5,
+          "FGA": 19,
+          "FGM": 9,
+          "FTA": 3,
+          "FTM": 2,
+          "PTS": 23,
+          "REB": 15,
+          "date": "2026-11-13",
+          "matchup": "NYK @ IND",
+          "minutesRounded": 34
+        },
+        {
+          "3PA": 5,
+          "3PM": 2,
+          "AST": 8,
+          "FGA": 11,
+          "FGM": 7,
+          "FTA": 5,
+          "FTM": 5,
+          "PTS": 21,
+          "REB": 11,
+          "date": "2026-11-11",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 34
+        },
+        {
+          "3PA": 9,
+          "3PM": 2,
+          "AST": 3,
+          "FGA": 14,
+          "FGM": 5,
+          "FTA": 14,
+          "FTM": 9,
+          "PTS": 21,
+          "REB": 16,
+          "date": "2026-11-10",
+          "matchup": "NYK vs. MIL",
+          "minutesRounded": 27
+        }
+      ],
+      "name": "Karl-Anthony Towns",
+      "playerId": "1626157",
+      "scope": "NBA.com latest five displayed games only",
+      "season": "2026-27",
+      "seasonAveragesOfficial": {
+        "APG": 3.9,
+        "PPG": 21.2,
+        "RPG": 14.1
+      },
+      "source": "https://www.nba.com/player/1626157",
+      "sourceType": "NBA.com official player page",
+      "teamAbbreviation": "NYK",
+      "verifiedAtUtc": "2026-11-19T22:33:57+00:00"
+    },
+    "1628369": {
+      "games": [
+        {
+          "3PA": 8,
+          "3PM": 3,
+          "AST": 3,
+          "FGA": 22,
+          "FGM": 10,
+          "FTA": 2,
+          "FTM": 1,
+          "PTS": 24,
+          "REB": 8,
+          "date": "2026-11-18",
+          "matchup": "BOS @ DEN",
+          "minutesRounded": 37
+        },
+        {
+          "3PA": 10,
+          "3PM": 3,
+          "AST": 4,
+          "FGA": 23,
+          "FGM": 9,
+          "FTA": 5,
+          "FTM": 3,
+          "PTS": 24,
+          "REB": 12,
+          "date": "2026-11-16",
+          "matchup": "BOS vs. ORL",
+          "minutesRounded": 36
+        },
+        {
+          "3PA": 8,
+          "3PM": 5,
+          "AST": 6,
+          "FGA": 18,
+          "FGM": 11,
+          "FTA": 6,
+          "FTM": 5,
+          "PTS": 32,
+          "REB": 6,
+          "date": "2026-11-15",
+          "matchup": "BOS vs. DAL",
+          "minutesRounded": 30
+        },
+        {
+          "3PA": 11,
+          "3PM": 2,
+          "AST": 8,
+          "FGA": 21,
+          "FGM": 6,
+          "FTA": 12,
+          "FTM": 10,
+          "PTS": 24,
+          "REB": 7,
+          "date": "2026-11-11",
+          "matchup": "BOS @ TOR",
+          "minutesRounded": 38
+        },
+        {
+          "3PA": 7,
+          "3PM": 3,
+          "AST": 4,
+          "FGA": 17,
+          "FGM": 8,
+          "FTA": 2,
+          "FTM": 2,
+          "PTS": 21,
+          "REB": 6,
+          "date": "2026-11-10",
+          "matchup": "BOS @ PHI",
+          "minutesRounded": 32
+        }
+      ],
+      "name": "Jayson Tatum",
+      "playerId": "1628369",
+      "scope": "NBA.com latest five displayed games only",
+      "season": "2026-27",
+      "seasonAveragesOfficial": {
+        "APG": 6.8,
+        "PPG": 26.4,
+        "RPG": 6.6
+      },
+      "source": "https://www.nba.com/player/1628369",
+      "sourceType": "NBA.com official player page",
+      "teamAbbreviation": "BOS",
+      "verifiedAtUtc": "2026-11-19T22:33:57+00:00"
+    },
     "1628384": {
       "games": [
         {
@@ -85,7 +259,181 @@
       "source": "https://www.nba.com/player/1628384",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-19T22:32:30+00:00"
+      "verifiedAtUtc": "2026-11-19T22:33:57+00:00"
+    },
+    "1628404": {
+      "games": [
+        {
+          "3PA": 4,
+          "3PM": 1,
+          "AST": 2,
+          "FGA": 5,
+          "FGM": 2,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 5,
+          "REB": 4,
+          "date": "2026-11-17",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 31
+        },
+        {
+          "3PA": 1,
+          "3PM": 0,
+          "AST": 2,
+          "FGA": 5,
+          "FGM": 0,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 0,
+          "REB": 5,
+          "date": "2026-11-15",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 26
+        },
+        {
+          "3PA": 3,
+          "3PM": 0,
+          "AST": 4,
+          "FGA": 4,
+          "FGM": 0,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 0,
+          "REB": 5,
+          "date": "2026-11-13",
+          "matchup": "NYK @ IND",
+          "minutesRounded": 23
+        },
+        {
+          "3PA": 3,
+          "3PM": 0,
+          "AST": 3,
+          "FGA": 8,
+          "FGM": 3,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 6,
+          "REB": 4,
+          "date": "2026-11-11",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 26
+        },
+        {
+          "3PA": 5,
+          "3PM": 2,
+          "AST": 7,
+          "FGA": 6,
+          "FGM": 3,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 8,
+          "REB": 6,
+          "date": "2026-11-02",
+          "matchup": "NYK vs. BKN",
+          "minutesRounded": 27
+        }
+      ],
+      "name": "Josh Hart",
+      "playerId": "1628404",
+      "scope": "NBA.com latest five displayed games only",
+      "season": "2026-27",
+      "seasonAveragesOfficial": {
+        "APG": 3.5,
+        "PPG": 6.5,
+        "RPG": 6.3
+      },
+      "source": "https://www.nba.com/player/1628404",
+      "sourceType": "NBA.com official player page",
+      "teamAbbreviation": "NYK",
+      "verifiedAtUtc": "2026-11-19T22:33:57+00:00"
+    },
+    "1628969": {
+      "games": [
+        {
+          "3PA": 5,
+          "3PM": 2,
+          "AST": 1,
+          "FGA": 11,
+          "FGM": 7,
+          "FTA": 2,
+          "FTM": 1,
+          "PTS": 17,
+          "REB": 5,
+          "date": "2026-11-17",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 30
+        },
+        {
+          "3PA": 2,
+          "3PM": 0,
+          "AST": 3,
+          "FGA": 5,
+          "FGM": 2,
+          "FTA": 2,
+          "FTM": 1,
+          "PTS": 5,
+          "REB": 7,
+          "date": "2026-11-15",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 32
+        },
+        {
+          "3PA": 4,
+          "3PM": 2,
+          "AST": 3,
+          "FGA": 12,
+          "FGM": 8,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 18,
+          "REB": 3,
+          "date": "2026-11-13",
+          "matchup": "NYK @ IND",
+          "minutesRounded": 29
+        },
+        {
+          "3PA": 0,
+          "3PM": 0,
+          "AST": 2,
+          "FGA": 3,
+          "FGM": 1,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 2,
+          "REB": 1,
+          "date": "2026-11-11",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 17
+        },
+        {
+          "3PA": 0,
+          "3PM": 0,
+          "AST": 1,
+          "FGA": 6,
+          "FGM": 2,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 4,
+          "REB": 5,
+          "date": "2026-11-10",
+          "matchup": "NYK vs. MIL",
+          "minutesRounded": 17
+        }
+      ],
+      "name": "Mikal Bridges",
+      "playerId": "1628969",
+      "scope": "NBA.com latest five displayed games only",
+      "season": "2026-27",
+      "seasonAveragesOfficial": {
+        "APG": 2.1,
+        "PPG": 7.5,
+        "RPG": 3.6
+      },
+      "source": "https://www.nba.com/player/1628969",
+      "sourceType": "NBA.com official player page",
+      "teamAbbreviation": "NYK",
+      "verifiedAtUtc": "2026-11-19T22:33:57+00:00"
     },
     "1628973": {
       "games": [
@@ -172,7 +520,7 @@
       "source": "https://www.nba.com/player/1628973",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-19T22:32:30+00:00"
+      "verifiedAtUtc": "2026-11-19T22:33:57+00:00"
     }
   },
   "schema": 1,
