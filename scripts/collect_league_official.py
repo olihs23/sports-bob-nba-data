@@ -133,7 +133,7 @@ def parse_official_roster(html,abbr,now):
         item["position"]=row[2]
         players.append(item)
     if len(players)<5:
-        raise ValueError(f"Only {len(players)} roster names resolved to official player links")
+        raise ValueError(f"Only {len(players)} resolved; anchors={len(parser.records)} sample={parser.records[:2]} rosterNames={[r[0] for r in rows[:2]]}")
     if len({p["playerId"] for p in players})!=len(players):
         raise ValueError("Duplicate official NBA player IDs")
     return {"teamId":str(team_id),"team":full_name,"abbreviation":abbr,
