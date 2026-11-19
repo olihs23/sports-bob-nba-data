@@ -1,7 +1,7 @@
 {
   "allDatePagesRetrieved": true,
   "candidateGameIds": 226,
-  "checkedAtUtc": "2026-11-19T23:14:54+00:00",
+  "checkedAtUtc": "2026-11-19T23:32:24+00:00",
   "completedGamesStored": 222,
   "failedGameIds": {
     "0022600270": "HTTPError: HTTP Error 403: Forbidden",
