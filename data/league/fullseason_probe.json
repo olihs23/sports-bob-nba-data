@@ -1,0 +1,94 @@
+{
+  "checkedAtUtc": "2026-11-19T22:56:28.919669+00:00",
+  "probes": {
+    "schedule_cdn_v1": {
+      "error": "HTTPError",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    "schedule_cdn": {
+      "error": "HTTPError",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    "schedule_nba_s3": {
+      "error": "HTTPError",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    "schedule_mobile": {
+      "error": "HTTPError",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    "schedule_teams": {
+      "status": 200,
+      "length": 203258,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "boxscore_s3_ind_phi": {
+      "status": 200,
+      "length": 39321,
+      "contentType": "application/json",
+      "rootKeys": [
+        "meta",
+        "game"
+      ],
+      "game": {
+        "gameId": "0022600236",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "gameTimeUTC": "2026-11-15T18:00:00Z",
+        "gameEt": "2026-11-15T13:00:00-05:00",
+        "gameTimeLocal": "2026-11-15T13:00:00-05:00",
+        "gameLabel": null
+      },
+      "homeKeys": [
+        "teamId",
+        "teamName",
+        "teamCity",
+        "teamTricode",
+        "score",
+        "inBonus",
+        "timeoutsRemaining",
+        "periods",
+        "players",
+        "statistics"
+      ],
+      "awayPlayers": 17,
+      "onePlayer": "{'personId': 1630174, 'position': 'SF', 'jerseyNum': '23', 'starter': '1', 'status': 'ACTIVE', 'name': 'Aaron Nesmith', 'nameI': 'A. Nesmith', 'firstName': 'Aaron', 'familyName': 'Nesmith', 'order': 1, 'oncourt': '1', 'played': '1', 'statistics': {'assists': 4, 'blocks': 0, 'blocksReceived': 0, 'fieldGoalsAttempted': 11, 'fieldGoalsMade': 4, 'fieldGoalsPercentage': 0.36363636363636365, 'foulsOffensive': 0, 'foulsDrawn': 2, 'foulsPersonal': 2, 'foulsTechnical': 0, 'freeThrowsAttempted': 4, 'freeThrowsMade': 4, 'freeThrowsPercentage': 1.0, 'minus': 93.0, 'minutes': 'PT36M20.00S', 'plus': 87.0, 'plusMinusPoints': -6.0, 'points': 12, 'pointsFastBreak': 0, 'pointsFromTurnovers': 2, 'pointsInThePaint': 6, 'pointsSecondChance': 0, 'reboundsDefensive': 3, 'reboundsOffensive': 1, 'reboundsTotal': 4, 'steals': 0, 'threePointersAttempted': 5, 'threePointersMade': 0, 'threePointersPercentage': 0.0, 'turnovers': 1, 'twoPointersAttempted': 6, 'twoPointersMade': 4, 'twoPointersPercentage': 0.66666666"
+    },
+    "boxscore_s3_first": {
+      "status": 200,
+      "length": 32852,
+      "contentType": "application/json",
+      "rootKeys": [
+        "meta",
+        "game"
+      ],
+      "game": {
+        "gameId": "0022600001",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "gameTimeUTC": "2026-10-20T19:00:00Z",
+        "gameEt": "2026-10-20T15:00:00-04:00",
+        "gameTimeLocal": "2026-10-20T15:00:00-04:00",
+        "gameLabel": null
+      },
+      "homeKeys": [
+        "teamId",
+        "teamName",
+        "teamCity",
+        "teamTricode",
+        "score",
+        "inBonus",
+        "timeoutsRemaining",
+        "periods",
+        "players",
+        "statistics"
+      ],
+      "awayPlayers": 14,
+      "onePlayer": "{'personId': 1628369, 'position': 'SF', 'jerseyNum': '0', 'starter': '1', 'status': 'ACTIVE', 'name': 'Jayson Tatum', 'nameI': 'J. Tatum', 'firstName': 'Jayson', 'familyName': 'Tatum', 'order': 1, 'oncourt': '1', 'played': '1', 'statistics': {'assists': 11, 'blocks': 0, 'blocksReceived': 1, 'fieldGoalsAttempted': 23, 'fieldGoalsMade': 6, 'fieldGoalsPercentage': 0.2608695652173913, 'foulsOffensive': 0, 'foulsDrawn': 3, 'foulsPersonal': 3, 'foulsTechnical': 0, 'freeThrowsAttempted': 1, 'freeThrowsMade': 1, 'freeThrowsPercentage': 1.0, 'minus': 96.0, 'minutes': 'PT37M49.00S', 'plus': 91.0, 'plusMinusPoints': -5.0, 'points': 13, 'pointsFastBreak': 0, 'pointsFromTurnovers': 4, 'pointsInThePaint': 6, 'pointsSecondChance': 0, 'reboundsDefensive': 3, 'reboundsOffensive': 1, 'reboundsTotal': 4, 'steals': 0, 'threePointersAttempted': 7, 'threePointersMade': 0, 'threePointersPercentage': 0.0, 'turnovers': 2, 'twoPointersAttempted': 16, 'twoPointersMade': 6, 'twoPointersPercentage': 0.375}}"
+    },
+    "boxscore_cdn_ind_phi": {
+      "error": "HTTPError",
+      "detail": "HTTP Error 403: Forbidden"
+    }
+  }
+}
