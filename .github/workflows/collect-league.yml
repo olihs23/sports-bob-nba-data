@@ -47,6 +47,7 @@ jobs:
           git add data/league/
           if ! git diff --cached --quiet; then
             git commit -m "Update official NBA team and roster data [skip ci]"
+            git pull --rebase origin main
             git push
           else
             echo "No data changes."
