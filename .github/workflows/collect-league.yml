@@ -15,6 +15,7 @@ on:
     branches: [main]
     paths:
       - "scripts/collect_league_official.py"
+      - "scripts/probe_player_directory.py"
       - ".github/workflows/collect-league.yml"
 
 permissions:
@@ -37,6 +38,8 @@ jobs:
           LIMIT: ${{ github.event.inputs.limit || '2' }}
           OFFSET: ${{ github.event.inputs.offset || '0' }}
         run: python3 scripts/collect_league_official.py --limit "$LIMIT" --offset "$OFFSET"
+      - name: Inspect NBA.com public player directory identity links
+        run: python3 scripts/probe_player_directory.py
       - name: Save only source-verified records and attempt status
         run: |
           git config user.name "github-actions[bot]"
