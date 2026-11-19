@@ -1,0 +1,20 @@
+{
+  "checkedAtUtc": "2026-11-19T21:45:35+00:00",
+  "mode": "pilot",
+  "provider": "NBA.com",
+  "schema": 1,
+  "sources": {
+    "player": {
+      "lastVerifiedAtUtc": null,
+      "reason": "HTTPError: HTTP Error 403: Forbidden",
+      "status": "unavailable",
+      "url": "https://www.nba.com/player/1628973/jalen-brunson"
+    },
+    "team": {
+      "lastVerifiedAtUtc": null,
+      "reason": "HTTPError: HTTP Error 403: Forbidden",
+      "status": "unavailable",
+      "url": "https://www.nba.com/team/1610612752/knicks"
+    }
+  }
+}
