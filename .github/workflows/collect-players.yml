@@ -1,0 +1,43 @@
+name: Collect official NBA player box scores
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Verified pilot player profiles to refresh (1–6)"
+        required: true
+        default: "6"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/collect_players_official.py"
+      - ".github/workflows/collect-players.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-bob-nba-collector-writes
+  cancel-in-progress: false
+
+jobs:
+  verified-player-collection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate NBA.com player identities and last five game rows
+        env:
+          LIMIT: ${{ github.event.inputs.limit || '2' }}
+        run: python3 scripts/collect_players_official.py --limit "$LIMIT"
+      - name: Commit verified records and per-player statuses
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/players*.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save official NBA player box scores [skip ci]"
+            git push
+          else
+            echo "No player data changes"
+          fi
