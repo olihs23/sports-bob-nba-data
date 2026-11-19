@@ -2,6 +2,3014 @@
   "games": [
     {
       "away": {
+        "score": 113,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-10-20",
+      "gameId": "0022600001",
+      "home": {
+        "score": 121,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600001.json",
+      "timeUTC": "2026-10-20T19:00:00Z"
+    },
+    {
+      "away": {
+        "score": 106,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-10-20",
+      "gameId": "0022600002",
+      "home": {
+        "score": 100,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600002.json",
+      "timeUTC": "2026-10-20T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 116,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-10-20",
+      "gameId": "0022600003",
+      "home": {
+        "score": 104,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600003.json",
+      "timeUTC": "2026-10-21T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 131,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600004",
+      "home": {
+        "score": 106,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600004.json",
+      "timeUTC": "2026-10-21T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 105,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600005",
+      "home": {
+        "score": 127,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600005.json",
+      "timeUTC": "2026-10-22T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600085",
+      "home": {
+        "score": 125,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600085.json",
+      "timeUTC": "2026-10-21T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 116,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600086",
+      "home": {
+        "score": 128,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600086.json",
+      "timeUTC": "2026-10-21T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600087",
+      "home": {
+        "score": 103,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600087.json",
+      "timeUTC": "2026-10-21T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 92,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600088",
+      "home": {
+        "score": 135,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600088.json",
+      "timeUTC": "2026-10-21T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600089",
+      "home": {
+        "score": 123,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600089.json",
+      "timeUTC": "2026-10-22T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600090",
+      "home": {
+        "score": 120,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600090.json",
+      "timeUTC": "2026-10-22T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600091",
+      "home": {
+        "score": 128,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600091.json",
+      "timeUTC": "2026-10-22T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 83,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600092",
+      "home": {
+        "score": 124,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600092.json",
+      "timeUTC": "2026-10-22T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 96,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "date": "2026-10-21",
+      "gameId": "0022600093",
+      "home": {
+        "score": 121,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600093.json",
+      "timeUTC": "2026-10-22T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 106,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-10-22",
+      "gameId": "0022600006",
+      "home": {
+        "score": 114,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600006.json",
+      "timeUTC": "2026-10-22T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 84,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-10-22",
+      "gameId": "0022600007",
+      "home": {
+        "score": 96,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600007.json",
+      "timeUTC": "2026-10-23T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600008",
+      "home": {
+        "score": 107,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600008.json",
+      "timeUTC": "2026-10-23T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 114,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600009",
+      "home": {
+        "score": 110,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600009.json",
+      "timeUTC": "2026-10-24T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 128,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600094",
+      "home": {
+        "score": 81,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600094.json",
+      "timeUTC": "2026-10-23T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600095",
+      "home": {
+        "score": 105,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600095.json",
+      "timeUTC": "2026-10-23T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600096",
+      "home": {
+        "score": 93,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600096.json",
+      "timeUTC": "2026-10-23T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600097",
+      "home": {
+        "score": 102,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600097.json",
+      "timeUTC": "2026-10-23T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 128,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600098",
+      "home": {
+        "score": 111,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600098.json",
+      "timeUTC": "2026-10-24T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600099",
+      "home": {
+        "score": 125,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600099.json",
+      "timeUTC": "2026-10-23T20:00:00Z"
+    },
+    {
+      "away": {
+        "score": 119,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600100",
+      "home": {
+        "score": 120,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600100.json",
+      "timeUTC": "2026-10-24T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600101",
+      "home": {
+        "score": 108,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600101.json",
+      "timeUTC": "2026-10-24T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600102",
+      "home": {
+        "score": 125,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600102.json",
+      "timeUTC": "2026-10-24T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 128,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-10-23",
+      "gameId": "0022600103",
+      "home": {
+        "score": 120,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600103.json",
+      "timeUTC": "2026-10-24T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600104",
+      "home": {
+        "score": 115,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600104.json",
+      "timeUTC": "2026-10-24T22:00:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600105",
+      "home": {
+        "score": 125,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600105.json",
+      "timeUTC": "2026-10-24T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 116,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600106",
+      "home": {
+        "score": 127,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600106.json",
+      "timeUTC": "2026-10-24T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600107",
+      "home": {
+        "score": 114,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600107.json",
+      "timeUTC": "2026-10-25T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600108",
+      "home": {
+        "score": 120,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600108.json",
+      "timeUTC": "2026-10-25T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 122,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600109",
+      "home": {
+        "score": 106,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600109.json",
+      "timeUTC": "2026-10-25T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 135,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600110",
+      "home": {
+        "score": 141,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600110.json",
+      "timeUTC": "2026-10-25T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 122,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-10-24",
+      "gameId": "0022600111",
+      "home": {
+        "score": 131,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600111.json",
+      "timeUTC": "2026-10-25T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600112",
+      "home": {
+        "score": 123,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600112.json",
+      "timeUTC": "2026-10-25T21:00:00Z"
+    },
+    {
+      "away": {
+        "score": 136,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600113",
+      "home": {
+        "score": 109,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600113.json",
+      "timeUTC": "2026-10-25T22:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600114",
+      "home": {
+        "score": 102,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600114.json",
+      "timeUTC": "2026-10-25T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 94,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600115",
+      "home": {
+        "score": 117,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600115.json",
+      "timeUTC": "2026-10-25T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 101,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600116",
+      "home": {
+        "score": 108,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600116.json",
+      "timeUTC": "2026-10-25T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 106,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600117",
+      "home": {
+        "score": 93,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600117.json",
+      "timeUTC": "2026-10-25T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-10-25",
+      "gameId": "0022600118",
+      "home": {
+        "score": 112,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600118.json",
+      "timeUTC": "2026-10-26T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600119",
+      "home": {
+        "score": 110,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600119.json",
+      "timeUTC": "2026-10-26T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 125,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600120",
+      "home": {
+        "score": 127,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600120.json",
+      "timeUTC": "2026-10-26T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 99,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600121",
+      "home": {
+        "score": 134,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600121.json",
+      "timeUTC": "2026-10-26T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 113,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600122",
+      "home": {
+        "score": 109,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600122.json",
+      "timeUTC": "2026-10-26T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 102,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600123",
+      "home": {
+        "score": 110,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600123.json",
+      "timeUTC": "2026-10-27T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 114,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600124",
+      "home": {
+        "score": 125,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600124.json",
+      "timeUTC": "2026-10-27T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600125",
+      "home": {
+        "score": 120,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600125.json",
+      "timeUTC": "2026-10-27T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600126",
+      "home": {
+        "score": 105,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600126.json",
+      "timeUTC": "2026-10-27T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 134,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-10-26",
+      "gameId": "0022600127",
+      "home": {
+        "score": 114,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600127.json",
+      "timeUTC": "2026-10-27T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-10-27",
+      "gameId": "0022600128",
+      "home": {
+        "score": 125,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600128.json",
+      "timeUTC": "2026-10-27T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 97,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-10-27",
+      "gameId": "0022600129",
+      "home": {
+        "score": 111,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600129.json",
+      "timeUTC": "2026-10-28T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "date": "2026-10-27",
+      "gameId": "0022600130",
+      "home": {
+        "score": 130,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600130.json",
+      "timeUTC": "2026-10-28T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 136,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-10-27",
+      "gameId": "0022600131",
+      "home": {
+        "score": 129,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600131.json",
+      "timeUTC": "2026-10-28T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 129,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600132",
+      "home": {
+        "score": 117,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600132.json",
+      "timeUTC": "2026-10-28T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600133",
+      "home": {
+        "score": 121,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600133.json",
+      "timeUTC": "2026-10-28T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 89,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600134",
+      "home": {
+        "score": 97,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600134.json",
+      "timeUTC": "2026-10-28T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 114,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600135",
+      "home": {
+        "score": 109,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600135.json",
+      "timeUTC": "2026-10-28T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 99,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600136",
+      "home": {
+        "score": 129,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600136.json",
+      "timeUTC": "2026-10-28T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 133,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600137",
+      "home": {
+        "score": 127,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600137.json",
+      "timeUTC": "2026-10-29T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600138",
+      "home": {
+        "score": 100,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600138.json",
+      "timeUTC": "2026-10-29T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 119,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600139",
+      "home": {
+        "score": 114,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600139.json",
+      "timeUTC": "2026-10-29T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 104,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600140",
+      "home": {
+        "score": 91,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600140.json",
+      "timeUTC": "2026-10-29T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600141",
+      "home": {
+        "score": 111,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600141.json",
+      "timeUTC": "2026-10-29T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 96,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600142",
+      "home": {
+        "score": 120,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600142.json",
+      "timeUTC": "2026-10-29T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-10-28",
+      "gameId": "0022600143",
+      "home": {
+        "score": 87,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600143.json",
+      "timeUTC": "2026-10-29T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-10-29",
+      "gameId": "0022600144",
+      "home": {
+        "score": 114,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600144.json",
+      "timeUTC": "2026-10-30T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 120,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "date": "2026-10-29",
+      "gameId": "0022600145",
+      "home": {
+        "score": 132,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600145.json",
+      "timeUTC": "2026-10-30T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-10-29",
+      "gameId": "0022600146",
+      "home": {
+        "score": 103,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600146.json",
+      "timeUTC": "2026-10-30T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 79,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600015",
+      "home": {
+        "score": 95,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600015.json",
+      "timeUTC": "2026-10-30T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600016",
+      "home": {
+        "score": 125,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600016.json",
+      "timeUTC": "2026-10-30T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600017",
+      "home": {
+        "score": 94,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600017.json",
+      "timeUTC": "2026-10-30T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 93,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600018",
+      "home": {
+        "score": 98,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600018.json",
+      "timeUTC": "2026-10-30T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600019",
+      "home": {
+        "score": 114,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600019.json",
+      "timeUTC": "2026-10-30T23:30:00Z"
+    },
+    {
+      "away": {
+        "score": 125,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600020",
+      "home": {
+        "score": 145,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600020.json",
+      "timeUTC": "2026-10-31T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600021",
+      "home": {
+        "score": 116,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600021.json",
+      "timeUTC": "2026-10-31T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 101,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600022",
+      "home": {
+        "score": 127,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600022.json",
+      "timeUTC": "2026-10-31T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 95,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600023",
+      "home": {
+        "score": 112,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600023.json",
+      "timeUTC": "2026-10-31T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 127,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-10-30",
+      "gameId": "0022600024",
+      "home": {
+        "score": 120,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600024.json",
+      "timeUTC": "2026-10-31T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600147",
+      "home": {
+        "score": 90,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600147.json",
+      "timeUTC": "2026-10-31T19:00:00Z"
+    },
+    {
+      "away": {
+        "score": 109,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600148",
+      "home": {
+        "score": 104,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600148.json",
+      "timeUTC": "2026-10-31T22:00:00Z"
+    },
+    {
+      "away": {
+        "score": 99,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600149",
+      "home": {
+        "score": 121,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600149.json",
+      "timeUTC": "2026-10-31T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 105,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600150",
+      "home": {
+        "score": 136,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600150.json",
+      "timeUTC": "2026-11-01T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 136,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600151",
+      "home": {
+        "score": 111,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600151.json",
+      "timeUTC": "2026-11-01T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600152",
+      "home": {
+        "score": 121,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600152.json",
+      "timeUTC": "2026-11-01T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 98,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-10-31",
+      "gameId": "0022600153",
+      "home": {
+        "score": 119,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600153.json",
+      "timeUTC": "2026-11-01T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 108,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-01",
+      "gameId": "0022600154",
+      "home": {
+        "score": 97,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600154.json",
+      "timeUTC": "2026-11-01T20:30:00Z"
+    },
+    {
+      "away": {
+        "score": 98,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-11-01",
+      "gameId": "0022600155",
+      "home": {
+        "score": 90,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600155.json",
+      "timeUTC": "2026-11-01T22:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "date": "2026-11-01",
+      "gameId": "0022600156",
+      "home": {
+        "score": 124,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600156.json",
+      "timeUTC": "2026-11-02T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 125,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-11-01",
+      "gameId": "0022600157",
+      "home": {
+        "score": 131,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600157.json",
+      "timeUTC": "2026-11-02T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600158",
+      "home": {
+        "score": 112,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600158.json",
+      "timeUTC": "2026-11-03T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600159",
+      "home": {
+        "score": 91,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600159.json",
+      "timeUTC": "2026-11-03T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 108,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600160",
+      "home": {
+        "score": 104,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600160.json",
+      "timeUTC": "2026-11-03T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 90,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600161",
+      "home": {
+        "score": 103,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600161.json",
+      "timeUTC": "2026-11-03T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600162",
+      "home": {
+        "score": 94,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600162.json",
+      "timeUTC": "2026-11-03T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 107,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600163",
+      "home": {
+        "score": 126,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600163.json",
+      "timeUTC": "2026-11-03T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600164",
+      "home": {
+        "score": 100,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600164.json",
+      "timeUTC": "2026-11-03T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 135,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600165",
+      "home": {
+        "score": 134,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600165.json",
+      "timeUTC": "2026-11-03T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 100,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600166",
+      "home": {
+        "score": 112,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600166.json",
+      "timeUTC": "2026-11-03T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 93,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600167",
+      "home": {
+        "score": 109,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600167.json",
+      "timeUTC": "2026-11-03T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 97,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600168",
+      "home": {
+        "score": 119,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600168.json",
+      "timeUTC": "2026-11-03T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 118,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600169",
+      "home": {
+        "score": 110,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600169.json",
+      "timeUTC": "2026-11-03T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 113,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600170",
+      "home": {
+        "score": 116,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600170.json",
+      "timeUTC": "2026-11-03T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 125,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600171",
+      "home": {
+        "score": 118,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600171.json",
+      "timeUTC": "2026-11-03T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-11-02",
+      "gameId": "0022600172",
+      "home": {
+        "score": 138,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600172.json",
+      "timeUTC": "2026-11-03T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600173",
+      "home": {
+        "score": 106,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600173.json",
+      "timeUTC": "2026-11-05T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 120,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600174",
+      "home": {
+        "score": 105,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600174.json",
+      "timeUTC": "2026-11-05T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 102,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600175",
+      "home": {
+        "score": 109,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600175.json",
+      "timeUTC": "2026-11-05T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 104,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600176",
+      "home": {
+        "score": 114,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600176.json",
+      "timeUTC": "2026-11-05T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 105,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600177",
+      "home": {
+        "score": 135,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600177.json",
+      "timeUTC": "2026-11-05T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 107,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600178",
+      "home": {
+        "score": 103,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600178.json",
+      "timeUTC": "2026-11-05T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 113,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600179",
+      "home": {
+        "score": 120,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600179.json",
+      "timeUTC": "2026-11-05T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 116,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600180",
+      "home": {
+        "score": 124,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600180.json",
+      "timeUTC": "2026-11-05T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600181",
+      "home": {
+        "score": 107,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600181.json",
+      "timeUTC": "2026-11-05T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 109,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600182",
+      "home": {
+        "score": 128,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600182.json",
+      "timeUTC": "2026-11-05T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600183",
+      "home": {
+        "score": 119,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600183.json",
+      "timeUTC": "2026-11-05T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600184",
+      "home": {
+        "score": 112,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600184.json",
+      "timeUTC": "2026-11-05T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 116,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600185",
+      "home": {
+        "score": 103,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600185.json",
+      "timeUTC": "2026-11-05T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-11-04",
+      "gameId": "0022600186",
+      "home": {
+        "score": 116,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600186.json",
+      "timeUTC": "2026-11-05T03:30:00Z"
+    },
+    {
+      "away": {
+        "score": 104,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-11-05",
+      "gameId": "0022600187",
+      "home": {
+        "score": 117,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600187.json",
+      "timeUTC": "2026-11-06T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 100,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-11-05",
+      "gameId": "0022600188",
+      "home": {
+        "score": 120,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600188.json",
+      "timeUTC": "2026-11-06T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600025",
+      "home": {
+        "score": 139,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600025.json",
+      "timeUTC": "2026-11-07T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 119,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600026",
+      "home": {
+        "score": 80,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600026.json",
+      "timeUTC": "2026-11-07T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 95,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600027",
+      "home": {
+        "score": 119,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600027.json",
+      "timeUTC": "2026-11-07T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 100,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600028",
+      "home": {
+        "score": 112,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600028.json",
+      "timeUTC": "2026-11-07T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 128,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600029",
+      "home": {
+        "score": 97,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600029.json",
+      "timeUTC": "2026-11-07T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600030",
+      "home": {
+        "score": 107,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600030.json",
+      "timeUTC": "2026-11-07T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600031",
+      "home": {
+        "score": 109,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600031.json",
+      "timeUTC": "2026-11-07T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 118,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600032",
+      "home": {
+        "score": 124,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600032.json",
+      "timeUTC": "2026-11-07T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "date": "2026-11-06",
+      "gameId": "0022600033",
+      "home": {
+        "score": 109,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600033.json",
+      "timeUTC": "2026-11-07T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 114,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600189",
+      "home": {
+        "score": 102,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600189.json",
+      "timeUTC": "2026-11-07T22:00:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600190",
+      "home": {
+        "score": 124,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600190.json",
+      "timeUTC": "2026-11-08T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 109,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600191",
+      "home": {
+        "score": 97,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600191.json",
+      "timeUTC": "2026-11-08T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 75,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600192",
+      "home": {
+        "score": 114,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600192.json",
+      "timeUTC": "2026-11-08T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 119,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600193",
+      "home": {
+        "score": 126,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600193.json",
+      "timeUTC": "2026-11-08T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 99,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600194",
+      "home": {
+        "score": 102,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600194.json",
+      "timeUTC": "2026-11-08T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 125,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "date": "2026-11-07",
+      "gameId": "0022600195",
+      "home": {
+        "score": 103,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600195.json",
+      "timeUTC": "2026-11-08T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 127,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600196",
+      "home": {
+        "score": 121,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600196.json",
+      "timeUTC": "2026-11-08T20:30:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600197",
+      "home": {
+        "score": 116,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600197.json",
+      "timeUTC": "2026-11-08T23:00:00Z"
+    },
+    {
+      "away": {
+        "score": 100,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600198",
+      "home": {
+        "score": 115,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600198.json",
+      "timeUTC": "2026-11-09T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 93,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600199",
+      "home": {
+        "score": 130,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600199.json",
+      "timeUTC": "2026-11-09T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600200",
+      "home": {
+        "score": 97,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600200.json",
+      "timeUTC": "2026-11-09T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600201",
+      "home": {
+        "score": 139,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600201.json",
+      "timeUTC": "2026-11-09T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 114,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-11-08",
+      "gameId": "0022600202",
+      "home": {
+        "score": 108,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600202.json",
+      "timeUTC": "2026-11-09T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600203",
+      "home": {
+        "score": 114,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600203.json",
+      "timeUTC": "2026-11-10T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600204",
+      "home": {
+        "score": 124,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600204.json",
+      "timeUTC": "2026-11-10T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600205",
+      "home": {
+        "score": 122,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600205.json",
+      "timeUTC": "2026-11-10T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 118,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600206",
+      "home": {
+        "score": 102,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600206.json",
+      "timeUTC": "2026-11-10T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 122,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600207",
+      "home": {
+        "score": 125,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600207.json",
+      "timeUTC": "2026-11-10T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 100,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600208",
+      "home": {
+        "score": 110,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600208.json",
+      "timeUTC": "2026-11-10T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 122,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600209",
+      "home": {
+        "score": 96,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600209.json",
+      "timeUTC": "2026-11-10T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 87,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "date": "2026-11-09",
+      "gameId": "0022600210",
+      "home": {
+        "score": 138,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600210.json",
+      "timeUTC": "2026-11-10T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 85,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-11-10",
+      "gameId": "0022600211",
+      "home": {
+        "score": 117,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600211.json",
+      "timeUTC": "2026-11-11T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-10",
+      "gameId": "0022600212",
+      "home": {
+        "score": 101,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600212.json",
+      "timeUTC": "2026-11-11T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "date": "2026-11-10",
+      "gameId": "0022600213",
+      "home": {
+        "score": 133,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600213.json",
+      "timeUTC": "2026-11-11T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "date": "2026-11-10",
+      "gameId": "0022600214",
+      "home": {
+        "score": 109,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600214.json",
+      "timeUTC": "2026-11-11T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 107,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-11-10",
+      "gameId": "0022600215",
+      "home": {
+        "score": 100,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600215.json",
+      "timeUTC": "2026-11-11T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-11-10",
+      "gameId": "0022600216",
+      "home": {
+        "score": 123,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600216.json",
+      "timeUTC": "2026-11-11T04:00:00Z"
+    },
+    {
+      "away": {
+        "score": 101,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600217",
+      "home": {
+        "score": 114,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600217.json",
+      "timeUTC": "2026-11-12T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600218",
+      "home": {
+        "score": 107,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600218.json",
+      "timeUTC": "2026-11-12T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 98,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600219",
+      "home": {
+        "score": 93,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600219.json",
+      "timeUTC": "2026-11-12T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600220",
+      "home": {
+        "score": 119,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600220.json",
+      "timeUTC": "2026-11-12T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600221",
+      "home": {
+        "score": 118,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600221.json",
+      "timeUTC": "2026-11-12T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600222",
+      "home": {
+        "score": 112,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600222.json",
+      "timeUTC": "2026-11-12T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 145,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600223",
+      "home": {
+        "score": 111,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600223.json",
+      "timeUTC": "2026-11-12T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 123,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600224",
+      "home": {
+        "score": 108,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600224.json",
+      "timeUTC": "2026-11-12T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 108,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600225",
+      "home": {
+        "score": 115,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600225.json",
+      "timeUTC": "2026-11-12T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 108,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-11-11",
+      "gameId": "0022600226",
+      "home": {
+        "score": 118,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600226.json",
+      "timeUTC": "2026-11-12T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "date": "2026-11-12",
+      "gameId": "0022600227",
+      "home": {
+        "score": 123,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600227.json",
+      "timeUTC": "2026-11-13T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 144,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-11-12",
+      "gameId": "0022600228",
+      "home": {
+        "score": 140,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600228.json",
+      "timeUTC": "2026-11-13T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 94,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-11-12",
+      "gameId": "0022600229",
+      "home": {
+        "score": 133,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600229.json",
+      "timeUTC": "2026-11-13T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 96,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "date": "2026-11-12",
+      "gameId": "0022600230",
+      "home": {
+        "score": 101,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600230.json",
+      "timeUTC": "2026-11-13T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 104,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600034",
+      "home": {
+        "score": 106,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600034.json",
+      "timeUTC": "2026-11-14T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 99,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600035",
+      "home": {
+        "score": 107,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600035.json",
+      "timeUTC": "2026-11-14T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600036",
+      "home": {
+        "score": 133,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600036.json",
+      "timeUTC": "2026-11-14T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600037",
+      "home": {
+        "score": 125,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600037.json",
+      "timeUTC": "2026-11-14T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 142,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600038",
+      "home": {
+        "score": 111,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600038.json",
+      "timeUTC": "2026-11-14T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 118,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600039",
+      "home": {
+        "score": 125,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600039.json",
+      "timeUTC": "2026-11-14T01:30:00Z"
+    },
+    {
+      "away": {
+        "score": 85,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600040",
+      "home": {
+        "score": 123,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600040.json",
+      "timeUTC": "2026-11-14T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 120,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600041",
+      "home": {
+        "score": 107,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600041.json",
+      "timeUTC": "2026-11-14T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "date": "2026-11-13",
+      "gameId": "0022600042",
+      "home": {
+        "score": 113,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600042.json",
+      "timeUTC": "2026-11-14T03:30:00Z"
+    },
+    {
+      "away": {
+        "score": 116,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "date": "2026-11-14",
+      "gameId": "0022600231",
+      "home": {
+        "score": 108,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600231.json",
+      "timeUTC": "2026-11-15T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-11-14",
+      "gameId": "0022600232",
+      "home": {
+        "score": 127,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600232.json",
+      "timeUTC": "2026-11-15T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-11-14",
+      "gameId": "0022600233",
+      "home": {
+        "score": 137,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600233.json",
+      "timeUTC": "2026-11-15T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "date": "2026-11-14",
+      "gameId": "0022600234",
+      "home": {
+        "score": 129,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600234.json",
+      "timeUTC": "2026-11-15T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-11-14",
+      "gameId": "0022600235",
+      "home": {
+        "score": 106,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600235.json",
+      "timeUTC": "2026-11-15T01:00:00Z"
+    },
+    {
+      "away": {
         "score": 124,
         "team": "IND",
         "teamId": "1610612754"
@@ -143,9 +3151,409 @@
       },
       "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600244.json",
       "timeUTC": "2026-11-16T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600245",
+      "home": {
+        "score": 105,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600245.json",
+      "timeUTC": "2026-11-17T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 115,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600246",
+      "home": {
+        "score": 126,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600246.json",
+      "timeUTC": "2026-11-17T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 136,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600247",
+      "home": {
+        "score": 120,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600247.json",
+      "timeUTC": "2026-11-17T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 135,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600248",
+      "home": {
+        "score": 123,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600248.json",
+      "timeUTC": "2026-11-17T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 110,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600249",
+      "home": {
+        "score": 128,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600249.json",
+      "timeUTC": "2026-11-17T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 98,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600250",
+      "home": {
+        "score": 106,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600250.json",
+      "timeUTC": "2026-11-17T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 94,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600251",
+      "home": {
+        "score": 115,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600251.json",
+      "timeUTC": "2026-11-17T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "date": "2026-11-16",
+      "gameId": "0022600252",
+      "home": {
+        "score": 105,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600252.json",
+      "timeUTC": "2026-11-17T02:00:00Z"
+    },
+    {
+      "away": {
+        "score": 111,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-11-17",
+      "gameId": "0022600253",
+      "home": {
+        "score": 102,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600253.json",
+      "timeUTC": "2026-11-18T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 105,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-17",
+      "gameId": "0022600254",
+      "home": {
+        "score": 106,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600254.json",
+      "timeUTC": "2026-11-18T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 105,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-11-17",
+      "gameId": "0022600255",
+      "home": {
+        "score": 93,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600255.json",
+      "timeUTC": "2026-11-18T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 114,
+        "team": "CHA",
+        "teamId": "1610612766"
+      },
+      "date": "2026-11-17",
+      "gameId": "0022600256",
+      "home": {
+        "score": 118,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600256.json",
+      "timeUTC": "2026-11-18T04:00:00Z"
+    },
+    {
+      "away": {
+        "score": 132,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-17",
+      "gameId": "0022600257",
+      "home": {
+        "score": 107,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600257.json",
+      "timeUTC": "2026-11-18T03:30:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600258",
+      "home": {
+        "score": 121,
+        "team": "CLE",
+        "teamId": "1610612739"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600258.json",
+      "timeUTC": "2026-11-19T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 119,
+        "team": "HOU",
+        "teamId": "1610612745"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600259",
+      "home": {
+        "score": 104,
+        "team": "IND",
+        "teamId": "1610612754"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600259.json",
+      "timeUTC": "2026-11-19T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 130,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600260",
+      "home": {
+        "score": 137,
+        "team": "MIA",
+        "teamId": "1610612748"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600260.json",
+      "timeUTC": "2026-11-19T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 121,
+        "team": "PHI",
+        "teamId": "1610612755"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600261",
+      "home": {
+        "score": 116,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600261.json",
+      "timeUTC": "2026-11-19T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 137,
+        "team": "CHI",
+        "teamId": "1610612741"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600262",
+      "home": {
+        "score": 107,
+        "team": "BKN",
+        "teamId": "1610612751"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600262.json",
+      "timeUTC": "2026-11-19T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 103,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600263",
+      "home": {
+        "score": 99,
+        "team": "TOR",
+        "teamId": "1610612761"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600263.json",
+      "timeUTC": "2026-11-19T00:30:00Z"
+    },
+    {
+      "away": {
+        "score": 122,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600264",
+      "home": {
+        "score": 109,
+        "team": "NOP",
+        "teamId": "1610612740"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600264.json",
+      "timeUTC": "2026-11-19T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 117,
+        "team": "ATL",
+        "teamId": "1610612737"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600265",
+      "home": {
+        "score": 112,
+        "team": "OKC",
+        "teamId": "1610612760"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600265.json",
+      "timeUTC": "2026-11-19T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 101,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600266",
+      "home": {
+        "score": 105,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600266.json",
+      "timeUTC": "2026-11-19T02:30:00Z"
+    },
+    {
+      "away": {
+        "score": 94,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600267",
+      "home": {
+        "score": 116,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600267.json",
+      "timeUTC": "2026-11-19T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 109,
+        "team": "UTA",
+        "teamId": "1610612762"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600268",
+      "home": {
+        "score": 97,
+        "team": "LAL",
+        "teamId": "1610612747"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600268.json",
+      "timeUTC": "2026-11-19T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 128,
+        "team": "PHX",
+        "teamId": "1610612756"
+      },
+      "date": "2026-11-18",
+      "gameId": "0022600269",
+      "home": {
+        "score": 107,
+        "team": "SAC",
+        "teamId": "1610612758"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600269.json",
+      "timeUTC": "2026-11-19T03:00:00Z"
     }
   ],
-  "generatedAtUtc": "2026-11-19T23:01:26+00:00",
+  "generatedAtUtc": "2026-11-19T23:02:57+00:00",
   "schema": 1,
   "scope": "verified final regular season NBA boxscores",
   "season": "2026-27",
