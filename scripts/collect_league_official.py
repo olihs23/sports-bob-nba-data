@@ -126,20 +126,28 @@ def parse_official_roster(html,abbr,now):
     for row in rows:
         if len(row)<3: continue
         name=row[0].strip()
-        # Many player profile links use text exactly matching the official roster.
+        if not name or len(name)>100: continue
+        # The official NBA roster table is the authority for names and
+        # positions. The NBA page frequently omits profile URLs entirely.
+        # NEVER infer a person ID from the name; add IDs only when a direct,
+        # exact-match NBA.com player link is present.
         matches=[p for p in player_map.values() if p["name"].casefold()==name.casefold()]
-        if len(matches)!=1: continue
-        item=dict(matches[0])
-        item["position"]=row[2]
+        item={"name":name,"position":row[2],"playerId":None,"profile":None}
+        if len(matches)==1:
+            item.update(matches[0])
         players.append(item)
-    if len(players)<5:
-        raise ValueError(f"Only {len(players)} resolved; anchors={len(parser.records)} sample={parser.records[:2]} rosterNames={[r[0] for r in rows[:2]]}")
-    if len({p["playerId"] for p in players})!=len(players):
-        raise ValueError("Duplicate official NBA player IDs")
+    if len(players)<5 or len(players)>30:
+        raise ValueError("Invalid official roster row count")
+    if len({p["name"].casefold() for p in players})!=len(players):
+        raise ValueError("Duplicate official roster names")
+    resolved=[p["playerId"] for p in players if p["playerId"]]
+    if len(set(resolved))!=len(resolved):
+        raise ValueError("Duplicate matched NBA player IDs")
     return {"teamId":str(team_id),"team":full_name,"abbreviation":abbr,
             "season":"2026-27","verifiedAtUtc":now,
-            "source":f"https://www.nba.com/team/{team_id}/roster",
-            "players":players,"scope":"Current official team roster, not game participation"}
+            "source":f"https://www.nba.com/team/{team_id}",
+            "players":players,"resolvedPlayerIds":len(resolved),
+            "scope":"Current official team roster names and positions, not game participation"}
 
 def atomic_json(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True)
