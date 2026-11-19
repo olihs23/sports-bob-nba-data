@@ -84,9 +84,8 @@ class VisibleHTML(HTMLParser):
 def fetch_page(url: str) -> VisibleHTML:
     # No proxies, no authentication and no workaround for access restrictions.
     request = Request(url, headers={
-        "User-Agent": "SportsBobResearch/0.1 (+public GitHub official-data pilot)",
-        "Accept": "text/html",
-        "Accept-Language": "en-US,en;q=0.9",
+        "User-Agent": "SportsBobResearch/0.1 (+public NBA endpoint reachability pilot)",
+        "Accept": "application/json,text/html,application/pdf;q=0.9,*/*;q=0.5",
     })
     with urlopen(request, timeout=20) as resp:
         if resp.status != 200:
