@@ -31,7 +31,7 @@
     "UTA",
     "WAS"
   ],
-  "checkedAtUtc": "2026-11-19T22:31:22+00:00",
+  "checkedAtUtc": "2026-11-19T22:35:02+00:00",
   "schema": 1,
   "sources": {
     "ATL": {
@@ -280,8 +280,8 @@
         "status": "verified"
       },
       "teams": {
-        "reason": "Page identity not verified: Portland Trail Blazers",
-        "status": "unavailable"
+        "count": 0,
+        "status": "verified"
       }
     },
     "SAC": {
