@@ -6,7 +6,7 @@ on:
       limit:
         description: "Number of teams to refresh (1–30)"
         required: true
-        default: "2"
+        default: "30"
       offset:
         description: "Starting team index (0–29)"
         required: true
@@ -28,14 +28,14 @@ concurrency:
 jobs:
   official-league-collection:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
       - name: Retrieve and verify NBA.com team/roster sources
         env:
-          LIMIT: ${{ github.event.inputs.limit || '2' }}
+          LIMIT: ${{ github.event.inputs.limit || '30' }}
           OFFSET: ${{ github.event.inputs.offset || '0' }}
         run: python3 scripts/collect_league_official.py --limit "$LIMIT" --offset "$OFFSET"
       - name: Inspect NBA.com public player directory identity links
