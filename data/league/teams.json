@@ -1,0 +1,62 @@
+{
+  "items": {
+    "ATL": {
+      "abbreviation": "ATL",
+      "season": "2026-27",
+      "seasonType": "Regular Season",
+      "source": "https://www.nba.com/team/1610612737",
+      "sourceType": "official NBA.com team profile",
+      "stats": {
+        "assistsPerGame": {
+          "nbaRank": 1,
+          "value": 30.9
+        },
+        "pointsAllowedPerGame": {
+          "nbaRank": 20,
+          "value": 115.8
+        },
+        "pointsPerGame": {
+          "nbaRank": 6,
+          "value": 117.7
+        },
+        "reboundsPerGame": {
+          "nbaRank": 9,
+          "value": 45.2
+        }
+      },
+      "team": "Atlanta Hawks",
+      "teamId": "1610612737",
+      "verifiedAtUtc": "2026-11-19T22:28:15+00:00"
+    },
+    "BOS": {
+      "abbreviation": "BOS",
+      "season": "2026-27",
+      "seasonType": "Regular Season",
+      "source": "https://www.nba.com/team/1610612738",
+      "sourceType": "official NBA.com team profile",
+      "stats": {
+        "assistsPerGame": {
+          "nbaRank": 13,
+          "value": 26.8
+        },
+        "pointsAllowedPerGame": {
+          "nbaRank": 1,
+          "value": 103.4
+        },
+        "pointsPerGame": {
+          "nbaRank": 15,
+          "value": 113.9
+        },
+        "reboundsPerGame": {
+          "nbaRank": 11,
+          "value": 45.0
+        }
+      },
+      "team": "Boston Celtics",
+      "teamId": "1610612738",
+      "verifiedAtUtc": "2026-11-19T22:28:15+00:00"
+    }
+  },
+  "schema": 1,
+  "season": "2026-27"
+}
