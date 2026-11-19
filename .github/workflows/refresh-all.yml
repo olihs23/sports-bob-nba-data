@@ -1,0 +1,38 @@
+name: Refresh all verified NBA research data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-bob-nba-collector-writes
+  cancel-in-progress: false
+
+jobs:
+  refresh-current-nba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: NBA.com official league team stats and rosters
+        run: python3 scripts/collect_league_official.py --limit 30
+      - name: NBA.com verified player profile latest-five logs
+        run: python3 scripts/collect_players_official.py --limit 6
+      - name: Save successful official records, retaining older records when source fails
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh NBA.com verified league and player research [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Nothing new to save."
+          fi
