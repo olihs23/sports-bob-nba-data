@@ -1,0 +1,63 @@
+{
+  "checkedAtUtc": "2026-11-19T21:47:21+00:00",
+  "checks": {
+    "nba_team_page": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "nonempty": true,
+      "url": "https://www.nba.com/team/1610612752/knicks"
+    },
+    "nba_player_page": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "nonempty": true,
+      "url": "https://www.nba.com/player/1628973/jalen-brunson"
+    },
+    "nba_stats_page": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "nonempty": true,
+      "url": "https://www.nba.com/stats/teams/traditional"
+    },
+    "nba_live_scoreboard_cdn": {
+      "httpStatus": 403,
+      "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+      "note": "HTTP request rejected"
+    },
+    "nba_live_scoreboard_nba_s3": {
+      "httpStatus": 200,
+      "contentType": "text/plain",
+      "nonempty": true,
+      "url": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json"
+    },
+    "nba_live_boxscore_nba_s3": {
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "nonempty": true,
+      "url": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600236.json"
+    },
+    "nba_schedule_cdn": {
+      "httpStatus": 403,
+      "url": "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json",
+      "note": "HTTP request rejected"
+    },
+    "nba_official_injury_page": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "nonempty": true,
+      "url": "https://official.nba.com/nba-injury-report-2026-27-season/"
+    },
+    "nba_game_notes": {
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "nonempty": true,
+      "url": "https://www.nba.com/gamenotes/knicks.pdf"
+    },
+    "nba_legacy_data_domain": {
+      "httpStatus": 403,
+      "url": "https://data.nba.com/data/v2015/json/mobile_teams/nba/2026/teams/1610612752_config.json",
+      "note": "HTTP request rejected"
+    }
+  },
+  "interpretation": "A 200 means reachable, not necessarily usable or validated NBA statistics."
+}
