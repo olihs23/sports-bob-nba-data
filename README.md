@@ -1,73 +1,88 @@
-# Sports Bob — Official NBA Research Data (free)
+# Sports Bob — official NBA research data
 
-A **public, read-only NBA.com data repository** that your private, downloaded
-Sports Bob HTML can refresh from. No private Sports Bob source code or data here.
+Free, public **NBA data-only** repository for the private, downloadable Sports Bob HTML. This is **not** the original Sports Bob site.
 
-## Current verified scope — November 19, 2026
+## Current verified NBA data (2026–27)
 
-| Dataset | Coverage | Source | Notes |
-| --- | --- | --- | --- |
-| Team summary stats and NBA-published ranks | **30 of 30 teams** | Current NBA.com team profiles | PPG, opponent PPG, RPG, APG; actual NBA rank, not our calculations |
-| Official roster names and positions | **30 of 30 teams** | NBA.com team roster tables | 525 roster listings; they do **not** prove game participation or availability |
-| Current player profiles | **6 verified players** | NBA.com individual player profiles | Brunson, Anunoby, Towns, Hart, Bridges, Tatum |
-| Game log rows | **Latest 5 displayed games per player** | NBA.com profile box-score table | **Not full 2026–27 season logs**; one player may be missing newest refresh if NBA blocks a request |
-| Official player season summary | Only where present on player page | NBA.com player profile | Published PPG, RPG, APG, not derived from the latest five |
+As of the NBA.com collection on **November 19, 2026**:
 
-No injury statuses, confirmed next-game starters, position-by-position matchup
-statistics, advanced lineup ratings, or complete season player game logs
-have been collected yet. **Never label missing information as current.**
+| Category | Verified scope | Source |
+| --- | --- | --- |
+| Official NBA team averages and ranks | **30 / 30** teams | NBA.com individual team pages |
+| Current NBA roster lists | **30 / 30** teams, 525 listed roster entries | NBA.com official team roster tables |
+| Completed regular-season games | **222** games through November 18 | Dated NBA.com games pages + NBA-operated live-data final box-score files |
+| Played-season player histories | **472** unique player IDs, **5,000** total player game appearances | NBA-operated official final box-score files |
+| Individual NBA.com player profile averages | Six source-validated profiles | NBA.com player profiles |
 
-## One refresh link
+**Important:** Four scheduled November 19 game sources returned HTTP 403
+at collection time. They were not counted as final games or presented as
+results. Those sources will be retried on the next refresh. The coverage
+manifest lists every checked date and failed request.
+
+These are verified **per-game box score records**. We do not make up
+player games, team ranks, lineup ratings, probabilities or fatigue levels.
+For players outside the six individually sourced profile summaries,
+we do not label calculated historical averages as official NBA.com
+season averages.
+
+## Just one refresh workflow
 
 [**Refresh all verified NBA research data**](https://github.com/olihs23/sports-bob-nba-data/actions/workflows/refresh-all.yml)
 
-- Click **Run workflow** to ask GitHub to fetch NBA.com again.
-- It also runs automatically every six hours, as a best-effort GitHub schedule.
-- The workflow collects 30 teams and their official rosters, then the six
-  identity-verified player profiles, then saves the validated data.
-- GitHub Actions runs on standard free hosted runners for this public repo.
-- Sources can intermittently return HTTP 403. A failure does not erase the
-  previously verified record; each source has its own `verifiedAtUtc`.
+Select **Run workflow** on the `main` branch. The same workflow is
+scheduled every six hours, best effort:
 
-After that workflow finishes, open the downloaded Sports Bob HTML and press
-**Check latest GitHub data**. That button reads the saved JSON, it does
-**not** trigger GitHub Actions or NBA.com itself.
+1. Read current official NBA.com team profiles and published ranks.
+2. Read all 30 official NBA team roster tables.
+3. Verify six current NBA.com player profile summaries.
+4. Read every NBA.com dated regular-season game listing since
+   October 20, 2026.
+5. Import any missing completed **official NBA box scores**.
+6. Rebuild the season games and player game logs from the verified records.
+7. Save source-specific timestamps and missing-data statuses.
 
-### Public JSON for your local HTML
+After the GitHub Action finishes, open the **local Sports Bob HTML** and
+press **Check latest data**. Its browser button downloads the saved data;
+it does not start the GitHub collector.
 
-- [Teams](data/league/teams.json) — official team stat values + NBA ranks
-- [Official rosters](data/league/rosters.json) — names and positions
-- [Player profiles](data/league/players.json) — six players' latest five games
-- [Team and roster check status](data/league/status.json)
-- [Per-player collection status](data/league/players_status.json)
-- [Original one-team pilot](data/latest.json), kept for compatibility only
+The GitHub HTML refresh needs internet connectivity. It does not
+need a paid sports-data API, a site editor, a backend login or hosting.
 
-The HTML uses public raw GitHub links such as
-`https://raw.githubusercontent.com/olihs23/sports-bob-nba-data/main/data/league/teams.json`.
+## Machine-readable public data
 
-## Integrity and safety rules
+- [Official team stats](data/league/teams.json): NBA.com summary
+  values plus NBA's displayed ranks.
+- [Official rosters](data/league/rosters.json): names, positions, source, timestamp.
+- [NBA individual profile pilot](data/league/players.json): six players,
+  last-five NBA.com profile rows and official summary averages.
+- [Completed season game index](data/season/index.json): game IDs,
+  dates, teams, final scores, original NBA sources.
+- [Full season player game logs](data/season/players.json):
+  player IDs and every played game with actual box-score statistics.
+- [Original official per-game files](data/season/games/):
+  one verified final NBA box score record per game.
+- [Collection coverage and failures](data/season/manifest.json).
+- [Official team check status](data/league/status.json)
+  and [individual player check status](data/league/players_status.json).
 
-1. **Official NBA.com sources only.** No self-made league rankings or
-   betting model, no extrapolated counts, no fake availability.
-2. NBA.com ranks and season averages are **read directly** from the
-   published team/player profile pages.
-3. Player rows must reconcile PTS = 2×FGM + 3PM + FTM, and attempts
-   cannot be less than makes.
-4. An official roster **name** is not proof of a correct **player ID**.
-   The site publishes no guessed person IDs; the known pilot identities
-   were verified against their NBA.com profile pages.
-5. A failed request is recorded separately and retains the last
-   successfully verified entry.
-6. Team statistics, roster membership, and player game logs have their own
-   verification dates. Browser refresh is not a new NBA.com collection.
+## Integrity guarantees
 
-## Next steps — not yet completed
+- A final game must match its **official NBA game ID** and a
+  dated official NBA.com game page; status must be Final.
+- Actual player IDs and game statistics are taken from the **NBA box score**.
+- Player points are verified against field goals, made threes and
+  free throws. Makes cannot exceed attempts.
+- Missing games and blocked requests are never fabricated.
+- A collector failure cannot remove previously verified completed games.
+- Source rankings and source-specific update times remain distinguishable
+  from your browser's last GitHub read time.
+- 2026–27 regular season only. No prior season records or legacy archived
+  Sports Bob data are imported into these datasets.
 
-Expand validated player identity coverage beyond six players, then establish
-an official NBA source for **full 2026–27 season box-score history** (not just
-five displayed rows). Separately pilot current injury reports, schedules,
-rest indicators, shooting defense and five-player lineup ratings.
-Do not turn on any category without a verified source and safe failure mode.
+**Not yet collected:** official live injury statuses, verified upcoming
+starters, on-court five-man advanced ratings, or an actual physiological
+fatigue measure. Those require separate first-party sources and will be
+shown as unavailable until validated.
 
-Python 3 standard library only; zero paid sports-data APIs, subscriptions,
-inference services, tokens or secrets.
+All code uses Python's standard library and free public GitHub Actions.
+No paid API, leaked private account information or betting/trading action.
