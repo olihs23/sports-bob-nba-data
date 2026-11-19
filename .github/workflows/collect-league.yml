@@ -1,0 +1,50 @@
+name: NBA official teams and rosters collector
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Number of teams to refresh (1–30)"
+        required: true
+        default: "2"
+      offset:
+        description: "Starting team index (0–29)"
+        required: true
+        default: "0"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/collect_league_official.py"
+      - ".github/workflows/collect-league.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-bob-nba-collector-writes
+  cancel-in-progress: false
+
+jobs:
+  official-league-collection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Retrieve and verify NBA.com team/roster sources
+        env:
+          LIMIT: ${{ github.event.inputs.limit || '2' }}
+          OFFSET: ${{ github.event.inputs.offset || '0' }}
+        run: python3 scripts/collect_league_official.py --limit "$LIMIT" --offset "$OFFSET"
+      - name: Save only source-verified records and attempt status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update official NBA team and roster data [skip ci]"
+            git push
+          else
+            echo "No data changes."
+          fi
