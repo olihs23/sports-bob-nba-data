@@ -1,0 +1,180 @@
+{
+  "items": {
+    "1628384": {
+      "games": [
+        {
+          "3PA": 4,
+          "3PM": 1,
+          "AST": 0,
+          "FGA": 11,
+          "FGM": 5,
+          "FTA": 6,
+          "FTM": 5,
+          "PTS": 16,
+          "REB": 4,
+          "date": "2026-11-17",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 36
+        },
+        {
+          "3PA": 6,
+          "3PM": 2,
+          "AST": 1,
+          "FGA": 12,
+          "FGM": 6,
+          "FTA": 8,
+          "FTM": 7,
+          "PTS": 21,
+          "REB": 9,
+          "date": "2026-11-15",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 44
+        },
+        {
+          "3PA": 8,
+          "3PM": 2,
+          "AST": 1,
+          "FGA": 13,
+          "FGM": 4,
+          "FTA": 2,
+          "FTM": 1,
+          "PTS": 11,
+          "REB": 2,
+          "date": "2026-11-13",
+          "matchup": "NYK @ IND",
+          "minutesRounded": 33
+        },
+        {
+          "3PA": 6,
+          "3PM": 2,
+          "AST": 2,
+          "FGA": 9,
+          "FGM": 3,
+          "FTA": 6,
+          "FTM": 6,
+          "PTS": 14,
+          "REB": 6,
+          "date": "2026-11-11",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 34
+        },
+        {
+          "3PA": 8,
+          "3PM": 5,
+          "AST": 2,
+          "FGA": 12,
+          "FGM": 6,
+          "FTA": 2,
+          "FTM": 2,
+          "PTS": 19,
+          "REB": 3,
+          "date": "2026-11-10",
+          "matchup": "NYK vs. MIL",
+          "minutesRounded": 29
+        }
+      ],
+      "name": "OG Anunoby",
+      "playerId": "1628384",
+      "scope": "NBA.com latest five displayed games only",
+      "season": "2026-27",
+      "seasonAveragesOfficial": {
+        "APG": 2.0,
+        "PPG": 16.4,
+        "RPG": 5.3
+      },
+      "source": "https://www.nba.com/player/1628384",
+      "sourceType": "NBA.com official player page",
+      "teamAbbreviation": "NYK",
+      "verifiedAtUtc": "2026-11-19T22:32:30+00:00"
+    },
+    "1628973": {
+      "games": [
+        {
+          "3PA": 11,
+          "3PM": 4,
+          "AST": 5,
+          "FGA": 22,
+          "FGM": 10,
+          "FTA": 7,
+          "FTM": 7,
+          "PTS": 31,
+          "REB": 5,
+          "date": "2026-11-17",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 34
+        },
+        {
+          "3PA": 6,
+          "3PM": 3,
+          "AST": 9,
+          "FGA": 22,
+          "FGM": 9,
+          "FTA": 8,
+          "FTM": 7,
+          "PTS": 28,
+          "REB": 1,
+          "date": "2026-11-15",
+          "matchup": "NYK @ TOR",
+          "minutesRounded": 41
+        },
+        {
+          "3PA": 9,
+          "3PM": 4,
+          "AST": 11,
+          "FGA": 22,
+          "FGM": 11,
+          "FTA": 8,
+          "FTM": 7,
+          "PTS": 33,
+          "REB": 1,
+          "date": "2026-11-13",
+          "matchup": "NYK @ IND",
+          "minutesRounded": 36
+        },
+        {
+          "3PA": 8,
+          "3PM": 3,
+          "AST": 5,
+          "FGA": 23,
+          "FGM": 12,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 27,
+          "REB": 3,
+          "date": "2026-11-11",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 35
+        },
+        {
+          "3PA": 3,
+          "3PM": 1,
+          "AST": 2,
+          "FGA": 18,
+          "FGM": 7,
+          "FTA": 8,
+          "FTM": 8,
+          "PTS": 23,
+          "REB": 4,
+          "date": "2026-11-10",
+          "matchup": "NYK vs. MIL",
+          "minutesRounded": 28
+        }
+      ],
+      "name": "Jalen Brunson",
+      "playerId": "1628973",
+      "scope": "NBA.com latest five displayed games only",
+      "season": "2026-27",
+      "seasonAveragesOfficial": {
+        "APG": 5.9,
+        "PPG": 27.0,
+        "RPG": 2.9
+      },
+      "source": "https://www.nba.com/player/1628973",
+      "sourceType": "NBA.com official player page",
+      "teamAbbreviation": "NYK",
+      "verifiedAtUtc": "2026-11-19T22:32:30+00:00"
+    }
+  },
+  "schema": 1,
+  "season": "2026-27"
+}
