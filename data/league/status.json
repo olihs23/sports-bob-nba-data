@@ -3,12 +3,12 @@
     "ATL",
     "BOS"
   ],
-  "checkedAtUtc": "2026-11-19T22:28:15+00:00",
+  "checkedAtUtc": "2026-11-19T22:29:02+00:00",
   "schema": 1,
   "sources": {
     "ATL": {
       "rosters": {
-        "reason": "Only 0 roster names resolved to official player links",
+        "reason": "Only 0 resolved; anchors=1 sample=[('1629027', '', 'Trae Young')] rosterNames=['Rafael Castro', 'RayJ Dennis']",
         "status": "unavailable"
       },
       "teams": {
@@ -18,7 +18,7 @@
     },
     "BOS": {
       "rosters": {
-        "reason": "Only 0 roster names resolved to official player links",
+        "reason": "Only 0 resolved; anchors=0 sample=[] rosterNames=['Jayson Tatum', 'Mitchell Robinson']",
         "status": "unavailable"
       },
       "teams": {
