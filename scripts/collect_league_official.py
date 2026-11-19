@@ -76,8 +76,10 @@ def parse_general_team(html,abbr,now):
     visible.feed(html)
     tokens=visible.text
     # Check official team identity before trusting numbers.
-    nickname=full_name.split()[-1].lower()
-    if nickname not in [s.lower() for s in tokens]:
+    # Some official team names are multi-token units (e.g. "Trail Blazers").
+    # Compare the complete, visible NBA page identity rather than one token.
+    visible_name=" ".join(tokens).casefold()
+    if full_name.casefold() not in visible_name:
         raise ValueError("Page identity not verified: "+full_name)
     metrics={}
     for label,key in STAT_NAMES.items():
