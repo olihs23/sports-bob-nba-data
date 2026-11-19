@@ -1,16 +1,16 @@
 {
-  "checkedAtUtc": "2026-11-19T21:48:39+00:00",
+  "checkedAtUtc": "2026-11-19T22:09:58+00:00",
   "mode": "pilot",
   "provider": "NBA.com",
   "schema": 1,
   "sources": {
     "player": {
-      "checkedAtUtc": "2026-11-19T21:48:39+00:00",
+      "checkedAtUtc": "2026-11-19T22:09:58+00:00",
       "status": "verified",
       "url": "https://www.nba.com/player/1628973/jalen-brunson"
     },
     "team": {
-      "checkedAtUtc": "2026-11-19T21:48:39+00:00",
+      "checkedAtUtc": "2026-11-19T22:09:58+00:00",
       "status": "verified",
       "url": "https://www.nba.com/team/1610612752/knicks"
     }

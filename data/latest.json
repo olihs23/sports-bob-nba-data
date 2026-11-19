@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRefreshUtc": "2026-11-19T21:48:39+00:00",
+  "lastSuccessfulRefreshUtc": "2026-11-19T22:09:58+00:00",
   "player": {
     "games": [
       {
@@ -79,7 +79,7 @@
     "season": "2026-27",
     "source": "https://www.nba.com/player/1628973/jalen-brunson",
     "sourceType": "official NBA.com player profile",
-    "verifiedAtUtc": "2026-11-19T21:48:39+00:00"
+    "verifiedAtUtc": "2026-11-19T22:09:58+00:00"
   },
   "schema": 1,
   "season": "2026-27",
@@ -109,6 +109,6 @@
     },
     "team": "New York Knicks",
     "teamId": "1610612752",
-    "verifiedAtUtc": "2026-11-19T21:48:39+00:00"
+    "verifiedAtUtc": "2026-11-19T22:09:58+00:00"
   }
 }
