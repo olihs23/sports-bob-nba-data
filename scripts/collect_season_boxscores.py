@@ -40,6 +40,16 @@ STAT_MAP={
   "OREB":"reboundsOffensive","DREB":"reboundsDefensive",
   "STL":"steals","BLK":"blocks","TOV":"turnovers","PF":"foulsPersonal"
 }
+# These are ACTUAL fields on the official NBA live-data player statistics row.
+# FG%, 3P%, FT% and 2P% are stored in NBA decimal fraction form (0..1);
+# conversion to a displayed percentage is presentation only, not a modeled stat.
+EXTRA_PERCENT = {"FG%":"fieldGoalsPercentage","3P%":"threePointersPercentage",
+  "FT%":"freeThrowsPercentage","2P%":"twoPointersPercentage"}
+EXTRA_INT = {"2PM":"twoPointersMade","2PA":"twoPointersAttempted",
+  "FBPTS":"pointsFastBreak","PIP":"pointsInThePaint",
+  "2NDPTS":"pointsSecondChance","TOVPTS":"pointsFromTurnovers",
+  "FOULSDRAWN":"foulsDrawn","OFOULS":"foulsOffensive",
+  "TFOULS":"foulsTechnical","BLKREC":"blocksReceived"}
 class NotFinal(Exception):pass
 
 def fetch(url,max_bytes=4_000_000):
@@ -84,10 +94,26 @@ def one_game(game_id,accepted_days):
      if not isinstance(value,(int,float)) or isinstance(value,bool) or int(value)!=value or value<0:
       raise ValueError(f"Invalid {k} field for player {p.get('name')}")
      row[k]=int(value)
+    for k,official_key in EXTRA_PERCENT.items():
+     v=stats.get(official_key)
+     if not isinstance(v,(int,float)) or isinstance(v,bool) or not 0<=v<=1:
+      raise ValueError(f"Missing/invalid official {k} for {p.get('name')}")
+     row[k]=float(v)
+    for k,official_key in EXTRA_INT.items():
+     v=stats.get(official_key)
+     if not isinstance(v,(int,float)) or isinstance(v,bool) or int(v)!=v or v<0:
+      raise ValueError(f"Missing/invalid official {k} for {p.get('name')}")
+     row[k]=int(v)
+    pm=stats.get("plusMinusPoints")
+    if not isinstance(pm,(int,float)) or isinstance(pm,bool) or int(pm)!=pm or abs(pm)>200:
+     raise ValueError(f"Missing/invalid official plus-minus for {p.get('name')}")
+    row["+/-"]=int(pm)
     if row["PTS"] != 2*row["FGM"]+row["3PM"]+row["FTM"]:
      raise ValueError("Player points don't reconcile")
     if row["FGA"]<row["FGM"] or row["3PA"]<row["3PM"] or row["FTA"]<row["FTM"]:
      raise ValueError("Attempts below makes")
+    if row["2PA"]!=row["FGA"]-row["3PA"] or row["2PM"]!=row["FGM"]-row["3PM"]:
+     raise ValueError("Official 2PT stats do not reconcile to FG and 3PT totals")
     pid=str(p["personId"])
     if not pid.isdigit() or not str(p.get("name","")).strip():raise ValueError("Player identity missing")
     players.append({"playerId":pid,"name":p["name"],"teamId":team_id,
@@ -149,7 +175,12 @@ def main():
  for gid,dated in sorted(candidate_days.items()):
   existing=load_json(GAME_DIR/(gid+".json"),None)
   if existing and existing.get("gameId")==gid and existing.get("status")=="Final":
-   continue
+   # Backfill the official shooting percentages and +/- into previously saved
+   # 2026-27 finals, without dropping a verified record if an NBA request fails.
+   participants=existing.get("away",{}).get("players",[])+existing.get("home",{}).get("players",[])
+   if participants and all(isinstance(x.get("stats",{}).get("FG%"),(int,float))
+       and isinstance(x.get("stats",{}).get("+/-"),int) for x in participants):
+    continue
   pending.append((gid,dated))
  if len(pending)>args.max_new:pending=pending[:args.max_new]
  new_count=0;not_final=[];failed={}
