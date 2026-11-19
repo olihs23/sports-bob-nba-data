@@ -2,6 +2,10 @@ name: Refresh all verified NBA research data
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-all.yml"
   schedule:
     - cron: "37 */6 * * *"
 
