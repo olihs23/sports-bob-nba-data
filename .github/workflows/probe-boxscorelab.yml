@@ -1,0 +1,28 @@
+name: Probe licensed 30-team advanced CSV
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/probe_boxscorelab_csv.py"
+      - ".github/workflows/probe-boxscorelab.yml"
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source-delivered CSV columns, values and team coverage
+        run: python3 scripts/probe_boxscorelab_csv.py
+      - name: Save feed audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/boxscorelab_csv_probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit attributed advanced team CSV [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
