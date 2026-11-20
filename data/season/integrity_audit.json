@@ -1,0 +1,19 @@
+{
+  "checkedAtUtc": "2026-11-20T00:50:01+00:00",
+  "source": "NBA first-party stored boxscore records",
+  "season": "2026-27",
+  "indexedFinalGames": 222,
+  "originalGameFilesVerified": 222,
+  "uniquePlayers": 472,
+  "playerGameRows": 5000,
+  "manifestUnresolvedGameSources": 4,
+  "unresolved": {
+    "0022600270": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600271": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600272": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600273": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "completeAmongStoredFinalGames": true,
+  "problems": [],
+  "note": "This checks all SAVED games, not a guarantee that NBA.com has no newer finals or that originally blocked sources have since become available. Advanced ratings are not computed."
+}
