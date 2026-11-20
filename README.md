@@ -1,6 +1,6 @@
-# Sports Bob — official NBA research data
+# Sports Bob — NBA research data: official box scores + attributed advanced statistics
 
-Free, public **NBA data-only** repository for the private, downloadable Sports Bob HTML. This is **not** the original Sports Bob site.
+Free, public **NBA research data-only** repository for the private, downloadable Sports Bob HTML. This is **not** the original Sports Bob site.
 
 ## Current verified NBA data (2026–27)
 
@@ -13,6 +13,7 @@ As of the NBA.com collection on **November 19, 2026**:
 | Completed regular-season games | **222** games through November 18 | Dated NBA.com games pages + NBA-operated live-data final box-score files |
 | Played-season player histories | **472** unique player IDs, **5,000** total player game appearances | NBA-operated official final box-score files |
 | Individual NBA.com player profile averages | Six source-validated profiles | NBA.com player profiles |
+| Independent on-court player net rating | **240 verified NBA player IDs** at initial collection | Hoops Nightly licensed on/off JSON (CC BY 4.0); *not NBA.com ratings* |
 
 **Important:** Four scheduled November 19 game sources returned HTTP 403
 at collection time. They were not counted as final games or presented as
@@ -39,7 +40,8 @@ scheduled every six hours, best effort:
    October 20, 2026.
 5. Import any missing completed **official NBA box scores**.
 6. Rebuild the season games and player game logs from the verified records.
-7. Save source-specific timestamps and missing-data statuses.
+7. Check the separate, licensed Hoops Nightly player on/off net-rating JSON; if unavailable, keep last verified data.
+8. Save source-specific timestamps and missing-data statuses.
 
 After the GitHub Action finishes, open the **local Sports Bob HTML** and
 press **Check latest data**. Its browser button downloads the saved data;
@@ -53,6 +55,7 @@ need a paid sports-data API, a site editor, a backend login or hosting.
 - [Official team stats](data/league/teams.json): NBA.com summary
   values plus NBA's displayed ranks.
 - [Official rosters](data/league/rosters.json): names, positions, source, timestamp.
+- [Independently published player on/off net ratings](data/league/onoff_ratings.json): 2026–27 on-court net rating, off-court net rating, published swing, playing time, and original source. Explicitly labeled *Hoops Nightly*, CC BY 4.0; these are **not** NBA.com official player or team ORtg/DRtg/NetRtg.
 - [NBA individual profile pilot](data/league/players.json): six players,
   last-five NBA.com profile rows and official summary averages.
 - [Completed season game index](data/season/index.json): game IDs,
@@ -86,3 +89,9 @@ shown as unavailable until validated.
 
 All code uses Python's standard library and free public GitHub Actions.
 No paid API, leaked private account information or betting/trading action.
+
+## Rating coverage and license
+
+The free source [Hoops Nightly](https://hoopsnightly.com/api/open?part=on-off) makes its **original on/off dataset** reusable under [Creative Commons Attribution 4.0](https://hoopsnightly.com/data-license). It includes 240 current-season players at the first collection, each matched by the provider's official NBA numeric person ID. The HTML attributes the provider and links to the license. Its `on_net` is an on-court net points-per-100-possession measure, which is **not a player's individual scoring efficiency**. We copy the provider's number; Sports Bob does not calculate it.
+
+**Still unavailable:** complete 30-team and all-player published *offensive* and *defensive* ratings, and full NBA.com official advanced ratings. Blocked NBA.com advanced table endpoints or third-party incomplete sources will **not** be replaced with guessed values. The existing partial net-rating feed does not constitute full advanced ratings coverage.
