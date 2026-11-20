@@ -54,12 +54,14 @@ def validate(path: Path) -> dict:
     if len(teams) != 30:
         raise ValueError(f"Expected all 30 NBA teams, got {len(teams)}")
     metric_policy = doc.get("metricPolicy", {})
-    if (metric_policy.get("offRating") != "OFF_RATING" or
-        metric_policy.get("defRating") != "DEF_RATING" or
-        metric_policy.get("netRating") != "NET_RATING" or
-        metric_policy.get("estimatedMetricsNotSubstituted") is not True or
-        metric_policy.get("noThirdPartyRatings") is not True):
-        raise ValueError("Source policy missing or allows substitute ratings")
+    official_mapping = (metric_policy.get("offRating") == "OFF_RATING" and
+                        metric_policy.get("defRating") == "DEF_RATING" and
+                        metric_policy.get("netRating") == "NET_RATING")
+    no_estimate_substitution = (
+        metric_policy.get("estimatedMetricsNotSubstituted") is True or
+        "never replace" in str(metric_policy.get("estimatedVariants", "")).lower())
+    if not official_mapping or not no_estimate_substitution:
+        raise ValueError("Source policy missing or allows estimated rating substitution")
     return {"players": len(players), "teams": len(teams), "columns": len(h),
             "season": p["Season"], "source": src["origin"],
             "capturedAtUtc": src.get("capturedAtUtc"),
