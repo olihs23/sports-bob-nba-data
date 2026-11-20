@@ -1,0 +1,433 @@
+{
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://boxscorelab.com/downloads/",
+  "methodology": "https://boxscorelab.com/methodology/",
+  "provider": "BoxScore Lab",
+  "ratingDefinition": "Provider's published season team OFF/DEF estimates and net rating (per 100 estimated possessions), not official NBA.com advanced values.",
+  "schema": 1,
+  "season": "2026-27",
+  "source": "https://boxscorelab.com/downloads/2026-27-team-standings.csv",
+  "teams": {
+    "ATL": {
+      "abbreviation": "ATL",
+      "defRating": 108.7522,
+      "netRating": 1.9816,
+      "offRating": 110.7337,
+      "pace": 106.432,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Atlanta Hawks"
+    },
+    "BKN": {
+      "abbreviation": "BKN",
+      "defRating": 116.0007,
+      "netRating": -8.0892,
+      "offRating": 107.9116,
+      "pace": 102.6957,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Brooklyn Nets"
+    },
+    "BOS": {
+      "abbreviation": "BOS",
+      "defRating": 104.4414,
+      "netRating": 10.49,
+      "offRating": 114.9313,
+      "pace": 99.0667,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Boston Celtics"
+    },
+    "CHA": {
+      "abbreviation": "CHA",
+      "defRating": 111.5276,
+      "netRating": -10.3842,
+      "offRating": 101.1435,
+      "pace": 99.0271,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Charlotte Hornets"
+    },
+    "CHI": {
+      "abbreviation": "CHI",
+      "defRating": 116.4529,
+      "netRating": -7.7232,
+      "offRating": 108.7297,
+      "pace": 107.1671,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Chicago Bulls"
+    },
+    "CLE": {
+      "abbreviation": "CLE",
+      "defRating": 113.653,
+      "netRating": 1.7517,
+      "offRating": 115.4047,
+      "pace": 102.6088,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Cleveland Cavaliers"
+    },
+    "DAL": {
+      "abbreviation": "DAL",
+      "defRating": 110.8744,
+      "netRating": -0.8546,
+      "offRating": 110.0197,
+      "pace": 102.128,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Dallas Mavericks"
+    },
+    "DEN": {
+      "abbreviation": "DEN",
+      "defRating": 111.9976,
+      "netRating": 0.7123,
+      "offRating": 112.7099,
+      "pace": 100.2615,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Denver Nuggets"
+    },
+    "DET": {
+      "abbreviation": "DET",
+      "defRating": 106.7038,
+      "netRating": 6.3724,
+      "offRating": 113.0762,
+      "pace": 101.8671,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Detroit Pistons"
+    },
+    "GSW": {
+      "abbreviation": "GSW",
+      "defRating": 110.7811,
+      "netRating": 0.9711,
+      "offRating": 111.7522,
+      "pace": 101.86,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Golden State Warriors"
+    },
+    "HOU": {
+      "abbreviation": "HOU",
+      "defRating": 109.5378,
+      "netRating": 8.7113,
+      "offRating": 118.249,
+      "pace": 99.6625,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Houston Rockets"
+    },
+    "IND": {
+      "abbreviation": "IND",
+      "defRating": 111.8994,
+      "netRating": -3.2742,
+      "offRating": 108.6251,
+      "pace": 102.56,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Indiana Pacers"
+    },
+    "LAC": {
+      "abbreviation": "LAC",
+      "defRating": 114.9925,
+      "netRating": -5.7018,
+      "offRating": 109.2907,
+      "pace": 102.46,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "LA Clippers"
+    },
+    "LAL": {
+      "abbreviation": "LAL",
+      "defRating": 110.7727,
+      "netRating": 6.2221,
+      "offRating": 116.9948,
+      "pace": 103.24,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Los Angeles Lakers"
+    },
+    "MEM": {
+      "abbreviation": "MEM",
+      "defRating": 109.8435,
+      "netRating": 8.7141,
+      "offRating": 118.5576,
+      "pace": 102.8427,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Memphis Grizzlies"
+    },
+    "MIA": {
+      "abbreviation": "MIA",
+      "defRating": 113.9512,
+      "netRating": 0.8008,
+      "offRating": 114.752,
+      "pace": 105.228,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Miami Heat"
+    },
+    "MIL": {
+      "abbreviation": "MIL",
+      "defRating": 118.0741,
+      "netRating": -13.0736,
+      "offRating": 105.0006,
+      "pace": 102.424,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Milwaukee Bucks"
+    },
+    "MIN": {
+      "abbreviation": "MIN",
+      "defRating": 101.7829,
+      "netRating": 10.3026,
+      "offRating": 112.0855,
+      "pace": 104.1507,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Minnesota Timberwolves"
+    },
+    "NOP": {
+      "abbreviation": "NOP",
+      "defRating": 117.3342,
+      "netRating": -7.48,
+      "offRating": 109.8542,
+      "pace": 104.89,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "New Orleans Pelicans"
+    },
+    "NYK": {
+      "abbreviation": "NYK",
+      "defRating": 105.7432,
+      "netRating": 6.4788,
+      "offRating": 112.2219,
+      "pace": 98.2714,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "New York Knicks"
+    },
+    "OKC": {
+      "abbreviation": "OKC",
+      "defRating": 105.7143,
+      "netRating": 4.0348,
+      "offRating": 109.7491,
+      "pace": 102.0627,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Oklahoma City Thunder"
+    },
+    "ORL": {
+      "abbreviation": "ORL",
+      "defRating": 111.837,
+      "netRating": -3.2656,
+      "offRating": 108.5714,
+      "pace": 100.91,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Orlando Magic"
+    },
+    "PHI": {
+      "abbreviation": "PHI",
+      "defRating": 110.1189,
+      "netRating": 2.8109,
+      "offRating": 112.9297,
+      "pace": 101.5362,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Philadelphia 76ers"
+    },
+    "PHX": {
+      "abbreviation": "PHX",
+      "defRating": 114.1509,
+      "netRating": -1.7427,
+      "offRating": 112.4082,
+      "pace": 101.3543,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Phoenix Suns"
+    },
+    "POR": {
+      "abbreviation": "POR",
+      "defRating": 107.9937,
+      "netRating": 6.0686,
+      "offRating": 114.0623,
+      "pace": 102.7386,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Portland Trail Blazers"
+    },
+    "SAC": {
+      "abbreviation": "SAC",
+      "defRating": 118.4489,
+      "netRating": -13.5518,
+      "offRating": 104.8971,
+      "pace": 102.7571,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Sacramento Kings"
+    },
+    "SAS": {
+      "abbreviation": "SAS",
+      "defRating": 104.6338,
+      "netRating": 11.0712,
+      "offRating": 115.7051,
+      "pace": 101.284,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "San Antonio Spurs"
+    },
+    "TOR": {
+      "abbreviation": "TOR",
+      "defRating": 111.4131,
+      "netRating": -0.7037,
+      "offRating": 110.7094,
+      "pace": 101.1533,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Toronto Raptors"
+    },
+    "UTA": {
+      "abbreviation": "UTA",
+      "defRating": 112.7733,
+      "netRating": -6.9902,
+      "offRating": 105.7831,
+      "pace": 102.975,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Utah Jazz"
+    },
+    "WAS": {
+      "abbreviation": "WAS",
+      "defRating": 114.8581,
+      "netRating": -6.9208,
+      "offRating": 107.9374,
+      "pace": 102.4762,
+      "sourceOriginalColumns": {
+        "defRating": "def_rating_est",
+        "netRating": "net_rating",
+        "offRating": "off_rating_est",
+        "pace": "pace"
+      },
+      "team": "Washington Wizards"
+    }
+  },
+  "verifiedAtUtc": "2026-11-20T03:09:34+00:00"
+}
