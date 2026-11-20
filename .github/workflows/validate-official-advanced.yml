@@ -1,0 +1,49 @@
+name: Validate official NBA.com advanced player snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/league/official_player_advanced_2026_27.json"
+      - "web/official-advanced-adapter.js"
+      - "scripts/validate_official_advanced.py"
+      - ".github/workflows/validate-official-advanced.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-official-advanced:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate NBA source and all 473 player records
+        run: python3 scripts/validate_official_advanced.py
+      - name: Test Player Research and Matchups adapter
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const assert = require('node:assert/strict');
+          require('./web/official-advanced-adapter.js');
+          const adapter = globalThis.SportsBobOfficialAdvanced;
+          const data = JSON.parse(fs.readFileSync('data/league/official_player_advanced_2026_27.json','utf8'));
+          const status = adapter.ingest(data);
+          assert.equal(status.playerCount, 473);
+          assert.equal(status.teamCount, 30);
+          const brunson = adapter.getPlayer(1628973);
+          assert.equal(brunson.metrics.OFF_RATING, 113.7);
+          assert.equal(brunson.metrics.DEF_RATING, 109.2);
+          assert.equal(brunson.metrics.NET_RATING, 4.5);
+          const matchup = adapter.getMatchup(1628973, 1630578);
+          assert.equal(matchup.available, true);
+          assert.equal(matchup.advantage, null);
+          assert.equal(adapter.getTeamPlayers('NYK').length > 0, true);
+          assert.equal(adapter.getPlayer('nonexistent'), null);
+          const bad = JSON.parse(JSON.stringify(data));
+          bad.rows[0][bad.headerColumns.indexOf('OFF_RATING')] = 9999;
+          assert.throws(() => adapter.ingest(bad));
+          assert.equal(adapter.getPlayer(1628973).metrics.OFF_RATING, 113.7);
+          console.log('PASS: official NBA.com player lookup, matchup display, missing player and corrupted-data rejection');
+          NODE
