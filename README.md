@@ -14,7 +14,7 @@ Last documented NBA.com collection: **November 19, 2026**. Counts describe that 
 | Played-season player histories | 472 player IDs, 5,000 player-game appearances | NBA-operated final box scores |
 | Individual NBA.com player profile averages | Six source-validated profiles | NBA.com player profiles |
 | Official player OFFRTG, DEFRTG, NETRTG | **473 player rows (frozen November 20 capture)** | NBA.com `leaguedashplayerstats` Advanced API via owner's Chrome Network response |
-| Official team OFFRTG, DEFRTG, NETRTG | **Not yet collected** | Awaiting verified NBA.com advanced source |
+| Official team OFFRTG, DEFRTG, NETRTG | **30 / 30 teams, 46 fields (Nov 20 frozen capture)** | NBA.com `leaguedashteamstats` Advanced API JSON captured via owner's browser |
 
 **Advanced ratings are a frozen NBA.com browser capture, NOT a live or GitHub-collected refresh.** The latest uploaded Chrome capture records **2026-11-20 06:42:29.498 UTC (01:42:29 EST)**; November 20 is the import date too. A capture timestamp does not make this dataset live. NBA `OFF_RATING`, `DEF_RATING`, `NET_RATING` are preserved as distinct published fields; `E_*` estimate fields remain in the unmodified raw column set but must never substitute for the published ratings. A player's ratings describe team performance with that player on court, not individual offensive/defensive skill.
 
@@ -69,6 +69,12 @@ const comparison = SportsBobOfficialAdvanced.getMatchup("1628973", "1630578");
 
 The adapter has passed a 473-row read/lookup/reject-corruption smoke test. **The existing local v9 HTML file and hosted Sports Bob source are not in this repository**, so their actual Player Research / Matchups UI has not yet been modified or deployed. Connecting it into those screens requires the current interface source. No new site, database, trading route, or prediction logic is created here.
 
+## Official 30-team advanced ratings — November 20, 2026
+
+The owner supplied the original NBA.com `leaguedashteamstats` Advanced JSON response with all 30 teams and 46 fields, regular season and PerGame. Data validated for unique team IDs, full field coverage, and rating arithmetic (allowing published rounding). The official published ratings are `OFF_RATING`, `DEF_RATING`, `NET_RATING`. Original NBA-labeled `E_*` estimated variants are retained for provenance but **never used as substitutes**. The response itself had no capture timestamp; record only the November 20 user upload date, not a fabricated time.
+
+The data is available in the separate offline Sports Bob Research v5.2 HTML; it has not been deployed into the owner-only Sites application. GitHub's regular six-hour refresh does **not** automatically replace the official advanced snapshot. To refresh, capture a new original NBA.com response in Chrome, validate, and update the source JSON (or use the app's import and save functions).
+
 ## Official NBA advanced-rating pilot
 
 [**Test official NBA ratings for one player**](https://github.com/olihs23/sports-bob-nba-data/actions/workflows/probe-official-advanced.yml)
@@ -81,6 +87,7 @@ This is a separate diagnostic, not a ratings data feed. It targets **Jalen Bruns
 - [Official rosters](data/league/rosters.json): names, positions, source and timestamp.
 - [NBA individual profile pilot](data/league/players.json): six individual NBA.com profiles.
 - [Official advanced player snapshot](data/league/official_player_advanced_2026_27.json): 473 NBA players and 79 NBA.com advanced columns, frozen browser capture.
+- [Official advanced TEAM snapshot](data/league/official_team_advanced_2026_27.json): 30 teams, 46 NBA.com source columns and NBA-published OFF_RATING / DEF_RATING / NET_RATING; user-provided Nov 20 browser response. Exact source capture time not supplied.
 - [Completed season game index](data/season/index.json): game IDs, dates, teams and scores.
 - [Full season player game logs](data/season/players.json): actual player box-score records.
 - [Original NBA per-game files](data/season/games/): verified NBA final box scores.
@@ -97,6 +104,6 @@ This is a separate diagnostic, not a ratings data feed. It targets **Jalen Bruns
 - 2026–27 regular season only; no old head-to-head results drive matchup assessments.
 - Source-specific times distinguish last verification from time of viewing.
 
-**Not yet collected:** official live injury statuses, verified projected starters, official **team** advanced ratings, automated fresh player advanced ratings, complete lineup ratings and tracking/matchup data.
+**Not yet collected:** official live injury statuses, verified projected starters, unattended NBA.com refresh of player/team advanced tables, complete lineup ratings and tracking/matchup data.
 
 No paid APIs, private account secrets, trade execution or betting execution.
