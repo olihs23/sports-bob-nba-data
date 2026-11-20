@@ -5,7 +5,6 @@ $ErrorActionPreference = 'Stop'
 $playerId = '1628973'
 $season = '2026-27'
 $headers = @{
-    'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
     'Accept' = 'application/json, text/plain, */*'
     'Accept-Language' = 'en-US,en;q=0.9'
     'Origin' = 'https://www.nba.com'
@@ -63,7 +62,7 @@ foreach ($key in @('TeamID','TwoWay','PlayerExperience','PlayerPosition','Colleg
 }
 $leagueParams['TeamID'] = '0'
 $endpoints = @(
-    @{ name='league_advanced'; url=(Make-Url 'leaguedashplayerstats' $leagueParams) },
+    @{ name='league_advanced'; url=(Make-Url 'leaguedashplayerstats' $leagueParams) }
 )
 foreach ($entry in @(
     @{ name='player_dashboard'; path='playerdashboardbygeneralsplits' },
@@ -77,7 +76,7 @@ $results = @()
 foreach ($endpoint in $endpoints) {
     $test = @{ method=$endpoint.name; url=$endpoint.url; status='failed' }
     try {
-        $json = Invoke-RestMethod -Uri $endpoint.url -Headers $headers -TimeoutSec 12 -Method Get
+        $json = Invoke-RestMethod -Uri $endpoint.url -Headers $headers -UserAgent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0 Safari/537.36' -TimeoutSec 12 -Method Get
         $found = Verify-NbaRatings $json $endpoint.name
         if ($null -ne $found) {
             $test.status = 'verified_official'
@@ -100,7 +99,7 @@ $pages = @(
 foreach ($page in $pages) {
     $test = @{method=$page.name;url=$page.url;status='failed'}
     try {
-        $res = Invoke-WebRequest -Uri $page.url -Headers $headers -TimeoutSec 12 -UseBasicParsing
+        $res = Invoke-WebRequest -Uri $page.url -Headers $headers -UserAgent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0 Safari/537.36' -TimeoutSec 12 -UseBasicParsing
         $test.status = 'html_loaded_not_accepted_as_verified_rating'
         $test.containsRatingFieldToken = ([string]$res.Content -match 'OFF_RATING|OFFRTG')
         Write-Host ("HTML loaded (not ratings verified): " + $page.name)
