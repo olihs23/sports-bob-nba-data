@@ -9,148 +9,121 @@ permissions:
 jobs:
   test-one-knicks-lineup:
     runs-on: ubuntu-latest
-    timeout-minutes: 7
+    timeout-minutes: 4
     steps:
       - uses: actions/checkout@v4
-      - name: Install headless Chromium automation
-        run: |
-          mkdir -p /tmp/sportsbob-lineup-bot
-          cd /tmp/sportsbob-lineup-bot
-          npm init -y
-          npm install --no-audit --no-fund playwright@1.56.1
-          npx playwright install chromium --with-deps
-      - name: Fetch one official NBA 2026-27 lineup including Jalen Brunson
-        shell: bash
+      - name: Run preinstalled Chrome and test NBA official lineup source
         run: |
           mkdir -p data/diagnostics
-          node <<'NODE'
-          const fs = require('fs');
-          const { chromium } = require('/tmp/sportsbob-lineup-bot/node_modules/playwright');
-          const path = 'data/diagnostics/official_fiveman_brunson_bot_test.json';
-          const report = {
-            schema: 1,
-            checkedAtUtc: new Date().toISOString(),
-            purpose: 'Single NBA.com official lineup retrieval diagnostic; not a production data update',
-            provider: 'NBA.com ONLY (no third-party alternatives)',
-            season: '2026-27', seasonType: 'Regular Season',
-            player: { name: 'Jalen Brunson', id: 1628973 },
-            team: { name: 'New York Knicks', id: 1610612752 },
-            outcome: 'not_verified',
-            attempts: [], lineup: null
-          };
-          const params = new URLSearchParams({
-            Season: '2026-27', SeasonType: 'Regular Season', GroupQuantity: '5',
-            MeasureType: 'Advanced', PerMode: 'Totals', TeamID: '1610612752',
-            LeagueID: '00', PaceAdjust: 'N', PlusMinus: 'N', Rank: 'N',
-            LastNGames: '0', Month: '0', OpponentTeamID: '0', Period: '0',
-            PORound: '0', Location: '', Outcome: '', DateFrom: '', DateTo: '',
-            SeasonSegment: '', GameSegment: '', ShotClockRange: '',
-            VsConference: '', VsDivision: '', Conference: '', Division: ''
-          });
-          function parseOfficial(data, url) {
-            const sets = data.resultSets || (data.resultSet ? [data.resultSet] : []);
-            if(!Array.isArray(sets)) throw new Error('No NBA result sets');
-            for(const set of sets) {
-              const headers=set.headers || [], index=Object.fromEntries(headers.map((h,i)=>[h,i]));
-              const needed=['GROUP_ID','GROUP_NAME','TEAM_ID','MIN','GP','OFF_RATING','DEF_RATING','NET_RATING'];
-              if(needed.some(x=>index[x]===undefined)) continue;
-              for(const row of set.rowSet || []) {
-                if(String(row[index.TEAM_ID])!=='1610612752') continue;
-                const memberIds=String(row[index.GROUP_ID]).match(/\d+/g) || [];
-                if(memberIds.length!==5 || !memberIds.includes('1628973')) continue;
-                const [off,def,net]=['OFF_RATING','DEF_RATING','NET_RATING'].map(k=>row[index[k]]);
-                if(![off,def,net].every(Number.isFinite) || Math.abs(off-def-net)>0.12)continue;
-                return {
-                  groupId: row[index.GROUP_ID],
-                  groupName: row[index.GROUP_NAME],
-                  members: memberIds,
-                  gamesPlayed: row[index.GP],
-                  minutesTogether: row[index.MIN],
-                  offRating: off, defRating: def, netRating: net,
-                  sourceUrl: url, officialFields: ['OFF_RATING','DEF_RATING','NET_RATING'],
-                  groupQuantity: 5, season: '2026-27'
-                };
-              }
-            }
-            throw new Error('No five-man Knicks row including Brunson with verified ratings');
+          python3 <<'PY'
+          import json, subprocess, shutil, re, datetime, pathlib, html
+          from html.parser import HTMLParser
+          output = pathlib.Path("data/diagnostics/official_fiveman_brunson_bot_test.json")
+          url = ("https://www.nba.com/stats/lineups/advanced?"
+                 "Season=2026-27&SeasonType=Regular%20Season&TeamID=1610612752")
+          report = {
+            "checkedAtUtc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "scope": "ONE official NBA five-man lineup including Jalen Brunson, 2026-27 regular season",
+            "officialSource": url, "bot": "GitHub Actions preinstalled Chrome headless",
+            "result": "not_verified", "sourceHost": "nba.com", "season": "2026-27",
+            "playerId": 1628973, "teamId": 1610612752,
+            "attempts": [], "lineup": None
           }
-          let browser;
-          try {
-            browser = await chromium.launch({headless:true,args:['--no-sandbox']});
-            const context = await browser.newContext({
-              userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-              locale:'en-US'
-            });
-            const page = await context.newPage();
-            page.setDefaultTimeout(12000);
-            let responses=[];
-            page.on('response',res=>{
-              if(res.url().includes('/stats/leaguedashlineups?'))responses.push(res);
-            });
-            const pageUrl='https://www.nba.com/stats/lineups/advanced?Season=2026-27&SeasonType=Regular%20Season&TeamID=1610612752';
-            const webpage={name:'nba_browser_lineup_page',url:pageUrl,status:'failed'};
-            try{
-              const resp=await page.goto(pageUrl,{waitUntil:'domcontentloaded',timeout:25000});
-              webpage.status='loaded'; webpage.httpStatus=resp?.status();
-              await page.waitForTimeout(15000);
-              webpage.capturedOfficialApiResponses=responses.length;
-            }catch(e){webpage.error=String(e).slice(0,250);}
-            report.attempts.push(webpage);
-            for(const res of responses){
-              const one={name:'nba_page_network_api',url:res.url(),httpStatus:res.status(),status:'failed'};
-              try{
-                const data=await res.json();
-                const found=parseOfficial(data,res.url());
-                report.lineup=found;report.outcome='verified_official_nba_five_man';
-                one.status='verified';
-              }catch(e){one.error=String(e).slice(0,220);}
-              report.attempts.push(one);
-              if(report.lineup)break;
-            }
-            if(!report.lineup){
-              const url='https://stats.nba.com/stats/leaguedashlineups?'+params.toString();
-              const attempt={name:'nba_browser_direct_api',url,status:'failed'};
-              try{
-                const result=await page.evaluate(async u=>{
-                  const r=await fetch(u,{credentials:'same-origin',signal:AbortSignal.timeout(14000)});
-                  const t=await r.text();
-                  return {status:r.status,body:t};
-                },url);
-                attempt.httpStatus=result.status;
-                const found=parseOfficial(JSON.parse(result.body),url);
-                report.lineup=found;report.outcome='verified_official_nba_five_man';
-                attempt.status='verified';
-              }catch(e){attempt.error=String(e).slice(0,300);}
-              report.attempts.push(attempt);
-            }
-          }catch(e){report.error=String(e).slice(0,350);}
-          finally{
-            try{await browser?.close()}catch(_){}
-            fs.writeFileSync(path,JSON.stringify(report,null,2)+'\n');
-            console.log(JSON.stringify({
-              outcome:report.outcome,
-              lineup:report.lineup,
-              attempts:report.attempts.map(x=>({name:x.name,status:x.status,httpStatus:x.httpStatus,error:x.error}))
-            },null,2));
-          }
-          NODE
-      - name: Commit diagnostics only
+          chrome = next((shutil.which(n) for n in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser") if shutil.which(n)), None)
+          report["chromeExecutable"] = chrome
+          if chrome:
+            try:
+              version = subprocess.run([chrome, "--version"],capture_output=True,text=True,timeout=5)
+              report["chromeVersion"] = version.stdout.strip()[:200]
+              p = subprocess.run([
+                chrome, "--headless=new", "--no-sandbox",
+                "--disable-dev-shm-usage", "--disable-gpu",
+                "--virtual-time-budget=16000", "--dump-dom", url
+              ],capture_output=True,text=True,timeout=39)
+              report["attempts"].append({
+                "name": "official_nba_chrome_page",
+                "status": "response_captured" if p.stdout.strip() else "empty_response",
+                "exitCode": p.returncode,
+                "htmlBytes": len(p.stdout),
+                "stderrTail": p.stderr[-1100:],
+              })
+              dom = p.stdout
+              class TableRows(HTMLParser):
+                def __init__(self):
+                  super().__init__()
+                  self.inside_row=False
+                  self.inside_cell=False
+                  self.cellbuf=[]
+                  self.cells=[]
+                  self.rows=[]
+                def handle_starttag(self, tag, attrs):
+                  if tag=="tr":
+                    self.inside_row=True;self.cells=[]
+                  if tag in ("td","th") and self.inside_row:
+                    self.inside_cell=True;self.cellbuf=[]
+                def handle_data(self,d):
+                  if self.inside_cell:self.cellbuf.append(d)
+                def handle_endtag(self,tag):
+                  if tag in ("td","th") and self.inside_cell:
+                    self.cells.append(" ".join("".join(self.cellbuf).split()))
+                    self.inside_cell=False
+                  if tag=="tr" and self.inside_row:
+                    self.rows.append(self.cells)
+                    self.inside_row=False
+              parser=TableRows()
+              parser.feed(dom)
+              header_row=next((row for row in parser.rows if any("OffRtg" in x for x in row) and any("DefRtg" in x for x in row)),None)
+              report["attempts"].append({"name":"nba_html_table_parse","status":"parsed",
+                                        "tableRows":len(parser.rows),"hasAdvancedHeaders":bool(header_row)})
+              if header_row:
+                for row in parser.rows:
+                  joined=" ".join(row)
+                  if "Brunson" not in joined or "NYK" not in row:continue
+                  wanted=("Towns","Anunoby","Hart","Bridges","Brunson")
+                  if not all(name in joined for name in wanted):continue
+                  try:
+                    # Table positions follow NBA.com's labeled header row.
+                    pairs={header.strip():val.strip() for header,val in zip(header_row,row)}
+                    k=lambda x:next((float(v) for a,v in pairs.items() if a.lower()==x.lower()),None)
+                    off,defr,net=k("OffRtg"),k("DefRtg"),k("NetRtg")
+                    minutes=k("MIN")
+                    if None in (off,defr,net,minutes) or abs(off-defr-net)>.12:continue
+                    report["lineup"]={
+                      "names":list(wanted),"team":"NYK","minutesTogether":minutes,
+                      "offRating":off,"defRating":defr,"netRating":net,
+                      "source":"NBA.com original lineups Advanced table",
+                    }
+                    report["result"]="verified_official_lineup"
+                    break
+                  except (ValueError,TypeError):pass
+              if report["result"]!="verified_official_lineup":
+                report["reason"]="No verified 2026-27 lineup with official ratings found in Chrome-rendered table"
+            except Exception as e:
+              report["attempts"].append({"name":"chrome_execution","status":"failed","error":str(e)[:400]})
+              report["reason"]="Chrome execution or connection failure"
+          else:
+            report["reason"]="Chrome is not preinstalled on this GitHub runner"
+          output.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
+          print(json.dumps({k:report[k] for k in ("result","reason","chromeExecutable","attempts") if k in report},indent=2))
+          PY
+      - name: Save read-only test result in diagnostics
         if: always()
         run: |
-          test -f data/diagnostics/official_fiveman_brunson_bot_test.json || exit 0
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/diagnostics/official_fiveman_brunson_bot_test.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Record one-off NBA.com lineup cloud-browser test [skip ci]"
-            git pull --rebase origin main
-            git push
+          if test -f data/diagnostics/official_fiveman_brunson_bot_test.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/diagnostics/official_fiveman_brunson_bot_test.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Record official NBA one-lineup cloud bot diagnostic [skip ci]"
+              git pull --rebase origin main
+              git push
+            fi
           fi
-      - name: Save diagnostic artifact
+      - name: Attach diagnostic
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: official-one-lineup-bot-test
+          name: one-lineup-official-nba
           path: data/diagnostics/official_fiveman_brunson_bot_test.json
           if-no-files-found: warn
           retention-days: 7
