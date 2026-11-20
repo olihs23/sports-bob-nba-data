@@ -1,5 +1,5 @@
 {
-  "checkedAtUtc": "2026-11-20T02:52:04.170383+00:00",
+  "checkedAtUtc": "2026-11-20T02:53:56.179815+00:00",
   "schema": {
     "/get-all-season-stats/{league}": {
       "summary": "Gets career stats by season for player/team/lineup",
@@ -303,23 +303,65 @@
         "parts"
       ],
       "rawType": "dict",
-      "payload": {
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "attribution": "Hoops Nightly, hoopsnightly.com",
-        "terms": "https://hoopsnightly.com/data-license",
-        "parts": [
-          "https://hoopsnightly.com/api/open?part=injury-wave",
-          "https://hoopsnightly.com/api/open?part=defense-vs-position",
-          "https://hoopsnightly.com/api/open?part=on-off",
-          "https://hoopsnightly.com/api/open?part=margin",
-          "https://hoopsnightly.com/api/open?part=rest-and-travel",
-          "https://hoopsnightly.com/api/open?part=injury-impact",
-          "https://hoopsnightly.com/api/open?part=ledger",
-          "https://hoopsnightly.com/api/open?part=milestones",
-          "https://hoopsnightly.com/api/open?part=simulator"
-        ]
+      "payload": "{'license': 'CC BY 4.0', 'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/', 'attribution': 'Hoops Nightly, hoopsnightly.com', 'terms': 'https://hoopsnightly.com/data-license', 'parts': ['https://hoopsnightly.com/api/open?part=injury-wave', 'https://hoopsnightly.com/api/open?part=defense-vs-position', 'https://hoopsnightly.com/api/open?part=on-off', 'https://hoopsnightly.com/api/open?part=margin', 'https://hoopsnightly.com/api/open?part=rest-and-travel', 'https://hoopsnightly.com/api/open?part=injury-impact', 'https://hoopsnightly.com/api/open?part=ledger', 'https://hoopsnightly.com/api/open?part=milestones', 'https://hoopsnightly.com/api/open?part=simulator']}"
+    },
+    "hoopsnightly_onoff": {
+      "rootKeys": [
+        "part",
+        "license",
+        "licenseUrl",
+        "attribution",
+        "terms",
+        "data"
+      ],
+      "rawType": "dict",
+      "payload": "{'part': 'on-off', 'license': 'CC BY 4.0', 'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/', 'attribution': 'Hoops Nightly, hoopsnightly.com', 'terms': 'https://hoopsnightly.com/data-license', 'data': {'season': '2026-27', 'players': [{'team_id': 1610612759, 'player_id': 1641705, 'name': 'Victor Wembanyama', 'slug': 'victor-wembanyama', 'jersey': '1', 'team_slug': 'spurs', 'team_name': 'Spurs', 'tricode': 'SAS', 'on_min': 418.22333333333336, 'off_min': 258.77666666666664, 'on_net': 30.42715038033938, 'off_net': -16.793893129770993, 'swing': 47.22104351011038}, {'team_id': 1610612759, 'player_id': 1642844, 'name': 'Dylan Harper', 'slug': 'dylan-harper', 'jersey': '2', 'team_slug': 'spurs', 'team_name': 'Spurs', 'tricode': 'SAS', 'on_min': 441.43, 'off_min': 235.57, 'on_net': 23.955431754874652, 'off_net': -8.93970893970894, 'swing': 32.89514069458359}, {'team_id': 1610612760, 'player_id': 1627936, 'name': 'Alex Caruso', 'slug': 'alex-caruso', 'jersey': '9', 'team_slug': 'thu"
+    },
+    "onoff_stat_net": {
+      "rootKeys": [
+        "results",
+        "headers"
+      ],
+      "rawType": "dict",
+      "keys": [
+        "results",
+        "headers"
+      ],
+      "sample": {
+        "results": "[{'Name': 'Jaden Akins', 'On': '-60.000', 'Off': '6.285', 'On-Off': '-66.285', 'MinutesOn': 2, 'MinutesOff': 675}, {'Name': 'OG Anunoby', 'On': '3.645', 'Off': '11.758', 'On-Off': '-8.113', 'MinutesOn': 474, 'MinutesOff': 203}, {'Name': 'Josh Hart', 'On': '3.505', 'Off': '8.366', 'On-Off': '-4.861', 'MinutesOn': 328, 'MinutesOff': 349}, {'Name': 'Karl-Anthony Towns', 'On': '10.023', 'Off': '-2.653', 'On-Off': '12.676', 'MinutesOn': 459, 'MinutesOff': 218}, {'Name': 'Mikal Bridges', 'On': '-4.282', 'Off': '17.844', 'On-Off': '-22.127', 'MinutesOn': 359, 'MinutesOff': 318}, {'Name': 'Jalen Brunson', 'On': '4.756', 'Off': '9.199', 'On-Off': '-4.443', 'MinutesOn': 481, 'MinutesOff': 196}, {'Name",
+        "headers": "[{'field': 'Name', 'label': 'Player'}, {'field': 'MinutesOn', 'label': 'Minutes On', 'type': 'number'}, {'field': 'MinutesOff', 'label': 'Minutes Off', 'type': 'number'}, {'field': 'On', 'label': 'Stat Value with Player On'}, {'field': 'Off', 'label': 'Stat Value without Player Off'}, {'field': 'On-Off', 'label': 'Difference', 'type': 'decimal'}]"
       }
+    },
+    "onoff_player_brunson": {
+      "rootKeys": [
+        "results",
+        "headers",
+        "stat_options"
+      ],
+      "rawType": "dict",
+      "keys": [
+        "results",
+        "headers",
+        "stat_options"
+      ],
+      "sample": {
+        "results": "{'Assisted2sPct': [{'Name': 'Andre Drummond', 'On': '0.571', 'Off': '0.500', 'On-Off': '0.071', 'MinutesOn': 139, 'MinutesOff': 42}, {'Name': 'Jordan Clarkson', 'On': '0.500', 'Off': '0.455', 'On-Off': '0.045', 'MinutesOn': 46, 'MinutesOff': 72}, {'Name': 'Karl-Anthony Towns', 'On': '0.549', 'Off': '0.759', 'On-Off': '-0.210', 'MinutesOn': 323, 'MinutesOff': 136}, {'Name': 'OG Anunoby', 'On': '0.810', 'Off': '0.867', 'On-Off': '-0.057', 'MinutesOn': 334, 'MinutesOff': 139}, {'Name': 'Josh Hart', 'On': '0.667', 'Off': '0.750', 'On-Off': '-0.083', 'MinutesOn': 295, 'MinutesOff': 33}, {'Name': 'Mikal Bridges', 'On': '0.727', 'Off': '0.750', 'On-Off': '-0.023', 'MinutesOn': 270, 'MinutesOff': 89",
+        "headers": "[{'field': 'Name', 'label': 'Player'}, {'field': 'MinutesOn', 'label': 'Minutes with Jalen Brunson', 'type': 'number'}, {'field': 'MinutesOff', 'label': 'Minutes without Jalen Brunson', 'type': 'number'}, {'field': 'On', 'label': 'Stat Value with Jalen Brunson'}, {'field': 'Off', 'label': 'Stat Value without Jalen Brunson'}, {'field': 'On-Off', 'label': 'Difference', 'type': 'decimal'}]",
+        "stat_options": "{'label': 'Stat', 'data': [{'id': 'Assisted2sPct', 'text': '2pt FGM Assist%'}, {'id': 'NonPutbacksAssisted2sPct', 'text': 'Non Putback 2pt FGM Assist%'}, {'id': 'Assisted3sPct', 'text': '3pt FGM Assist%'}, {'id': 'Fg3Pct', 'text': '3pt FG%'}, {'id': 'NonHeaveFg3Pct', 'text': 'Non-Heave 3pt FG%'}, {'id': 'Fg2Pct', 'text': '2pt FG%'}, {'id': 'EfgPct', 'text': 'eFG%'}, {'id': 'TsPct', 'text': 'TS%'}, {'id': 'FG3APct', 'text': '3PAr'}, {'id': 'FG3APctBlocked', 'text': '% of FG3A Blocked'}, {'id': 'FG2APctBlocked', 'text': '% of FG2A Blocked'}, {'id': 'Usage', 'text': 'Usage'}, {'id': 'LiveBallTurnoverPct', 'text': 'Live Ball TO%'}, {'id': 'DefFTReboundPct', 'text': 'DReb% - Missed FTs'}, {'id': "
+      }
+    },
+    "onoff_team_brunson": {
+      "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
     }
+  },
+  "onoff_enum": {
+    "title": "OnOffStatTypeEnum",
+    "enum": [
+      "team",
+      "player",
+      "stat"
+    ],
+    "type": "string",
+    "description": "An enumeration."
   }
 }
