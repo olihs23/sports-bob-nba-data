@@ -1,0 +1,575 @@
+{
+  "season": "2026-27",
+  "checkedAtUtc": "2026-11-20T19:58:17.724576+00:00",
+  "source": "NBA operated official game box scores and play-by-play",
+  "ratingDefinition": "PTS/official PBP derived unique lineup possessions x 100 (not NBA.com published)",
+  "indexedGames": 226,
+  "passedGames": 173,
+  "failedGames": 53,
+  "numberTeams": 30,
+  "lineupGroups": 3974,
+  "gameIdsPassed": [
+    "0022600001",
+    "0022600002",
+    "0022600003",
+    "0022600004",
+    "0022600005",
+    "0022600006",
+    "0022600007",
+    "0022600008",
+    "0022600015",
+    "0022600018",
+    "0022600019",
+    "0022600020",
+    "0022600022",
+    "0022600023",
+    "0022600024",
+    "0022600025",
+    "0022600026",
+    "0022600027",
+    "0022600028",
+    "0022600030",
+    "0022600031",
+    "0022600032",
+    "0022600037",
+    "0022600038",
+    "0022600039",
+    "0022600040",
+    "0022600041",
+    "0022600042",
+    "0022600086",
+    "0022600087",
+    "0022600088",
+    "0022600089",
+    "0022600091",
+    "0022600092",
+    "0022600093",
+    "0022600094",
+    "0022600095",
+    "0022600097",
+    "0022600098",
+    "0022600099",
+    "0022600102",
+    "0022600104",
+    "0022600105",
+    "0022600106",
+    "0022600107",
+    "0022600108",
+    "0022600109",
+    "0022600110",
+    "0022600112",
+    "0022600113",
+    "0022600114",
+    "0022600116",
+    "0022600117",
+    "0022600118",
+    "0022600119",
+    "0022600120",
+    "0022600121",
+    "0022600122",
+    "0022600123",
+    "0022600125",
+    "0022600126",
+    "0022600128",
+    "0022600129",
+    "0022600130",
+    "0022600131",
+    "0022600132",
+    "0022600133",
+    "0022600134",
+    "0022600135",
+    "0022600136",
+    "0022600137",
+    "0022600139",
+    "0022600140",
+    "0022600141",
+    "0022600143",
+    "0022600145",
+    "0022600146",
+    "0022600147",
+    "0022600148",
+    "0022600151",
+    "0022600152",
+    "0022600153",
+    "0022600154",
+    "0022600156",
+    "0022600159",
+    "0022600160",
+    "0022600161",
+    "0022600162",
+    "0022600163",
+    "0022600164",
+    "0022600167",
+    "0022600169",
+    "0022600170",
+    "0022600171",
+    "0022600172",
+    "0022600173",
+    "0022600174",
+    "0022600175",
+    "0022600177",
+    "0022600178",
+    "0022600179",
+    "0022600180",
+    "0022600182",
+    "0022600183",
+    "0022600184",
+    "0022600185",
+    "0022600187",
+    "0022600189",
+    "0022600190",
+    "0022600191",
+    "0022600192",
+    "0022600195",
+    "0022600196",
+    "0022600198",
+    "0022600199",
+    "0022600200",
+    "0022600201",
+    "0022600202",
+    "0022600203",
+    "0022600204",
+    "0022600205",
+    "0022600206",
+    "0022600208",
+    "0022600209",
+    "0022600211",
+    "0022600212",
+    "0022600213",
+    "0022600214",
+    "0022600215",
+    "0022600216",
+    "0022600217",
+    "0022600218",
+    "0022600219",
+    "0022600221",
+    "0022600222",
+    "0022600225",
+    "0022600228",
+    "0022600229",
+    "0022600230",
+    "0022600231",
+    "0022600232",
+    "0022600233",
+    "0022600234",
+    "0022600235",
+    "0022600236",
+    "0022600237",
+    "0022600239",
+    "0022600240",
+    "0022600241",
+    "0022600242",
+    "0022600244",
+    "0022600245",
+    "0022600246",
+    "0022600247",
+    "0022600248",
+    "0022600249",
+    "0022600250",
+    "0022600251",
+    "0022600252",
+    "0022600253",
+    "0022600254",
+    "0022600257",
+    "0022600258",
+    "0022600260",
+    "0022600261",
+    "0022600262",
+    "0022600263",
+    "0022600265",
+    "0022600266",
+    "0022600267",
+    "0022600269",
+    "0022600271",
+    "0022600273"
+  ],
+  "gameErrors": [
+    {
+      "id": "0022600085",
+      "date": "2026-10-21",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600090",
+      "date": "2026-10-21",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600009",
+      "date": "2026-10-23",
+      "error": "Score jump"
+    },
+    {
+      "id": "0022600096",
+      "date": "2026-10-23",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600100",
+      "date": "2026-10-23",
+      "error": "Q2 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600101",
+      "date": "2026-10-23",
+      "error": "Q4 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600103",
+      "date": "2026-10-23",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600111",
+      "date": "2026-10-24",
+      "error": "Q4 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600115",
+      "date": "2026-10-25",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600124",
+      "date": "2026-10-26",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600127",
+      "date": "2026-10-26",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600138",
+      "date": "2026-10-28",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600142",
+      "date": "2026-10-28",
+      "error": "Out-not-on-court 1629023"
+    },
+    {
+      "id": "0022600144",
+      "date": "2026-10-29",
+      "error": "Q2 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600016",
+      "date": "2026-10-30",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600017",
+      "date": "2026-10-30",
+      "error": "Q3 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600021",
+      "date": "2026-10-30",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600149",
+      "date": "2026-10-31",
+      "error": "Q4 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600150",
+      "date": "2026-10-31",
+      "error": "Q3 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600155",
+      "date": "2026-11-01",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600157",
+      "date": "2026-11-01",
+      "error": "Q2 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600158",
+      "date": "2026-11-02",
+      "error": "Q4 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600165",
+      "date": "2026-11-02",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600166",
+      "date": "2026-11-02",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600168",
+      "date": "2026-11-02",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600176",
+      "date": "2026-11-04",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600181",
+      "date": "2026-11-04",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600186",
+      "date": "2026-11-04",
+      "error": "Q5 initial lineup counts {'home': 5, 'away': 4}"
+    },
+    {
+      "id": "0022600188",
+      "date": "2026-11-05",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600029",
+      "date": "2026-11-06",
+      "error": "Q2 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600033",
+      "date": "2026-11-06",
+      "error": "Q2 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600193",
+      "date": "2026-11-07",
+      "error": "Q5 initial lineup counts {'home': 5, 'away': 4}"
+    },
+    {
+      "id": "0022600194",
+      "date": "2026-11-07",
+      "error": "Backwards clock"
+    },
+    {
+      "id": "0022600197",
+      "date": "2026-11-08",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600207",
+      "date": "2026-11-09",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600210",
+      "date": "2026-11-09",
+      "error": "Q3 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600220",
+      "date": "2026-11-11",
+      "error": "Q4 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600223",
+      "date": "2026-11-11",
+      "error": "Q2 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600224",
+      "date": "2026-11-11",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600226",
+      "date": "2026-11-11",
+      "error": "Q2 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600227",
+      "date": "2026-11-12",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600034",
+      "date": "2026-11-13",
+      "error": "Q2 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600035",
+      "date": "2026-11-13",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600036",
+      "date": "2026-11-13",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600238",
+      "date": "2026-11-15",
+      "error": "Q3 initial lineup counts {'home': 5, 'away': 6}"
+    },
+    {
+      "id": "0022600243",
+      "date": "2026-11-15",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600255",
+      "date": "2026-11-17",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600256",
+      "date": "2026-11-17",
+      "error": "Q2 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600259",
+      "date": "2026-11-18",
+      "error": "Q2 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600264",
+      "date": "2026-11-18",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600268",
+      "date": "2026-11-18",
+      "error": "Q3 initial lineup counts {'home': 6, 'away': 5}"
+    },
+    {
+      "id": "0022600270",
+      "date": "2026-11-19",
+      "error": "Official player plus/minus mismatch"
+    },
+    {
+      "id": "0022600272",
+      "date": "2026-11-19",
+      "error": "Q2 initial lineup counts {'home': 6, 'away': 5}"
+    }
+  ],
+  "teams": {
+    "DET": {
+      "lineups": 125,
+      "path": "DET.json"
+    },
+    "BOS": {
+      "lineups": 162,
+      "path": "BOS.json"
+    },
+    "NYK": {
+      "lineups": 114,
+      "path": "NYK.json"
+    },
+    "PHI": {
+      "lineups": 137,
+      "path": "PHI.json"
+    },
+    "SAS": {
+      "lineups": 96,
+      "path": "SAS.json"
+    },
+    "OKC": {
+      "lineups": 161,
+      "path": "OKC.json"
+    },
+    "MIA": {
+      "lineups": 91,
+      "path": "MIA.json"
+    },
+    "MIN": {
+      "lineups": 119,
+      "path": "MIN.json"
+    },
+    "LAL": {
+      "lineups": 122,
+      "path": "LAL.json"
+    },
+    "GSW": {
+      "lineups": 156,
+      "path": "GSW.json"
+    },
+    "WAS": {
+      "lineups": 178,
+      "path": "WAS.json"
+    },
+    "MIL": {
+      "lineups": 157,
+      "path": "MIL.json"
+    },
+    "BKN": {
+      "lineups": 132,
+      "path": "BKN.json"
+    },
+    "CHA": {
+      "lineups": 125,
+      "path": "CHA.json"
+    },
+    "TOR": {
+      "lineups": 167,
+      "path": "TOR.json"
+    },
+    "CHI": {
+      "lineups": 162,
+      "path": "CHI.json"
+    },
+    "MEM": {
+      "lineups": 146,
+      "path": "MEM.json"
+    },
+    "UTA": {
+      "lineups": 168,
+      "path": "UTA.json"
+    },
+    "HOU": {
+      "lineups": 107,
+      "path": "HOU.json"
+    },
+    "DAL": {
+      "lineups": 185,
+      "path": "DAL.json"
+    },
+    "POR": {
+      "lineups": 157,
+      "path": "POR.json"
+    },
+    "PHX": {
+      "lineups": 102,
+      "path": "PHX.json"
+    },
+    "LAC": {
+      "lineups": 102,
+      "path": "LAC.json"
+    },
+    "SAC": {
+      "lineups": 157,
+      "path": "SAC.json"
+    },
+    "CLE": {
+      "lineups": 122,
+      "path": "CLE.json"
+    },
+    "DEN": {
+      "lineups": 89,
+      "path": "DEN.json"
+    },
+    "ATL": {
+      "lineups": 80,
+      "path": "ATL.json"
+    },
+    "IND": {
+      "lineups": 161,
+      "path": "IND.json"
+    },
+    "NOP": {
+      "lineups": 97,
+      "path": "NOP.json"
+    },
+    "ORL": {
+      "lineups": 97,
+      "path": "ORL.json"
+    }
+  }
+}
