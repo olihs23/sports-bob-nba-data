@@ -18,7 +18,9 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-US,en;q=0.9",
     "Origin": "https://www.nba.com",
-    "Referer": "https://www.nba.com/",
+    "Referer": "https://www.nba.com/stats/",
+    "x-nba-stats-origin": "stats",
+    "x-nba-stats-token": "true",
 }
 BASE = {
     "LeagueID": "00",
