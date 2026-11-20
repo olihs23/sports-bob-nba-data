@@ -1,0 +1,325 @@
+{
+  "checkedAtUtc": "2026-11-20T02:52:04.170383+00:00",
+  "schema": {
+    "/get-all-season-stats/{league}": {
+      "summary": "Gets career stats by season for player/team/lineup",
+      "description": "None",
+      "params": [
+        {
+          "name": "league",
+          "required": true,
+          "type": {
+            "$ref": "#/components/schemas/LeagueEnum"
+          },
+          "description": "None"
+        },
+        {
+          "name": "EntityType",
+          "required": true,
+          "type": {
+            "$ref": "#/components/schemas/EntityTypeEnum"
+          },
+          "description": "None"
+        },
+        {
+          "name": "EntityId",
+          "required": true,
+          "type": {
+            "title": "Entityid",
+            "type": "string",
+            "description": "player, team or lineup id"
+          },
+          "description": "player, team or lineup id"
+        }
+      ],
+      "requestSchema": {}
+    },
+    "/get-on-off/{league}/{stat_type}": {
+      "summary": "Gets on/off data for query params",
+      "description": "Stat is required query param if stat_type is stat\n\nPlayerId is required query param if stat_type is player or team",
+      "params": [
+        {
+          "name": "league",
+          "required": true,
+          "type": {
+            "$ref": "#/components/schemas/LeagueEnum"
+          },
+          "description": "None"
+        },
+        {
+          "name": "stat_type",
+          "required": true,
+          "type": {
+            "$ref": "#/components/schemas/OnOffStatTypeEnum"
+          },
+          "description": "None"
+        },
+        {
+          "name": "Season",
+          "required": true,
+          "type": {
+            "title": "Season",
+            "type": "string",
+            "description": "Multiple seasons should be separated by a comma"
+          },
+          "description": "Multiple seasons should be separated by a comma"
+        },
+        {
+          "name": "SeasonType",
+          "required": true,
+          "type": {
+            "$ref": "#/components/schemas/SeasonTypeEnum"
+          },
+          "description": "None"
+        },
+        {
+          "name": "TeamId",
+          "required": true,
+          "type": {
+            "title": "Teamid",
+            "type": "string",
+            "description": "(w)nba.com/stats team id"
+          },
+          "description": "(w)nba.com/stats team id"
+        },
+        {
+          "name": "PlayerId",
+          "required": false,
+          "type": {
+            "title": "Playerid",
+            "type": "string",
+            "description": "(w)nba.com/stats player id"
+          },
+          "description": "(w)nba.com/stats player id"
+        },
+        {
+          "name": "Stat",
+          "required": false,
+          "type": {
+            "title": "Stat",
+            "type": "string"
+          },
+          "description": "None"
+        },
+        {
+          "name": "Leverage",
+          "required": false,
+          "type": {
+            "title": "Leverage",
+            "type": "string",
+            "description": "Multiple types should be separated by a comma."
+          },
+          "description": "Multiple types should be separated by a comma."
+        }
+      ],
+      "requestSchema": {}
+    },
+    "/get-team-players-for-season": {
+      "summary": "Gets all players who played for team in given season(s)",
+      "description": "None",
+      "params": [
+        {
+          "name": "Season",
+          "required": true,
+          "type": {
+            "title": "Season",
+            "type": "string",
+            "description": "Multiple seasons should be separated by a comma"
+          },
+          "description": "Multiple seasons should be separated by a comma"
+        },
+        {
+          "name": "SeasonType",
+          "required": true,
+          "type": {
+            "$ref": "#/components/schemas/SeasonTypeEnum"
+          },
+          "description": "None"
+        },
+        {
+          "name": "TeamId",
+          "required": true,
+          "type": {
+            "title": "Teamid",
+            "type": "string",
+            "description": "(w)nba.com/stats team id"
+          },
+          "description": "(w)nba.com/stats team id"
+        }
+      ],
+      "requestSchema": {}
+    }
+  },
+  "sample": {
+    "single_brunson": {
+      "rootKeys": [
+        "results",
+        "career_totals",
+        "header"
+      ],
+      "rawType": "dict",
+      "recentSeasonRows": 1,
+      "recentSeasonKeys": [
+        "Season",
+        "SecondsPlayed",
+        "GamesPlayed",
+        "Minutes",
+        "PlusMinus",
+        "OffPoss",
+        "DefPoss",
+        "PenaltyOffPoss",
+        "PenaltyDefPoss",
+        "SecondChanceOffPoss",
+        "TotalPoss",
+        "AtRimFGM",
+        "AtRimFGA",
+        "SecondChanceAtRimFGM",
+        "SecondChanceAtRimFGA",
+        "PenaltyAtRimFGM",
+        "PenaltyAtRimFGA",
+        "ShortMidRangeFGM",
+        "ShortMidRangeFGA",
+        "LongMidRangeFGM",
+        "LongMidRangeFGA",
+        "Corner3FGM",
+        "Corner3FGA",
+        "SecondChanceCorner3FGM",
+        "SecondChanceCorner3FGA",
+        "PenaltyCorner3FGA",
+        "Arc3FGM",
+        "Arc3FGA",
+        "SecondChanceArc3FGM",
+        "SecondChanceArc3FGA",
+        "PenaltyArc3FGM",
+        "PenaltyArc3FGA",
+        "FG2M",
+        "FG2A",
+        "FG3M",
+        "FG3A",
+        "FtPoints",
+        "Points",
+        "OpponentPoints",
+        "SecondChanceFG2M",
+        "SecondChanceFG2A",
+        "SecondChanceFG3M",
+        "SecondChanceFG3A",
+        "SecondChanceFtPoints",
+        "SecondChancePoints",
+        "PenaltyFG2M",
+        "PenaltyFG2A",
+        "PenaltyFG3M",
+        "PenaltyFG3A",
+        "PenaltyFtPoints",
+        "PenaltyPoints",
+        "PtsAssisted2s",
+        "PtsUnassisted2s",
+        "PtsAssisted3s",
+        "PtsUnassisted3s",
+        "NonHeaveArc3FGA",
+        "NonHeaveArc3FGM",
+        "Fg2aBlocked",
+        "TwoPtAssists",
+        "ThreePtAssists",
+        "Assists",
+        "Arc3Assists",
+        "Corner3Assists",
+        "AtRimAssists",
+        "ShortMidRangeAssists",
+        "LongMidRangeAssists",
+        "AssistPoints",
+        "OffThreePtRebounds",
+        "OffTwoPtRebounds",
+        "DefThreePtRebounds",
+        "DefTwoPtRebounds",
+        "DefRebounds",
+        "OffRebounds",
+        "Rebounds",
+        "SelfOReb",
+        "Steals",
+        "BadPassSteals",
+        "LostBallSteals",
+        "LiveBallTurnovers",
+        "BadPassOutOfBoundsTurnovers",
+        "BadPassTurnovers",
+        "DeadBallTurnovers",
+        "LostBallOutOfBoundsTurnovers",
+        "LostBallTurnovers",
+        "Travels",
+        "Turnovers",
+        "SecondChanceTurnovers",
+        "PenaltyTurnovers",
+        "ShootingFouls",
+        "Fouls",
+        "Loose Ball Fouls",
+        "Offensive Fouls",
+        "FoulsDrawn",
+        "Charge Fouls Drawn",
+        "Loose Ball Fouls Drawn",
+        "Offensive Fouls Drawn",
+        "FTA",
+        "2pt And 1 Free Throw Trips",
+        "3pt And 1 Free Throw Trips",
+        "Technical Free Throw Trips"
+      ],
+      "ratingsCandidateFields": {
+        "OffPoss": 953,
+        "DefPoss": 947,
+        "PenaltyOffPoss": 320,
+        "PenaltyDefPoss": 278,
+        "SecondChanceOffPoss": 150,
+        "TotalPoss": 1900,
+        "Offensive Fouls": 1,
+        "Offensive Fouls Drawn": 5,
+        "PenaltyOffPossExcludingTakeFouls": 318,
+        "OnNetRtg": 4.7563909224579675,
+        "PenaltyOffPossPct": 0.3357817418677859,
+        "NetRtgDiff": -4.443015434469942,
+        "OffNetRtg": 9.199406356927895
+      }
+    },
+    "team_nyk": {
+      "rootKeys": [
+        "results",
+        "career_totals",
+        "header"
+      ],
+      "rawType": "dict",
+      "resultsType": "dict",
+      "resultsKeys": [
+        "Playoffs",
+        "Regular Season",
+        "PlayIn"
+      ]
+    },
+    "onoff_nyk": {
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "hoopsnightly_open": {
+      "rootKeys": [
+        "license",
+        "licenseUrl",
+        "attribution",
+        "terms",
+        "parts"
+      ],
+      "rawType": "dict",
+      "payload": {
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Hoops Nightly, hoopsnightly.com",
+        "terms": "https://hoopsnightly.com/data-license",
+        "parts": [
+          "https://hoopsnightly.com/api/open?part=injury-wave",
+          "https://hoopsnightly.com/api/open?part=defense-vs-position",
+          "https://hoopsnightly.com/api/open?part=on-off",
+          "https://hoopsnightly.com/api/open?part=margin",
+          "https://hoopsnightly.com/api/open?part=rest-and-travel",
+          "https://hoopsnightly.com/api/open?part=injury-impact",
+          "https://hoopsnightly.com/api/open?part=ledger",
+          "https://hoopsnightly.com/api/open?part=milestones",
+          "https://hoopsnightly.com/api/open?part=simulator"
+        ]
+      }
+    }
+  }
+}
