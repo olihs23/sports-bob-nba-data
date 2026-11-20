@@ -1,16 +1,11 @@
 {
   "allDatePagesRetrieved": true,
-  "candidateGameIds": 214,
-  "checkedAtUtc": "2026-11-20T03:12:24+00:00",
-  "completedGamesStored": 222,
+  "candidateGameIds": 226,
+  "checkedAtUtc": "2026-11-20T03:39:11+00:00",
+  "completedGamesStored": 226,
   "failedGameIds": {},
-  "newGamesStored": 0,
-  "notFinalGameIds": [
-    "0022600270",
-    "0022600271",
-    "0022600272",
-    "0022600273"
-  ],
+  "newGamesStored": 4,
+  "notFinalGameIds": [],
   "officialDayPages": {
     "2026-10-20": {
       "candidateIds": 4,
@@ -45,7 +40,7 @@
       "status": "retrieved"
     },
     "2026-10-28": {
-      "candidateIds": 1,
+      "candidateIds": 13,
       "status": "retrieved"
     },
     "2026-10-29": {
@@ -137,8 +132,8 @@
       "status": "retrieved"
     }
   },
-  "participatingPlayers": 472,
-  "playerAppearances": 5000,
+  "participatingPlayers": 473,
+  "playerAppearances": 5089,
   "schema": 1,
   "scopeWarning": "Only final NBA 2026-27 regular-season games recovered from official dated NBA.com game pages and verified official NBA game boxscores. A source failure or incomplete page makes coverage incomplete. No calculated ratings, season stats, or ranks.",
   "searchedDates": {

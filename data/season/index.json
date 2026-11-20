@@ -3551,9 +3551,73 @@
       },
       "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600269.json",
       "timeUTC": "2026-11-19T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 98,
+        "team": "GSW",
+        "teamId": "1610612744"
+      },
+      "date": "2026-11-19",
+      "gameId": "0022600270",
+      "home": {
+        "score": 126,
+        "team": "MEM",
+        "teamId": "1610612763"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600270.json",
+      "timeUTC": "2026-11-20T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 124,
+        "team": "POR",
+        "teamId": "1610612757"
+      },
+      "date": "2026-11-19",
+      "gameId": "0022600271",
+      "home": {
+        "score": 114,
+        "team": "MIL",
+        "teamId": "1610612749"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600271.json",
+      "timeUTC": "2026-11-20T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 102,
+        "team": "NYK",
+        "teamId": "1610612752"
+      },
+      "date": "2026-11-19",
+      "gameId": "0022600272",
+      "home": {
+        "score": 99,
+        "team": "MIN",
+        "teamId": "1610612750"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600272.json",
+      "timeUTC": "2026-11-20T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 112,
+        "team": "LAC",
+        "teamId": "1610612746"
+      },
+      "date": "2026-11-19",
+      "gameId": "0022600273",
+      "home": {
+        "score": 124,
+        "team": "SAS",
+        "teamId": "1610612759"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600273.json",
+      "timeUTC": "2026-11-20T01:00:00Z"
     }
   ],
-  "generatedAtUtc": "2026-11-20T03:12:24+00:00",
+  "generatedAtUtc": "2026-11-20T03:39:11+00:00",
   "schema": 1,
   "scope": "verified final regular season NBA boxscores",
   "season": "2026-27",
