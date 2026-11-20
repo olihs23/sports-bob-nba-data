@@ -1,0 +1,75 @@
+{
+  "checkedAtUtc": "2026-11-20T02:50:46+00:00",
+  "sources": {
+    "pbp_player": {
+      "error": "HTTPError: HTTP Error 422: Unprocessable Entity"
+    },
+    "pbp_team": {
+      "error": "HTTPError: HTTP Error 422: Unprocessable Entity"
+    },
+    "pbp_single": {
+      "status": 200,
+      "contentType": "application/json",
+      "size": 111033,
+      "topKeys": [
+        "results",
+        "career_totals",
+        "header"
+      ],
+      "results_keys": [
+        "Playoffs",
+        "Regular Season",
+        "PlayIn"
+      ],
+      "results_sample": "[{'Season': '2020-21', 'SecondsPlayed': 6837.0, 'GamesPlayed': 7, 'Minutes': 114, 'PlusMinus': -56, 'OffPoss': 214, 'DefPoss': 210, 'PenaltyOffPoss': 56, 'PenaltyDefPoss': 60, 'SecondChanceOffPoss': 25, 'TotalPoss': 424, 'AtRimFGM': 7, 'AtRimFGA': 12, 'SecondChanceAtRimFGM': 2, 'SecondChanceAtRimFGA': 3, 'ShortMidRangeFGM': 4, 'ShortMidRangeFGA': 14, 'LongMidRangeFGM': 3, 'LongMidRangeFGA': 5, 'Co"
+    },
+    "hoopsnightly_open": {
+      "status": 200,
+      "contentType": "application/json",
+      "size": 662,
+      "topKeys": [
+        "license",
+        "licenseUrl",
+        "attribution",
+        "terms",
+        "parts"
+      ]
+    },
+    "hoopsnightly_open_teams": {
+      "status": 200,
+      "contentType": "application/json",
+      "size": 662,
+      "topKeys": [
+        "license",
+        "licenseUrl",
+        "attribution",
+        "terms",
+        "parts"
+      ]
+    },
+    "hoopsnightly_open_stats": {
+      "status": 200,
+      "contentType": "application/json",
+      "size": 662,
+      "topKeys": [
+        "license",
+        "licenseUrl",
+        "attribution",
+        "terms",
+        "parts"
+      ]
+    },
+    "pbp_docs": {
+      "status": 200,
+      "contentType": "application/json",
+      "size": 240013,
+      "topKeys": [
+        "openapi",
+        "info",
+        "paths",
+        "components",
+        "tags"
+      ]
+    }
+  }
+}
