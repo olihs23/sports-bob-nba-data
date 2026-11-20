@@ -1,16 +1,16 @@
 {
   "allDatePagesRetrieved": true,
   "candidateGameIds": 226,
-  "checkedAtUtc": "2026-11-19T23:55:14+00:00",
+  "checkedAtUtc": "2026-11-20T03:03:01+00:00",
   "completedGamesStored": 222,
-  "failedGameIds": {
-    "0022600270": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600271": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600272": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600273": "HTTPError: HTTP Error 403: Forbidden"
-  },
-  "newGamesStored": 222,
-  "notFinalGameIds": [],
+  "failedGameIds": {},
+  "newGamesStored": 0,
+  "notFinalGameIds": [
+    "0022600270",
+    "0022600271",
+    "0022600272",
+    "0022600273"
+  ],
   "officialDayPages": {
     "2026-10-20": {
       "candidateIds": 4,
