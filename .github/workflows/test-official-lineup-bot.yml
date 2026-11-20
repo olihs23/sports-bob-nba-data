@@ -14,15 +14,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install headless Chromium automation
         run: |
-          npm install --no-save --no-package-lock playwright@1.56.1
-          npx playwright install --with-deps chromium
+          mkdir -p /tmp/sportsbob-lineup-bot
+          cd /tmp/sportsbob-lineup-bot
+          npm init -y
+          npm install --no-audit --no-fund playwright@1.56.1
+          npx playwright install chromium --with-deps
       - name: Fetch one official NBA 2026-27 lineup including Jalen Brunson
         shell: bash
         run: |
           mkdir -p data/diagnostics
           node <<'NODE'
           const fs = require('fs');
-          const { chromium } = require('playwright');
+          const { chromium } = require('/tmp/sportsbob-lineup-bot/node_modules/playwright');
           const path = 'data/diagnostics/official_fiveman_brunson_bot_test.json';
           const report = {
             schema: 1,
