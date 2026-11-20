@@ -1,0 +1,153 @@
+name: One-off NBA official 5-man lineup cloud-browser test
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/test-official-lineup-bot.yml"
+permissions:
+  contents: write
+jobs:
+  test-one-knicks-lineup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install headless Chromium automation
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Fetch one official NBA 2026-27 lineup including Jalen Brunson
+        shell: bash
+        run: |
+          mkdir -p data/diagnostics
+          node <<'NODE'
+          const fs = require('fs');
+          const { chromium } = require('playwright');
+          const path = 'data/diagnostics/official_fiveman_brunson_bot_test.json';
+          const report = {
+            schema: 1,
+            checkedAtUtc: new Date().toISOString(),
+            purpose: 'Single NBA.com official lineup retrieval diagnostic; not a production data update',
+            provider: 'NBA.com ONLY (no third-party alternatives)',
+            season: '2026-27', seasonType: 'Regular Season',
+            player: { name: 'Jalen Brunson', id: 1628973 },
+            team: { name: 'New York Knicks', id: 1610612752 },
+            outcome: 'not_verified',
+            attempts: [], lineup: null
+          };
+          const params = new URLSearchParams({
+            Season: '2026-27', SeasonType: 'Regular Season', GroupQuantity: '5',
+            MeasureType: 'Advanced', PerMode: 'Totals', TeamID: '1610612752',
+            LeagueID: '00', PaceAdjust: 'N', PlusMinus: 'N', Rank: 'N',
+            LastNGames: '0', Month: '0', OpponentTeamID: '0', Period: '0',
+            PORound: '0', Location: '', Outcome: '', DateFrom: '', DateTo: '',
+            SeasonSegment: '', GameSegment: '', ShotClockRange: '',
+            VsConference: '', VsDivision: '', Conference: '', Division: ''
+          });
+          function parseOfficial(data, url) {
+            const sets = data.resultSets || (data.resultSet ? [data.resultSet] : []);
+            if(!Array.isArray(sets)) throw new Error('No NBA result sets');
+            for(const set of sets) {
+              const headers=set.headers || [], index=Object.fromEntries(headers.map((h,i)=>[h,i]));
+              const needed=['GROUP_ID','GROUP_NAME','TEAM_ID','MIN','GP','OFF_RATING','DEF_RATING','NET_RATING'];
+              if(needed.some(x=>index[x]===undefined)) continue;
+              for(const row of set.rowSet || []) {
+                if(String(row[index.TEAM_ID])!=='1610612752') continue;
+                const memberIds=String(row[index.GROUP_ID]).match(/\d+/g) || [];
+                if(memberIds.length!==5 || !memberIds.includes('1628973')) continue;
+                const [off,def,net]=['OFF_RATING','DEF_RATING','NET_RATING'].map(k=>row[index[k]]);
+                if(![off,def,net].every(Number.isFinite) || Math.abs(off-def-net)>0.12)continue;
+                return {
+                  groupId: row[index.GROUP_ID],
+                  groupName: row[index.GROUP_NAME],
+                  members: memberIds,
+                  gamesPlayed: row[index.GP],
+                  minutesTogether: row[index.MIN],
+                  offRating: off, defRating: def, netRating: net,
+                  sourceUrl: url, officialFields: ['OFF_RATING','DEF_RATING','NET_RATING'],
+                  groupQuantity: 5, season: '2026-27'
+                };
+              }
+            }
+            throw new Error('No five-man Knicks row including Brunson with verified ratings');
+          }
+          let browser;
+          try {
+            browser = await chromium.launch({headless:true,args:['--no-sandbox']});
+            const context = await browser.newContext({
+              userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+              locale:'en-US'
+            });
+            const page = await context.newPage();
+            page.setDefaultTimeout(12000);
+            let responses=[];
+            page.on('response',res=>{
+              if(res.url().includes('/stats/leaguedashlineups?'))responses.push(res);
+            });
+            const pageUrl='https://www.nba.com/stats/lineups/advanced?Season=2026-27&SeasonType=Regular%20Season&TeamID=1610612752';
+            const webpage={name:'nba_browser_lineup_page',url:pageUrl,status:'failed'};
+            try{
+              const resp=await page.goto(pageUrl,{waitUntil:'domcontentloaded',timeout:25000});
+              webpage.status='loaded'; webpage.httpStatus=resp?.status();
+              await page.waitForTimeout(15000);
+              webpage.capturedOfficialApiResponses=responses.length;
+            }catch(e){webpage.error=String(e).slice(0,250);}
+            report.attempts.push(webpage);
+            for(const res of responses){
+              const one={name:'nba_page_network_api',url:res.url(),httpStatus:res.status(),status:'failed'};
+              try{
+                const data=await res.json();
+                const found=parseOfficial(data,res.url());
+                report.lineup=found;report.outcome='verified_official_nba_five_man';
+                one.status='verified';
+              }catch(e){one.error=String(e).slice(0,220);}
+              report.attempts.push(one);
+              if(report.lineup)break;
+            }
+            if(!report.lineup){
+              const url='https://stats.nba.com/stats/leaguedashlineups?'+params.toString();
+              const attempt={name:'nba_browser_direct_api',url,status:'failed'};
+              try{
+                const result=await page.evaluate(async u=>{
+                  const r=await fetch(u,{credentials:'same-origin',signal:AbortSignal.timeout(14000)});
+                  const t=await r.text();
+                  return {status:r.status,body:t};
+                },url);
+                attempt.httpStatus=result.status;
+                const found=parseOfficial(JSON.parse(result.body),url);
+                report.lineup=found;report.outcome='verified_official_nba_five_man';
+                attempt.status='verified';
+              }catch(e){attempt.error=String(e).slice(0,300);}
+              report.attempts.push(attempt);
+            }
+          }catch(e){report.error=String(e).slice(0,350);}
+          finally{
+            try{await browser?.close()}catch(_){}
+            fs.writeFileSync(path,JSON.stringify(report,null,2)+'\n');
+            console.log(JSON.stringify({
+              outcome:report.outcome,
+              lineup:report.lineup,
+              attempts:report.attempts.map(x=>({name:x.name,status:x.status,httpStatus:x.httpStatus,error:x.error}))
+            },null,2));
+          }
+          NODE
+      - name: Commit diagnostics only
+        if: always()
+        run: |
+          test -f data/diagnostics/official_fiveman_brunson_bot_test.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diagnostics/official_fiveman_brunson_bot_test.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record one-off NBA.com lineup cloud-browser test [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Save diagnostic artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-one-lineup-bot-test
+          path: data/diagnostics/official_fiveman_brunson_bot_test.json
+          if-no-files-found: warn
+          retention-days: 7
