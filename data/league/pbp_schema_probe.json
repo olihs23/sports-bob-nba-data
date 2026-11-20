@@ -1,5 +1,5 @@
 {
-  "checkedAtUtc": "2026-11-20T02:55:09.946824+00:00",
+  "checkedAtUtc": "2026-11-20T02:56:35.733615+00:00",
   "schema": {
     "/get-all-season-stats/{league}": {
       "summary": "Gets career stats by season for player/team/lineup",
@@ -152,130 +152,7 @@
   },
   "sample": {
     "single_brunson": {
-      "rootKeys": [
-        "results",
-        "career_totals",
-        "header"
-      ],
-      "rawType": "dict",
-      "recentSeasonRows": 1,
-      "recentSeasonKeys": [
-        "Season",
-        "SecondsPlayed",
-        "GamesPlayed",
-        "Minutes",
-        "PlusMinus",
-        "OffPoss",
-        "DefPoss",
-        "PenaltyOffPoss",
-        "PenaltyDefPoss",
-        "SecondChanceOffPoss",
-        "TotalPoss",
-        "AtRimFGM",
-        "AtRimFGA",
-        "SecondChanceAtRimFGM",
-        "SecondChanceAtRimFGA",
-        "PenaltyAtRimFGM",
-        "PenaltyAtRimFGA",
-        "ShortMidRangeFGM",
-        "ShortMidRangeFGA",
-        "LongMidRangeFGM",
-        "LongMidRangeFGA",
-        "Corner3FGM",
-        "Corner3FGA",
-        "SecondChanceCorner3FGM",
-        "SecondChanceCorner3FGA",
-        "PenaltyCorner3FGA",
-        "Arc3FGM",
-        "Arc3FGA",
-        "SecondChanceArc3FGM",
-        "SecondChanceArc3FGA",
-        "PenaltyArc3FGM",
-        "PenaltyArc3FGA",
-        "FG2M",
-        "FG2A",
-        "FG3M",
-        "FG3A",
-        "FtPoints",
-        "Points",
-        "OpponentPoints",
-        "SecondChanceFG2M",
-        "SecondChanceFG2A",
-        "SecondChanceFG3M",
-        "SecondChanceFG3A",
-        "SecondChanceFtPoints",
-        "SecondChancePoints",
-        "PenaltyFG2M",
-        "PenaltyFG2A",
-        "PenaltyFG3M",
-        "PenaltyFG3A",
-        "PenaltyFtPoints",
-        "PenaltyPoints",
-        "PtsAssisted2s",
-        "PtsUnassisted2s",
-        "PtsAssisted3s",
-        "PtsUnassisted3s",
-        "NonHeaveArc3FGA",
-        "NonHeaveArc3FGM",
-        "Fg2aBlocked",
-        "TwoPtAssists",
-        "ThreePtAssists",
-        "Assists",
-        "Arc3Assists",
-        "Corner3Assists",
-        "AtRimAssists",
-        "ShortMidRangeAssists",
-        "LongMidRangeAssists",
-        "AssistPoints",
-        "OffThreePtRebounds",
-        "OffTwoPtRebounds",
-        "DefThreePtRebounds",
-        "DefTwoPtRebounds",
-        "DefRebounds",
-        "OffRebounds",
-        "Rebounds",
-        "SelfOReb",
-        "Steals",
-        "BadPassSteals",
-        "LostBallSteals",
-        "LiveBallTurnovers",
-        "BadPassOutOfBoundsTurnovers",
-        "BadPassTurnovers",
-        "DeadBallTurnovers",
-        "LostBallOutOfBoundsTurnovers",
-        "LostBallTurnovers",
-        "Travels",
-        "Turnovers",
-        "SecondChanceTurnovers",
-        "PenaltyTurnovers",
-        "ShootingFouls",
-        "Fouls",
-        "Loose Ball Fouls",
-        "Offensive Fouls",
-        "FoulsDrawn",
-        "Charge Fouls Drawn",
-        "Loose Ball Fouls Drawn",
-        "Offensive Fouls Drawn",
-        "FTA",
-        "2pt And 1 Free Throw Trips",
-        "3pt And 1 Free Throw Trips",
-        "Technical Free Throw Trips"
-      ],
-      "ratingsCandidateFields": {
-        "OffPoss": 953,
-        "DefPoss": 947,
-        "PenaltyOffPoss": 320,
-        "PenaltyDefPoss": 278,
-        "SecondChanceOffPoss": 150,
-        "TotalPoss": 1900,
-        "Offensive Fouls": 1,
-        "Offensive Fouls Drawn": 5,
-        "PenaltyOffPossExcludingTakeFouls": 318,
-        "OnNetRtg": 4.7563909224579675,
-        "PenaltyOffPossPct": 0.3357817418677859,
-        "NetRtgDiff": -4.443015434469942,
-        "OffNetRtg": 9.199406356927895
-      }
+      "error": "TimeoutError: The read operation timed out"
     },
     "team_nyk": {
       "rootKeys": [
@@ -374,6 +251,12 @@
       }
     },
     "onoff_stat_points100": {
+      "error": "TimeoutError: The read operation timed out"
+    },
+    "onoff_stat_opp100": {
+      "error": "TimeoutError: The read operation timed out"
+    },
+    "onoff_stat_opponentpoints": {
       "rootKeys": [
         "results",
         "headers"
@@ -384,18 +267,84 @@
         "headers"
       ],
       "sample": {
-        "results": "[{'Name': 'Jaden Akins', 'On': '40.000', 'Off': '115.726', 'On-Off': '-75.726', 'MinutesOn': 2, 'MinutesOff': 675}, {'Name': 'OG Anunoby', 'On': '115.385', 'Off': '115.584', 'On-Off': '-0.200', 'MinutesOn': 474, 'MinutesOff': 203}, {'Name': 'Josh Hart', 'On': '111.646', 'Off': '118.986', 'On-Off': '-7.340', 'MinutesOn': 328, 'MinutesOff': 349}, {'Name': 'Karl-Anthony Towns', 'On': '119.235', 'Off': '107.160', 'On-Off': '12.075', 'MinutesOn': 459, 'MinutesOff': 218}, {'Name': 'Mikal Bridges', 'On': '107.606', 'Off': '124.359', 'On-Off': '-16.753', 'MinutesOn': 359, 'MinutesOff': 318}, {'Name': 'Jalen Brunson', 'On': '115.950', 'Off': '114.173', 'On-Off': '1.776', 'MinutesOn': 481, 'MinutesOff",
+        "results": "[]",
         "headers": "[{'field': 'Name', 'label': 'Player'}, {'field': 'MinutesOn', 'label': 'Minutes On', 'type': 'number'}, {'field': 'MinutesOff', 'label': 'Minutes Off', 'type': 'number'}, {'field': 'On', 'label': 'Stat Value with Player On'}, {'field': 'Off', 'label': 'Stat Value without Player Off'}, {'field': 'On-Off', 'label': 'Difference', 'type': 'decimal'}]"
       }
     },
-    "onoff_stat_opp100": {
-      "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
-    },
     "onoff_stat_net": {
-      "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+      "rootKeys": [
+        "results",
+        "headers"
+      ],
+      "rawType": "dict",
+      "keys": [
+        "results",
+        "headers"
+      ],
+      "sample": {
+        "results": "[{'Name': 'Jaden Akins', 'On': '-60.000', 'Off': '6.285', 'On-Off': '-66.285', 'MinutesOn': 2, 'MinutesOff': 675}, {'Name': 'OG Anunoby', 'On': '3.645', 'Off': '11.758', 'On-Off': '-8.113', 'MinutesOn': 474, 'MinutesOff': 203}, {'Name': 'Josh Hart', 'On': '3.505', 'Off': '8.366', 'On-Off': '-4.861', 'MinutesOn': 328, 'MinutesOff': 349}, {'Name': 'Karl-Anthony Towns', 'On': '10.023', 'Off': '-2.653', 'On-Off': '12.676', 'MinutesOn': 459, 'MinutesOff': 218}, {'Name': 'Mikal Bridges', 'On': '-4.282', 'Off': '17.844', 'On-Off': '-22.127', 'MinutesOn': 359, 'MinutesOff': 318}, {'Name': 'Jalen Brunson', 'On': '4.756', 'Off': '9.199', 'On-Off': '-4.443', 'MinutesOn': 481, 'MinutesOff': 196}, {'Name",
+        "headers": "[{'field': 'Name', 'label': 'Player'}, {'field': 'MinutesOn', 'label': 'Minutes On', 'type': 'number'}, {'field': 'MinutesOff', 'label': 'Minutes Off', 'type': 'number'}, {'field': 'On', 'label': 'Stat Value with Player On'}, {'field': 'Off', 'label': 'Stat Value without Player Off'}, {'field': 'On-Off', 'label': 'Difference', 'type': 'decimal'}]"
+      }
     },
     "onoff_player_brunson": {
-      "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+      "rootKeys": [
+        "results",
+        "headers",
+        "stat_options"
+      ],
+      "rawType": "dict",
+      "ratingFields": [
+        {
+          "id": "SecondsPerPossOff",
+          "text": "Seconds Per Possession - Offense"
+        },
+        {
+          "id": "SecondsPerPossDef",
+          "text": "Seconds Per Possession - Defense"
+        },
+        {
+          "id": "SecondChancePointsPct",
+          "text": "Second Chance Points%"
+        },
+        {
+          "id": "PenaltyPointsPct",
+          "text": "Penalty Points%"
+        },
+        {
+          "id": "PenaltyOffPossPct",
+          "text": "Penalty Possessions%"
+        },
+        {
+          "id": "PtsPer100Poss",
+          "text": "Pts per 100 Possessions"
+        },
+        {
+          "id": "AssistPointsPer100Poss",
+          "text": "Assist Points per 100 Possessions"
+        },
+        {
+          "id": "FTAPer100Poss",
+          "text": "FTA per 100 Possessions"
+        },
+        {
+          "id": "TurnoversPer100Poss",
+          "text": "TOs per 100 Possessions"
+        },
+        {
+          "id": "AssistsPer100Poss",
+          "text": "Assists per 100 Possessions"
+        }
+      ],
+      "keys": [
+        "results",
+        "headers",
+        "stat_options"
+      ],
+      "sample": {
+        "results": "{'Assisted2sPct': [{'Name': 'Andre Drummond', 'On': '0.571', 'Off': '0.500', 'On-Off': '0.071', 'MinutesOn': 139, 'MinutesOff': 42}, {'Name': 'Jordan Clarkson', 'On': '0.500', 'Off': '0.455', 'On-Off': '0.045', 'MinutesOn': 46, 'MinutesOff': 72}, {'Name': 'Karl-Anthony Towns', 'On': '0.549', 'Off': '0.759', 'On-Off': '-0.210', 'MinutesOn': 323, 'MinutesOff': 136}, {'Name': 'OG Anunoby', 'On': '0.810', 'Off': '0.867', 'On-Off': '-0.057', 'MinutesOn': 334, 'MinutesOff': 139}, {'Name': 'Josh Hart', 'On': '0.667', 'Off': '0.750', 'On-Off': '-0.083', 'MinutesOn': 295, 'MinutesOff': 33}, {'Name': 'Mikal Bridges', 'On': '0.727', 'Off': '0.750', 'On-Off': '-0.023', 'MinutesOn': 270, 'MinutesOff': 89",
+        "headers": "[{'field': 'Name', 'label': 'Player'}, {'field': 'MinutesOn', 'label': 'Minutes with Jalen Brunson', 'type': 'number'}, {'field': 'MinutesOff', 'label': 'Minutes without Jalen Brunson', 'type': 'number'}, {'field': 'On', 'label': 'Stat Value with Jalen Brunson'}, {'field': 'Off', 'label': 'Stat Value without Jalen Brunson'}, {'field': 'On-Off', 'label': 'Difference', 'type': 'decimal'}]",
+        "stat_options": "{'label': 'Stat', 'data': [{'id': 'Assisted2sPct', 'text': '2pt FGM Assist%'}, {'id': 'NonPutbacksAssisted2sPct', 'text': 'Non Putback 2pt FGM Assist%'}, {'id': 'Assisted3sPct', 'text': '3pt FGM Assist%'}, {'id': 'Fg3Pct', 'text': '3pt FG%'}, {'id': 'NonHeaveFg3Pct', 'text': 'Non-Heave 3pt FG%'}, {'id': 'Fg2Pct', 'text': '2pt FG%'}, {'id': 'EfgPct', 'text': 'eFG%'}, {'id': 'TsPct', 'text': 'TS%'}, {'id': 'FG3APct', 'text': '3PAr'}, {'id': 'FG3APctBlocked', 'text': '% of FG3A Blocked'}, {'id': 'FG2APctBlocked', 'text': '% of FG2A Blocked'}, {'id': 'Usage', 'text': 'Usage'}, {'id': 'LiveBallTurnoverPct', 'text': 'Live Ball TO%'}, {'id': 'DefFTReboundPct', 'text': 'DReb% - Missed FTs'}, {'id': "
+      }
     },
     "onoff_team_brunson": {
       "rootKeys": [
