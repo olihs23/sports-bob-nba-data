@@ -32,30 +32,30 @@ jobs:
           out=root/"ALL_TEAMS_FIVE_MAN_LINEUPS.csv"
           with out.open("w",newline="",encoding="utf-8-sig") as f:
             w=csv.DictWriter(f,fieldnames=cols);w.writeheader();w.writerows(rows)
-          readme=f"""# Sports Bob — NBA five-man lineup data (2026–27)
-
-## Coverage
-- **{mf['numberTeams']} NBA teams**; **{len(rows)} distinct five-player groups**.
-- **{mf['passedGames']} strictly audited games** out of {mf['indexedGames']} available saved official box scores; excluded {mf['failedGames']} games with unresolved on-court ambiguities.
-- Data assembled through {mf['checkedAtUtc']} UTC. Not full season coverage.
-
-## Source and labeling
-- Input data: NBA-operated official final game box scores and NBA-operated play-by-play events.
-- **Computed from NBA-owned records; not the NBA.com published lineup table.**
-- OFF rating is calculated: points for / counted NBA-PBP lineup offensive possessions × 100.
-- DEF rating is calculated: points against / counted NBA-PBP lineup defensive possessions × 100.
-- NET is OFF minus DEF. Because the possession accounting is reconstructed, these numbers may differ from published NBA.com advanced ratings.
-- Minutes, points, shot attempts, rebounds and turnovers are also allocated from published NBA events.
-- Every accepted game was checked against official player game plus/minus, and games failing that check were excluded.
-- **Do not represent these as official NBA-published advanced ratings or full-season lineups.**
-- No third-party statistics or estimated provider ratings were used.
-
-## Files
-- `ALL_TEAMS_FIVE_MAN_LINEUPS.csv`: Excel-friendly league table.
-- `manifest.json`: game-level failures, methodology and coverage.
-- `TEAM.json`: one file per team with full precision.
-- `SportsBob_2026-27_NBA_Five_Man_Data.zip`: portable bundle.
-"""
+          readme=__import__("textwrap").dedent(f"""# Sports Bob — NBA five-man lineup data (2026–27)
+          
+          ## Coverage
+          - **{mf['numberTeams']} NBA teams**; **{len(rows)} distinct five-player groups**.
+          - **{mf['passedGames']} strictly audited games** out of {mf['indexedGames']} available saved official box scores; excluded {mf['failedGames']} games with unresolved on-court ambiguities.
+          - Data assembled through {mf['checkedAtUtc']} UTC. Not full season coverage.
+          
+          ## Source and labeling
+          - Input data: NBA-operated official final game box scores and NBA-operated play-by-play events.
+          - **Computed from NBA-owned records; not the NBA.com published lineup table.**
+          - OFF rating is calculated: points for / counted NBA-PBP lineup offensive possessions × 100.
+          - DEF rating is calculated: points against / counted NBA-PBP lineup defensive possessions × 100.
+          - NET is OFF minus DEF. Because the possession accounting is reconstructed, these numbers may differ from published NBA.com advanced ratings.
+          - Minutes, points, shot attempts, rebounds and turnovers are also allocated from published NBA events.
+          - Every accepted game was checked against official player game plus/minus, and games failing that check were excluded.
+          - **Do not represent these as official NBA-published advanced ratings or full-season lineups.**
+          - No third-party statistics or estimated provider ratings were used.
+          
+          ## Files
+          - `ALL_TEAMS_FIVE_MAN_LINEUPS.csv`: Excel-friendly league table.
+          - `manifest.json`: game-level failures, methodology and coverage.
+          - `TEAM.json`: one file per team with full precision.
+          - `SportsBob_2026-27_NBA_Five_Man_Data.zip`: portable bundle.
+          """)
           (root/"README.md").write_text(readme,encoding="utf-8")
           bundle=root/"SportsBob_2026-27_NBA_Five_Man_Data.zip"
           with zipfile.ZipFile(bundle,"w",compression=zipfile.ZIP_DEFLATED,compresslevel=7) as z:
