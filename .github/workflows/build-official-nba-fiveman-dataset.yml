@@ -1,0 +1,46 @@
+name: One-off official NBA five-man dataset reconstruction
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/build-official-nba-fiveman-dataset.yml"
+permissions:
+  contents: write
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode audited one-off lineup extraction script
+        run: |
+          mkdir -p scripts
+          python3 - <<'PY'
+          import base64,zlib,pathlib
+          encoded=pathlib.Path('scripts/_oneoff_official_lineup_builder.zlib64').read_text().strip()
+          source=zlib.decompress(base64.b64decode(encoded))
+          pathlib.Path('scripts/_oneoff_official_lineup_builder.py').write_bytes(source)
+          print('Decoded lineup source',len(source),'bytes')
+          PY
+      - name: Extract all accessible games via official NBA liveData feeds
+        run: |
+          python3 -u scripts/_oneoff_official_lineup_builder.py
+      - name: Commit verified reconstructed lineup datasets
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/fiveman_official_nba_pbp_2026_27/
+          if ! git diff --cached --quiet; then
+            git commit -m "Save audited 2026-27 five-player lineup statistics derived only from NBA play-by-play [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Attach audit and team datasets
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-nba-derived-fiveman-data
+          path: data/league/fiveman_official_nba_pbp_2026_27/
+          if-no-files-found: warn
+          retention-days: 7
