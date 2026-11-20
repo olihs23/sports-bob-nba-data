@@ -24,6 +24,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+      - name: Guard against third-party rating reintroduction
+        run: |
+          test ! -e data/league/onoff_ratings.json
+          test ! -e data/league/team_advanced_estimates.json
+          test ! -e scripts/collect_onoff_ratings.py
+          test ! -e scripts/collect_team_ratings_csv.py
       - name: NBA.com official league team stats and rosters
         run: python3 scripts/collect_league_official.py --limit 30
       - name: NBA.com verified player profile latest-five logs
