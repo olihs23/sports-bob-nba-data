@@ -25,6 +25,7 @@ jobs:
       - name: Test Player Research and Matchups adapter
         run: |
           node <<'NODE'
+          (async () => {
           const fs = require('node:fs');
           const assert = require('node:assert/strict');
           require('./web/official-advanced-adapter.js');
@@ -66,4 +67,5 @@ jobs:
           assert.match(cards.renderPlayer(null, status), /unavailable/);
           assert.match(cards.renderPlayer({...brunson, playerName:'<img>'},status), /&lt;img&gt;/);
           console.log('PASS: NBA.com source, Player Research cards, Matchups cards, missing data, escaping and corruption rejection');
+          })().catch(err => { console.error(err); process.exitCode=1; });
           NODE
