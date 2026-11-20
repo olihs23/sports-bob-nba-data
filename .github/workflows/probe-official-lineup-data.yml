@@ -1,0 +1,106 @@
+name: Probe official NBA 5-player lineup evidence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/probe-official-lineup-data.yml"
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test official NBA box score, play-by-play, and 5-man endpoint
+        run: |
+          mkdir -p data/diagnostics
+          python3 <<'PY'
+          import json, urllib.request, urllib.error, datetime, os
+          base="https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData"
+          gid="0022600002"
+          url_map={
+            "nba_s3_boxscore":f"{base}/boxscore/boxscore_{gid}.json",
+            "nba_s3_playbyplay":f"{base}/playbyplay/playbyplay_{gid}.json",
+            "nba_cdn_playbyplay":f"https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_{gid}.json",
+            "nba_lineup_advanced":("https://stats.nba.com/stats/leaguedashlineups"
+              "?GroupQuantity=5&MeasureType=Advanced&PerMode=Totals"
+              "&Season=2026-27&SeasonType=Regular%20Season&TeamID=1610612752"
+              "&LeagueID=00&LastNGames=0&Month=0&OpponentTeamID=0"
+              "&PORound=0&PaceAdjust=N&PlusMinus=N&Rank=N&Period=0")
+          }
+          report={
+            "checkedAtUtc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "scope":"Read-only single New York Knicks game and NBA published lineup endpoint",
+            "season":"2026-27","gameId":gid,"originPolicy":"Official NBA-operated feeds only",
+            "sources":{},"fiveManOfficialRatingsVerified":False,
+            "noThirdPartyDataUsed":True
+          }
+          for name,url in url_map.items():
+            out={"url":url}
+            try:
+              req=urllib.request.Request(url,headers={
+                "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+                "Accept":"application/json, text/plain, */*",
+                "Referer":"https://www.nba.com/","Origin":"https://www.nba.com"
+              })
+              with urllib.request.urlopen(req,timeout=13) as r:
+                b=r.read(2000000)
+                out["httpStatus"]=r.status;out["responseBytes"]=len(b)
+              doc=json.loads(b)
+              out["validJson"]=True;out["topKeys"]=list(doc.keys())[:10]
+              if "boxscore" in name:
+                game=doc.get("game",{})
+                starters={}
+                for side in ("homeTeam","awayTeam"):
+                  team=game.get(side,{})
+                  starters[side]={
+                    "teamId":team.get("teamId"),
+                    "teamTricode":team.get("teamTricode"),
+                    "startingPlayers":[{"id":p.get("personId"),"name":p.get("name"),"position":p.get("position")}
+                                       for p in team.get("players",[]) if p.get("starter")=="1" or p.get("starter") is True]
+                  }
+                out["starters"]=starters
+                out["gameStatus"]=game.get("gameStatus")
+              elif "playbyplay" in name:
+                actions=doc.get("game",{}).get("actions",[])
+                subs=[x for x in actions if x.get("actionType")=="substitution"]
+                out["actions"]=len(actions);out["substitutions"]=len(subs)
+                out["sampleSubstitution"]=[{k:v for k,v in x.items() if k in
+                 ("period","clock","actionType","subType","personId","personIdsFilter","teamId","description","actionNumber")} for x in subs[:3]]
+                out["sampleActionKeys"]=list(actions[0].keys()) if actions else []
+                out["viableForLineupReconstruction"]=len(actions)>200 and len(subs)>0
+              elif name=="nba_lineup_advanced":
+                sets=doc.get("resultSets") or ([doc["resultSet"]] if "resultSet" in doc else [])
+                out["sets"]=len(sets)
+                for st in sets:
+                  headers=st.get("headers",[])
+                  required={"GROUP_ID","GROUP_NAME","GP","MIN","OFF_RATING","DEF_RATING","NET_RATING"}
+                  if required.issubset(set(headers)):
+                    out["advancedColumnsVerified"]=True
+                    out["numberLineups"]=len(st.get("rowSet",[]))
+                    report["fiveManOfficialRatingsVerified"]=len(st.get("rowSet",[]))>0
+                    if st.get("rowSet"):out["example"]=dict(zip(headers,st["rowSet"][0]))
+                    break
+              out["status"]="verified" if (
+               name!="nba_lineup_advanced" or report["fiveManOfficialRatingsVerified"]
+              ) else "empty_lineup_dataset"
+            except Exception as e:
+              out["status"]="unavailable";out["error"]=f"{type(e).__name__}: {str(e)[:250]}"
+            report["sources"][name]=out
+          path="data/diagnostics/official_lineup_sources_2026_27.json"
+          with open(path,"w") as f:json.dump(report,f,indent=2)
+          print(json.dumps(report,indent=2)[:9000])
+          PY
+      - name: Commit only diagnostic file
+        if: always()
+        run: |
+          test -f data/diagnostics/official_lineup_sources_2026_27.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diagnostics/official_lineup_sources_2026_27.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record one-off official NBA lineup data source audit [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
