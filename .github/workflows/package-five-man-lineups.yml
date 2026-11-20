@@ -1,0 +1,77 @@
+name: Package audited NBA 5-man lineup dataset
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/package-five-man-lineups.yml"
+permissions:
+  contents: write
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make complete CSV and ZIP of available verified lineups
+        run: |
+          python3 <<'PY'
+          import csv,json,pathlib,zipfile,datetime
+          root=pathlib.Path("data/league/fiveman_official_nba_pbp_2026_27")
+          mf=json.loads((root/"manifest.json").read_text())
+          cols=["team","teamId","players","playerIds","minutes","games","pointsFor","pointsAgainst","plusMinus","offensivePossessions","defensivePossessions","offRtgCalculated","defRtgCalculated","netRtgCalculated","fga","fgm","fg3a","fg3m","fta","ftm","tov","oreb","dreb"]
+          rows=[]
+          for team in sorted(mf["teams"]):
+            d=json.loads((root/(team+".json")).read_text())
+            if d["team"]!=team:raise RuntimeError("Wrong team file")
+            for rec in d["lineups"]:
+              if len(rec["playerIds"])!=5:raise RuntimeError("Not five players")
+              line={**rec,"team":team,"players":" / ".join(rec["players"]), "playerIds":"-".join(map(str,rec["playerIds"]))}
+              if rec["plusMinus"]!=rec["pointsFor"]-rec["pointsAgainst"]:raise RuntimeError("Plus minus mismatch")
+              rows.append({k:line.get(k,"") for k in cols})
+          if len(rows)!=mf["lineupGroups"]:raise RuntimeError("Group count does not match audited manifest")
+          out=root/"ALL_TEAMS_FIVE_MAN_LINEUPS.csv"
+          with out.open("w",newline="",encoding="utf-8-sig") as f:
+            w=csv.DictWriter(f,fieldnames=cols);w.writeheader();w.writerows(rows)
+          readme=f"""# Sports Bob — NBA five-man lineup data (2026–27)
+
+## Coverage
+- **{mf['numberTeams']} NBA teams**; **{len(rows)} distinct five-player groups**.
+- **{mf['passedGames']} strictly audited games** out of {mf['indexedGames']} available saved official box scores; excluded {mf['failedGames']} games with unresolved on-court ambiguities.
+- Data assembled through {mf['checkedAtUtc']} UTC. Not full season coverage.
+
+## Source and labeling
+- Input data: NBA-operated official final game box scores and NBA-operated play-by-play events.
+- **Computed from NBA-owned records; not the NBA.com published lineup table.**
+- OFF rating is calculated: points for / counted NBA-PBP lineup offensive possessions × 100.
+- DEF rating is calculated: points against / counted NBA-PBP lineup defensive possessions × 100.
+- NET is OFF minus DEF. Because the possession accounting is reconstructed, these numbers may differ from published NBA.com advanced ratings.
+- Minutes, points, shot attempts, rebounds and turnovers are also allocated from published NBA events.
+- Every accepted game was checked against official player game plus/minus, and games failing that check were excluded.
+- **Do not represent these as official NBA-published advanced ratings or full-season lineups.**
+- No third-party statistics or estimated provider ratings were used.
+
+## Files
+- `ALL_TEAMS_FIVE_MAN_LINEUPS.csv`: Excel-friendly league table.
+- `manifest.json`: game-level failures, methodology and coverage.
+- `TEAM.json`: one file per team with full precision.
+- `SportsBob_2026-27_NBA_Five_Man_Data.zip`: portable bundle.
+"""
+          (root/"README.md").write_text(readme,encoding="utf-8")
+          bundle=root/"SportsBob_2026-27_NBA_Five_Man_Data.zip"
+          with zipfile.ZipFile(bundle,"w",compression=zipfile.ZIP_DEFLATED,compresslevel=7) as z:
+            for p in sorted(root.glob("*.json")):
+              z.write(p,arcname=p.name)
+            for p in (root/"README.md",out):
+              z.write(p,arcname=p.name)
+          print(json.dumps({"teams":mf["numberTeams"],"lineups":len(rows),"games":mf["passedGames"],"csvBytes":out.stat().st_size,"zipBytes":bundle.stat().st_size}))
+          PY
+      - name: Commit packaged data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/fiveman_official_nba_pbp_2026_27/
+          if ! git diff --cached --quiet; then
+            git commit -m "Package NBA-only derived 5-man lineup dataset, 30 teams, with coverage warning [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
