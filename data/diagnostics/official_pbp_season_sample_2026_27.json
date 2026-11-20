@@ -1,0 +1,102 @@
+{
+  "checkedAtUtc": "2026-11-20T19:41:01.864283+00:00",
+  "season": "2026-27",
+  "scope": "10 games sampled across saved official season index",
+  "sourcePolicy": "NBA-operated play-by-play only",
+  "sampleSize": 10,
+  "verifiedGameFeeds": 10,
+  "allSamplesVerified": true,
+  "games": [
+    {
+      "gameId": "0022600001",
+      "date": "2026-10-20",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600001.json",
+      "httpStatus": 200,
+      "actions": 593,
+      "substitutions": 134,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600101",
+      "date": "2026-10-23",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600101.json",
+      "httpStatus": 200,
+      "actions": 677,
+      "substitutions": 186,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600126",
+      "date": "2026-10-26",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600126.json",
+      "httpStatus": 200,
+      "actions": 599,
+      "substitutions": 144,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600019",
+      "date": "2026-10-30",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600019.json",
+      "httpStatus": 200,
+      "actions": 591,
+      "substitutions": 170,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600166",
+      "date": "2026-11-02",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600166.json",
+      "httpStatus": 200,
+      "actions": 612,
+      "substitutions": 130,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600027",
+      "date": "2026-11-06",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600027.json",
+      "httpStatus": 200,
+      "actions": 594,
+      "substitutions": 116,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600207",
+      "date": "2026-11-09",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600207.json",
+      "httpStatus": 200,
+      "actions": 594,
+      "substitutions": 140,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600035",
+      "date": "2026-11-13",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600035.json",
+      "httpStatus": 200,
+      "actions": 587,
+      "substitutions": 136,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600248",
+      "date": "2026-11-16",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600248.json",
+      "httpStatus": 200,
+      "actions": 606,
+      "substitutions": 126,
+      "status": "verified"
+    },
+    {
+      "gameId": "0022600273",
+      "date": "2026-11-19",
+      "sourceUrl": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600273.json",
+      "httpStatus": 200,
+      "actions": 566,
+      "substitutions": 128,
+      "status": "verified"
+    }
+  ],
+  "publishedNbaFiveManRatingsNotInThisFeed": true
+}
