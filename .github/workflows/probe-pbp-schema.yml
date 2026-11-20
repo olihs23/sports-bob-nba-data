@@ -1,0 +1,28 @@
+name: Examine free PBP Stats API rating schema
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/probe_pbp_schema.py"
+      - ".github/workflows/probe-pbp-schema.yml"
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect documented API and player/team response
+        run: python3 scripts/probe_pbp_schema.py
+      - name: Record documented API result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league/pbp_schema_probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Inspect documented PBP ratings source [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
