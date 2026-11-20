@@ -1,0 +1,176 @@
+{
+  "checkedAtUtc": "2026-11-20T19:39:13.431599+00:00",
+  "scope": "Read-only single New York Knicks game and NBA published lineup endpoint",
+  "season": "2026-27",
+  "gameId": "0022600002",
+  "originPolicy": "Official NBA-operated feeds only",
+  "sources": {
+    "nba_s3_boxscore": {
+      "url": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600002.json",
+      "httpStatus": 200,
+      "responseBytes": 32853,
+      "validJson": true,
+      "topKeys": [
+        "meta",
+        "game"
+      ],
+      "starters": {
+        "homeTeam": {
+          "teamId": 1610612752,
+          "teamTricode": "NYK",
+          "startingPlayers": [
+            {
+              "id": 1628384,
+              "name": "OG Anunoby",
+              "position": "SF"
+            },
+            {
+              "id": 1628404,
+              "name": "Josh Hart",
+              "position": "PF"
+            },
+            {
+              "id": 1626157,
+              "name": "Karl-Anthony Towns",
+              "position": "C"
+            },
+            {
+              "id": 1628969,
+              "name": "Mikal Bridges",
+              "position": "SG"
+            },
+            {
+              "id": 1628973,
+              "name": "Jalen Brunson",
+              "position": "PG"
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612755,
+          "teamTricode": "PHI",
+          "startingPlayers": [
+            {
+              "id": 1627759,
+              "name": "Jaylen Brown",
+              "position": "SF"
+            },
+            {
+              "id": 2544,
+              "name": "LeBron James",
+              "position": "PF"
+            },
+            {
+              "id": 203954,
+              "name": "Joel Embiid",
+              "position": "C"
+            },
+            {
+              "id": 1642845,
+              "name": "VJ Edgecombe",
+              "position": "SG"
+            },
+            {
+              "id": 1630178,
+              "name": "Tyrese Maxey",
+              "position": "PG"
+            }
+          ]
+        }
+      },
+      "gameStatus": 3,
+      "status": "verified"
+    },
+    "nba_s3_playbyplay": {
+      "url": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_0022600002.json",
+      "httpStatus": 200,
+      "responseBytes": 439313,
+      "validJson": true,
+      "topKeys": [
+        "meta",
+        "game"
+      ],
+      "actions": 628,
+      "substitutions": 130,
+      "sampleSubstitution": [
+        {
+          "actionNumber": 46,
+          "clock": "PT08M46.00S",
+          "period": 1,
+          "teamId": 1610612752,
+          "actionType": "substitution",
+          "subType": "out",
+          "personId": 1626157,
+          "description": "SUB out: K. Towns",
+          "personIdsFilter": [
+            1626157
+          ]
+        },
+        {
+          "actionNumber": 45,
+          "clock": "PT08M46.00S",
+          "period": 1,
+          "teamId": 1610612752,
+          "actionType": "substitution",
+          "subType": "in",
+          "personId": 203083,
+          "description": "SUB in: A. Drummond",
+          "personIdsFilter": [
+            203083
+          ]
+        },
+        {
+          "actionNumber": 93,
+          "clock": "PT06M12.00S",
+          "period": 1,
+          "teamId": 1610612755,
+          "actionType": "substitution",
+          "subType": "out",
+          "personId": 1627759,
+          "description": "SUB out: J. Brown",
+          "personIdsFilter": [
+            1627759
+          ]
+        }
+      ],
+      "sampleActionKeys": [
+        "actionNumber",
+        "clock",
+        "timeActual",
+        "period",
+        "periodType",
+        "teamId",
+        "actionType",
+        "subType",
+        "qualifiers",
+        "x",
+        "y",
+        "possession",
+        "side",
+        "edited",
+        "isTargetScoreLastPeriod",
+        "orderNumber",
+        "scoreHome",
+        "scoreAway",
+        "xLegacy",
+        "yLegacy",
+        "isFieldGoal",
+        "description"
+      ],
+      "viableForLineupReconstruction": true,
+      "status": "verified"
+    },
+    "nba_cdn_playbyplay": {
+      "url": "https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_0022600002.json",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    "nba_lineup_advanced": {
+      "url": "https://stats.nba.com/stats/leaguedashlineups?GroupQuantity=5&MeasureType=Advanced&PerMode=Totals&Season=2026-27&SeasonType=Regular%20Season&TeamID=1610612752&LeagueID=00&LastNGames=0&Month=0&OpponentTeamID=0&PORound=0&PaceAdjust=N&PlusMinus=N&Rank=N&Period=0",
+      "status": "unavailable",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  },
+  "fiveManOfficialRatingsVerified": false,
+  "noThirdPartyDataUsed": true
+}
