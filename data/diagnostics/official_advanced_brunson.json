@@ -24,7 +24,7 @@
       "contentType": "text/html; charset=utf-8",
       "method": "nba_player_page",
       "note": "HTML alone is not accepted as proof of an official season rating.",
-      "responseSeconds": 0.95,
+      "responseSeconds": 0.52,
       "status": "html_loaded_no_verified_ratings",
       "url": "https://www.nba.com/stats/player/1628973/advanced?Season=2026-27"
     },
@@ -34,12 +34,12 @@
       "contentType": "text/html; charset=utf-8",
       "method": "nba_league_page",
       "note": "HTML alone is not accepted as proof of an official season rating.",
-      "responseSeconds": 0.51,
+      "responseSeconds": 0.3,
       "status": "html_loaded_no_verified_ratings",
       "url": "https://www.nba.com/stats/players/advanced?Season=2026-27"
     }
   ],
-  "checkedAtUtc": "2026-11-20T03:41:39+00:00",
+  "checkedAtUtc": "2026-11-20T04:57:18+00:00",
   "playerId": 1628973,
   "playerName": "Jalen Brunson",
   "schema": 1,
