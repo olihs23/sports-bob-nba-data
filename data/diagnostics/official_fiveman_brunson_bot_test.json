@@ -1,0 +1,30 @@
+{
+  "checkedAtUtc": "2026-11-20T17:37:57.567773+00:00",
+  "scope": "ONE official NBA five-man lineup including Jalen Brunson, 2026-27 regular season",
+  "officialSource": "https://www.nba.com/stats/lineups/advanced?Season=2026-27&SeasonType=Regular%20Season&TeamID=1610612752",
+  "bot": "GitHub Actions preinstalled Chrome headless",
+  "result": "not_verified",
+  "sourceHost": "nba.com",
+  "season": "2026-27",
+  "playerId": 1628973,
+  "teamId": 1610612752,
+  "attempts": [
+    {
+      "name": "official_nba_chrome_page",
+      "status": "response_captured",
+      "exitCode": 0,
+      "htmlBytes": 309,
+      "stderrTail": "ties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files\n[2196:2196:1120/173758.387390:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: \n[2196:2221:1120/173758.387489:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are \"tcp\" and on UNIX \"unix\")\n[2196:2196:1120/173758.434809:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: \n[2196:2221:1120/173758.434931:ERROR:dbus/bus.cc:406] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are \"tcp\" and on UNIX \"unix\")\n[2196:2196:1120/173758.446518:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: \n"
+    },
+    {
+      "name": "nba_html_table_parse",
+      "status": "parsed",
+      "tableRows": 0,
+      "hasAdvancedHeaders": false
+    }
+  ],
+  "lineup": null,
+  "chromeExecutable": "/usr/bin/google-chrome",
+  "chromeVersion": "Google Chrome 157.0.8103.78",
+  "reason": "No verified 2026-27 lineup with official ratings found in Chrome-rendered table"
+}
