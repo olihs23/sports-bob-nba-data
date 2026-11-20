@@ -132,13 +132,43 @@ jobs:
             json.dump(report,f,indent=2)
           print(json.dumps({"sampleSize":len(results),"verifiedGameFeeds":verified,"results":results},indent=2)[:7000])
           PY
+      - name: Inspect one NBA PBP game for period and lineup reconstruction
+        run: |
+          python3 <<'PY'
+          import json,urllib.request
+          gid="0022600002"
+          url=f"https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_{gid}.json"
+          with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=20) as r:doc=json.load(r)
+          actions=doc["game"]["actions"]
+          out={
+           "gameId":gid,"length":len(actions),
+           "firstEvents":[{k:a.get(k) for k in ("actionNumber","orderNumber","period","clock","actionType","subType","description","personId","teamId","scoreHome","scoreAway","possession","isFieldGoal","shotResult")} for a in actions[:28]],
+           "periodOpeners":{},
+           "subsExamples":[],
+           "possessionSamples":[],
+           "actionTypes":{}
+          }
+          for idx,a in enumerate(actions):
+            label=a.get("actionType","?")
+            out["actionTypes"][label]=out["actionTypes"].get(label,0)+1
+            if a.get("actionType")=="substitution" and len(out["subsExamples"])<36:
+              out["subsExamples"].append({"i":idx,**{k:a.get(k) for k in ("actionNumber","orderNumber","period","clock","subType","description","personId","teamId","scoreHome","scoreAway")}})
+            if a.get("possession") is not None and len(out["possessionSamples"])<15:
+              out["possessionSamples"].append({"i":idx,"actionType":label,"possession":a.get("possession"),"description":a.get("description")})
+            if a.get("actionType")=="period" and a.get("subType")=="start":
+              out["periodOpeners"][a["period"]]=[
+                {"i":i,**{k:ac.get(k) for k in ("actionNumber","orderNumber","period","clock","actionType","subType","description","personId","teamId","scoreHome","scoreAway")}}
+                for i,ac in list(enumerate(actions))[idx:min(idx+12,len(actions))]]
+          with open("data/diagnostics/official_pbp_reconstruction_schema.json","w") as f:json.dump(out,f,indent=2)
+          print("PBP SAMPLE",len(actions),out["actionTypes"])
+          PY
       - name: Commit only diagnostic file
         if: always()
         run: |
           test -f data/diagnostics/official_lineup_sources_2026_27.json || exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/diagnostics/official_lineup_sources_2026_27.json data/diagnostics/official_pbp_season_sample_2026_27.json
+          git add data/diagnostics/official_lineup_sources_2026_27.json data/diagnostics/official_pbp_season_sample_2026_27.json data/diagnostics/official_pbp_reconstruction_schema.json
           if ! git diff --cached --quiet; then
             git commit -m "Record one-off official NBA lineup data source audit [skip ci]"
             git pull --rebase origin main
