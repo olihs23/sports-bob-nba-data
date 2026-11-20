@@ -92,13 +92,53 @@ jobs:
           with open(path,"w") as f:json.dump(report,f,indent=2)
           print(json.dumps(report,indent=2)[:9000])
           PY
+      - name: Sample official NBA play-by-play across the 2026-27 season
+        run: |
+          python3 <<'PY'
+          import json,urllib.request,datetime
+          with open("data/season/index.json") as f:idx=json.load(f)
+          games=idx.get("games",[])
+          positions=[0,25,50,75,100,125,150,175,200,len(games)-1]
+          chosen=[]
+          for pos in positions:
+            if pos<len(games):
+              game=games[pos]
+              if game.get("gameId") not in [x["gameId"] for x in chosen]:chosen.append(game)
+          results=[]
+          for g in chosen:
+            gid=g["gameId"]
+            url=f"https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/playbyplay/playbyplay_{gid}.json"
+            out={"gameId":gid,"date":g.get("date"),"sourceUrl":url}
+            try:
+              with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=15) as r:
+                raw=r.read(1200000)
+                out["httpStatus"]=r.status
+              doc=json.loads(raw)
+              actions=doc.get("game",{}).get("actions",[])
+              subs=[e for e in actions if e.get("actionType")=="substitution"]
+              out.update({"actions":len(actions),"substitutions":len(subs),
+                          "status":"verified" if len(actions)>150 and len(subs)>0 else "unverified_actions"})
+            except Exception as e:
+              out.update({"status":"unavailable","error":f"{type(e).__name__}: {str(e)[:200]}"})
+            results.append(out)
+          verified=sum(x["status"]=="verified" for x in results)
+          report={"checkedAtUtc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                  "season":"2026-27","scope":"10 games sampled across saved official season index",
+                  "sourcePolicy":"NBA-operated play-by-play only",
+                  "sampleSize":len(results),"verifiedGameFeeds":verified,
+                  "allSamplesVerified":verified==len(results),
+                  "games":results,"publishedNbaFiveManRatingsNotInThisFeed":True}
+          with open("data/diagnostics/official_pbp_season_sample_2026_27.json","w") as f:
+            json.dump(report,f,indent=2)
+          print(json.dumps({"sampleSize":len(results),"verifiedGameFeeds":verified,"results":results},indent=2)[:7000])
+          PY
       - name: Commit only diagnostic file
         if: always()
         run: |
           test -f data/diagnostics/official_lineup_sources_2026_27.json || exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/diagnostics/official_lineup_sources_2026_27.json
+          git add data/diagnostics/official_lineup_sources_2026_27.json data/diagnostics/official_pbp_season_sample_2026_27.json
           if ! git diff --cached --quiet; then
             git commit -m "Record one-off official NBA lineup data source audit [skip ci]"
             git pull --rebase origin main
