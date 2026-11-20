@@ -1,0 +1,247 @@
+{
+  "atUtc": "2026-11-20T02:49:17.545585+00:00",
+  "data": {
+    "junkie_teams": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_qualified": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_relaxed_1": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_relaxed_2": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_relaxed_6": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_relaxed_10": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_def_relaxed": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "junkie_players_net_relaxed": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "hoopsnightly_team": {
+      "status": "reachable",
+      "bytes": 222294,
+      "tables": [
+        {
+          "length": 31,
+          "topRows": [
+            [
+              "#",
+              "Team",
+              "W-L",
+              "Net",
+              "ORtg",
+              "DRtg",
+              "Pace",
+              "eFG%",
+              "TS%",
+              "REB%",
+              "TOV%",
+              "AST ratio",
+              "Pts"
+            ],
+            [
+              "1",
+              "San Antonio Spurs 1 \u00b7 SAS",
+              "12-3",
+              "+11.1",
+              "118.1",
+              "107.0",
+              "98.3",
+              "53.0",
+              "57.1",
+              "52.5",
+              "12.6",
+              "19.4",
+              "117.1"
+            ],
+            [
+              "2",
+              "Boston Celtics 2 \u00b7 BOS",
+              "11-4",
+              "+11.0",
+              "117.0",
+              "106.0",
+              "96.8",
+              "54.6",
+              "57.9",
+              "50.3",
+              "14.9",
+              "19.1",
+              "113.9"
+            ]
+          ],
+          "lastRow": [
+            [
+              "30",
+              "Sacramento Kings 30 \u00b7 SAC",
+              "1-13",
+              "-13.5",
+              "106.9",
+              "120.4",
+              "100.9",
+              "52.8",
+              "56.3",
+              "48.0",
+              "17.2",
+              "18.2",
+              "107.7"
+            ]
+          ]
+        }
+      ]
+    },
+    "basketball_reference_player": {
+      "status": "reachable",
+      "bytes": 1152498,
+      "tables": [
+        {
+          "length": 478,
+          "topRows": [
+            [
+              "Rk",
+              "Player",
+              "Age",
+              "Team",
+              "Pos",
+              "G",
+              "GS",
+              "MP",
+              "PER",
+              "TS%",
+              "3PAr",
+              "FTr",
+              "ORB%",
+              "DRB%",
+              "TRB%",
+              "AST%",
+              "STL%",
+              "BLK%",
+              "TOV%",
+              "USG%",
+              "OWS",
+              "DWS",
+              "WS",
+              "WS/48",
+              "OBPM",
+              "DBPM",
+              "BPM",
+              "VORP",
+              "Awards"
+            ],
+            [
+              "1",
+              "Trae Young",
+              "28",
+              "WAS",
+              "PG",
+              "16",
+              "16",
+              "560",
+              "15.9",
+              ".553",
+              ".505",
+              ".574",
+              "0.6",
+              "7.8",
+              "4.2",
+              "37.2",
+              "1.7",
+              "0.3",
+              "16.2",
+              "23.2",
+              "0.7",
+              "0.1",
+              "0.8",
+              ".071",
+              "0.8",
+              "-2.6",
+              "-1.8",
+              "0.0",
+              ""
+            ],
+            [
+              "2",
+              "Tyrese Maxey",
+              "26",
+              "PHI",
+              "PG",
+              "15",
+              "15",
+              "541",
+              "22.9",
+              ".637",
+              ".406",
+              ".395",
+              "0.6",
+              "9.4",
+              "5.0",
+              "26.8",
+              "1.7",
+              "1.4",
+              "8.8",
+              "27.2",
+              "1.7",
+              "0.6",
+              "2.3",
+              ".201",
+              "5.3",
+              "0.2",
+              "5.4",
+              "1.0",
+              ""
+            ]
+          ],
+          "lastRow": [
+            [
+              "",
+              "League Average",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ".575",
+              ".433",
+              ".282",
+              "5.5",
+              "14.5",
+              "10.0",
+              "16.7",
+              "1.7",
+              "2.0",
+              "12.9",
+              "19.9",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
