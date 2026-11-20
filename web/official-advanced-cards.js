@@ -23,6 +23,9 @@
     "@media(max-width:600px){.sba-card{padding:11px}.sba-versus{grid-template-columns:1fr}.sba-secondary{grid-template-columns:repeat(2,minmax(0,1fr))}}"
   ].join("\n");
   let pending = null;
+  const requestIds = new WeakMap();
+  function nextRequest(el) { const id=(requestIds.get(el)||0)+1;requestIds.set(el,id);return id; }
+  function isCurrent(el,id) { return requestIds.get(el)===id; }
   function esc(value) {
     return String(value ?? "").replace(/[&<>"']/g, x =>
       ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[x]);
@@ -85,25 +88,31 @@
   }
   async function mountPlayer(element,playerId) {
     const el=target(element);style();
+    const current=nextRequest(el);
     try{
       const a=await ensureData(),p=a.getPlayer(playerId);
+      if(!isCurrent(el,current)) return {stale:true,found:!!p,frozen:true};
       el.innerHTML=renderCard(p,a.getStatus(),false);
       return {found:!!p,playerId:String(playerId),frozen:true};
     }catch(e){
+      if(!isCurrent(el,current)) return {stale:true,found:false,frozen:true};
       el.innerHTML='<div class="sba-missing">Official NBA advanced stats unavailable: '+esc(e.message)+'</div>';
       return {found:false,error:String(e.message),frozen:true};
     }
   }
   async function mountMatchup(element,leftPlayerId,rightPlayerId) {
     const el=target(element);style();
+    const current=nextRequest(el);
     try{
       const a=await ensureData();
       const l=a.getPlayer(leftPlayerId),r=a.getPlayer(rightPlayerId);
+      if(!isCurrent(el,current)) return {stale:true,bothFound:!!(l&&r),frozen:true,advantage:null};
       el.innerHTML='<div class="sba-versus">'+renderCard(l,a.getStatus(),true)+
         renderCard(r,a.getStatus(),true)+'</div>'+
         '<p class="sba-meta">Descriptive ratings only. No matchup advantage or prop projection is inferred.</p>';
       return {bothFound:!!(l&&r),advantage:null,frozen:true};
     }catch(e){
+      if(!isCurrent(el,current)) return {stale:true,bothFound:false,frozen:true,advantage:null};
       el.innerHTML='<div class="sba-missing">Official NBA matchup stats unavailable: '+esc(e.message)+'</div>';
       return {bothFound:false,advantage:null,frozen:true,error:String(e.message)};
     }
