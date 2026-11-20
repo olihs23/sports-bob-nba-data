@@ -7,6 +7,7 @@ on:
     paths:
       - "data/league/official_player_advanced_2026_27.json"
       - "web/official-advanced-adapter.js"
+      - "web/official-advanced-cards.js"
       - "scripts/validate_official_advanced.py"
       - ".github/workflows/validate-official-advanced.yml"
 
@@ -27,6 +28,8 @@ jobs:
           const fs = require('node:fs');
           const assert = require('node:assert/strict');
           require('./web/official-advanced-adapter.js');
+          require('./web/official-advanced-cards.js');
+          const cards = globalThis.SportsBobOfficialAdvancedCards;
           const adapter = globalThis.SportsBobOfficialAdvanced;
           const data = JSON.parse(fs.readFileSync('data/league/official_player_advanced_2026_27.json','utf8'));
           const status = adapter.ingest(data);
@@ -45,5 +48,22 @@ jobs:
           bad.rows[0][bad.headerColumns.indexOf('OFF_RATING')] = 9999;
           assert.throws(() => adapter.ingest(bad));
           assert.equal(adapter.getPlayer(1628973).metrics.OFF_RATING, 113.7);
-          console.log('PASS: official NBA.com player lookup, matchup display, missing player and corrupted-data rejection');
+          const rendered = cards.renderPlayer(brunson, status);
+          assert.match(rendered, /113\.7/);
+          assert.match(rendered, /109\.2/);
+          assert.match(rendered, /\+4\.5/);
+          assert.match(rendered, /31\.6%/);
+          assert.match(rendered, /Frozen snapshot/);
+          const fakePlayerDiv = {innerHTML:''};
+          const mountPlayer = await cards.mountPlayer(fakePlayerDiv, 1628973);
+          assert.equal(mountPlayer.found, true);
+          assert.match(fakePlayerDiv.innerHTML, /113\.7/);
+          const fakeMatchupDiv = {innerHTML:''};
+          const mountMatchup = await cards.mountMatchup(fakeMatchupDiv, 1628973, 1630578);
+          assert.equal(mountMatchup.bothFound, true);
+          assert.equal(mountMatchup.advantage, null);
+          assert.match(fakeMatchupDiv.innerHTML, /Descriptive ratings only/);
+          assert.match(cards.renderPlayer(null, status), /unavailable/);
+          assert.match(cards.renderPlayer({...brunson, playerName:'<img>'},status), /&lt;img&gt;/);
+          console.log('PASS: NBA.com source, Player Research cards, Matchups cards, missing data, escaping and corruption rejection');
           NODE
