@@ -1,7 +1,7 @@
 {
   "allDatePagesRetrieved": true,
-  "candidateGameIds": 226,
-  "checkedAtUtc": "2026-11-20T03:03:01+00:00",
+  "candidateGameIds": 214,
+  "checkedAtUtc": "2026-11-20T03:12:24+00:00",
   "completedGamesStored": 222,
   "failedGameIds": {},
   "newGamesStored": 0,
@@ -45,7 +45,7 @@
       "status": "retrieved"
     },
     "2026-10-28": {
-      "candidateIds": 13,
+      "candidateIds": 1,
       "status": "retrieved"
     },
     "2026-10-29": {
