@@ -30,6 +30,13 @@ jobs:
         run: python3 scripts/collect_players_official.py --limit 6
       - name: NBA.com completed 2026-27 games and all participating player box scores
         run: python3 scripts/collect_season_boxscores.py --start 2026-10-20 --workers 4 --max-new 350
+      - name: Licensed independent player on-court net ratings (optional)
+        run: |
+          if python3 scripts/collect_onoff_ratings.py; then
+            echo "Attributed advanced on/off data updated."
+          else
+            echo "Licensed rating feed unavailable; preserve previous verified data."
+          fi
       - name: Save successful official records, retaining older records when source fails
         run: |
           git config user.name "github-actions[bot]"
