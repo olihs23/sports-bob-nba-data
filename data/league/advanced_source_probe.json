@@ -1,0 +1,274 @@
+{
+  "team_advanced": {
+    "http": 200,
+    "bytes": 293785,
+    "tables": [
+      {
+        "rows": 6,
+        "columns": [
+          "Sun",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ],
+        "sample": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "rows": 6,
+        "columns": [
+          "Sun",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ],
+        "sample": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "ratingTokens": 0,
+    "hasTableWithAll30Teams": false
+  },
+  "player_advanced": {
+    "http": 200,
+    "bytes": 371596,
+    "tables": [
+      {
+        "rows": 6,
+        "columns": [
+          "Sun",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ],
+        "sample": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "rows": 6,
+        "columns": [
+          "Sun",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ],
+        "sample": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "ratingTokens": 0,
+    "hasTableWithAll30Teams": false
+  },
+  "team_advanced_leaders": {
+    "http": 200,
+    "bytes": 293826,
+    "tables": [
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Houston Rockets",
+          "121.1"
+        ],
+        "sample": [
+          "2 .",
+          "Memphis Grizzlies",
+          "120.6"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Minnesota Timberwolves",
+          "104.0"
+        ],
+        "sample": [
+          "2 .",
+          "Boston Celtics",
+          "106.0"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "San Antonio Spurs",
+          "11.1"
+        ],
+        "sample": [
+          "2 .",
+          "Boston Celtics",
+          "11.0"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Atlanta Hawks",
+          "71.1"
+        ],
+        "sample": [
+          "2 .",
+          "Golden State Warriors",
+          "70.5"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Atlanta Hawks",
+          "20.2"
+        ],
+        "sample": [
+          "2 .",
+          "Miami Heat",
+          "20.0"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "San Antonio Spurs",
+          "2.2"
+        ],
+        "sample": [
+          "2 .",
+          "Philadelphia 76ers",
+          "2.1"
+        ]
+      }
+    ],
+    "ratingTokens": 39,
+    "hasTableWithAll30Teams": false
+  },
+  "player_advanced_leaders": {
+    "http": 200,
+    "bytes": 328515,
+    "tables": [
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Luke Kennard PHX",
+          "127.7"
+        ],
+        "sample": [
+          "2 .",
+          "Luka Don\u010di\u0107 LAL",
+          "125.7"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Alex Caruso OKC",
+          "92.4"
+        ],
+        "sample": [
+          "2 .",
+          "Victor Wembanyama SAS",
+          "95.1"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Victor Wembanyama SAS",
+          "28.1"
+        ],
+        "sample": [
+          "2 .",
+          "Alex Caruso OKC",
+          "26.1"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Luka Don\u010di\u0107 LAL",
+          "39.5"
+        ],
+        "sample": [
+          "2 .",
+          "Shai Gilgeous-Alexander OKC",
+          "35.7"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Isaiah Collier UTA",
+          "42.4"
+        ],
+        "sample": [
+          "2 .",
+          "Josh Giddey CHI",
+          "40.8"
+        ]
+      },
+      {
+        "rows": 10,
+        "columns": [
+          "1 .",
+          "Draymond Green GSW",
+          "52.8"
+        ],
+        "sample": [
+          "2 .",
+          "Jamal Shead TOR",
+          "39.0"
+        ]
+      }
+    ],
+    "ratingTokens": 39,
+    "hasTableWithAll30Teams": false
+  }
+}
