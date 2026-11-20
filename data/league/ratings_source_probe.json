@@ -1,0 +1,432 @@
+{
+  "checkedAtUtc": "2026-11-20T02:46:27+00:00",
+  "sources": {
+    "nba_api_hub_teams": {
+      "status": "unavailable",
+      "reason": "HTTPError: HTTP Error 461: Unknown"
+    },
+    "nba_api_hub_players": {
+      "status": "unavailable",
+      "reason": "HTTPError: HTTP Error 461: Unknown"
+    },
+    "nba_api_hub_team_players": {
+      "status": "unavailable",
+      "reason": "HTTPError: HTTP Error 461: Unknown"
+    },
+    "nba_offense_defense_30": {
+      "httpStatus": 200,
+      "bytes": 242985,
+      "contentType": "text/html; charset=utf-8",
+      "tables": [],
+      "maxRows": 0,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 1,
+        "OffRtg": 0,
+        "NetRtg": 0
+      },
+      "isNextData": true
+    },
+    "fox_teams": {
+      "httpStatus": 200,
+      "bytes": 1339441,
+      "contentType": "text/html;charset=utf-8",
+      "tables": [
+        {
+          "rows": 1,
+          "header": [
+            "TEAMS",
+            "GP",
+            "MIN",
+            "OFF RTG",
+            "DEF RTG",
+            "NET RTG",
+            "TS%",
+            "EFG%",
+            "FT%",
+            "3FG TEND",
+            "OFF REB%",
+            "DEF REB%",
+            "REB%",
+            "TO%"
+          ],
+          "example": []
+        },
+        {
+          "rows": 30,
+          "header": [
+            "1",
+            "Philadelphia 76ers",
+            "16",
+            "3,840",
+            "-",
+            "-",
+            "-",
+            "57.7",
+            "53.4",
+            "79.3",
+            "39.5",
+            "22.9",
+            "75.0",
+            "48.8",
+            "-"
+          ],
+          "example": [
+            "2",
+            "Milwaukee Bucks",
+            "15",
+            "3,600",
+            "-",
+            "-"
+          ]
+        }
+      ],
+      "maxRows": 30,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 0,
+        "OffRtg": 0,
+        "NetRtg": 0
+      },
+      "isNextData": false
+    },
+    "fox_players": {
+      "httpStatus": 200,
+      "bytes": 233479,
+      "contentType": "text/html;charset=utf-8",
+      "tables": [
+        {
+          "rows": 1,
+          "header": [
+            "PLAYERS",
+            "GP",
+            "MIN",
+            "MPG",
+            "OFF RTG",
+            "DEF RTG",
+            "TS%",
+            "EFG%",
+            "FT%",
+            "3FG TEND",
+            "OFF REB%",
+            "DEF REB%",
+            "REB%",
+            "AST%",
+            "STL%",
+            "BLK%",
+            "TO%"
+          ],
+          "example": []
+        },
+        {
+          "rows": 4,
+          "header": [
+            "1",
+            "Dalton Knecht NYK",
+            "3",
+            "29",
+            "9.7",
+            "0.0",
+            "0.0",
+            "81.3",
+            "81.3",
+            "-",
+            "75.0",
+            "3.9",
+            "22.5",
+            "13.3",
+            "5.5",
+            "0.0",
+            "3.6",
+            "0.0"
+          ],
+          "example": [
+            "2",
+            "Nique Clifford OKC",
+            "13",
+            "134",
+            "10.3",
+            "0.0"
+          ]
+        }
+      ],
+      "maxRows": 4,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 0,
+        "OffRtg": 4,
+        "NetRtg": 2
+      },
+      "isNextData": false
+    },
+    "basketball_reference_teams": {
+      "httpStatus": 200,
+      "bytes": 767354,
+      "contentType": "text/html",
+      "tables": [
+        {
+          "rows": 16,
+          "header": [
+            "Eastern Conference",
+            "W",
+            "L",
+            "W/L%",
+            "GB",
+            "PS/G",
+            "PA/G",
+            "SRS"
+          ],
+          "example": [
+            "Philadelphia 76ers (1)",
+            "13",
+            "3",
+            ".813",
+            "\u2014",
+            "114.5"
+          ]
+        },
+        {
+          "rows": 16,
+          "header": [
+            "Western Conference",
+            "W",
+            "L",
+            "W/L%",
+            "GB",
+            "PS/G",
+            "PA/G",
+            "SRS"
+          ],
+          "example": [
+            "Los Angeles Lakers (1)",
+            "13",
+            "3",
+            ".813",
+            "\u2014",
+            "120.9"
+          ]
+        },
+        {
+          "rows": 19,
+          "header": [
+            "Eastern Conference",
+            "W",
+            "L",
+            "W/L%",
+            "GB",
+            "PS/G",
+            "PA/G",
+            "SRS"
+          ],
+          "example": [
+            "Atlantic Division"
+          ]
+        },
+        {
+          "rows": 19,
+          "header": [
+            "Western Conference",
+            "W",
+            "L",
+            "W/L%",
+            "GB",
+            "PS/G",
+            "PA/G",
+            "SRS"
+          ],
+          "example": [
+            "Northwest Division"
+          ]
+        },
+        {
+          "rows": 32,
+          "header": [
+            "Rk",
+            "Team",
+            "G",
+            "MP",
+            "FG",
+            "FGA",
+            "FG%",
+            "3P",
+            "3PA",
+            "3P%",
+            "2P",
+            "2PA",
+            "2P%",
+            "FT",
+            "FTA",
+            "FT%",
+            "ORB",
+            "DRB",
+            "TRB",
+            "AST",
+            "STL",
+            "BLK",
+            "TOV",
+            "PF"
+          ],
+          "example": [
+            "1",
+            "Memphis Grizzlies",
+            "15",
+            "241.7",
+            "42.8",
+            "89.0"
+          ]
+        }
+      ],
+      "maxRows": 33,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 0,
+        "OffRtg": 0,
+        "NetRtg": 0
+      },
+      "isNextData": false
+    },
+    "basketball_reference_players": {
+      "httpStatus": 200,
+      "bytes": 1152498,
+      "contentType": "text/html",
+      "tables": [
+        {
+          "rows": 478,
+          "header": [
+            "Rk",
+            "Player",
+            "Age",
+            "Team",
+            "Pos",
+            "G",
+            "GS",
+            "MP",
+            "PER",
+            "TS%",
+            "3PAr",
+            "FTr",
+            "ORB%",
+            "DRB%",
+            "TRB%",
+            "AST%",
+            "STL%",
+            "BLK%",
+            "TOV%",
+            "USG%",
+            "OWS",
+            "DWS",
+            "WS",
+            "WS/48"
+          ],
+          "example": [
+            "1",
+            "Trae Young",
+            "28",
+            "WAS",
+            "PG",
+            "16"
+          ]
+        }
+      ],
+      "maxRows": 478,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 0,
+        "OffRtg": 0,
+        "NetRtg": 0
+      },
+      "isNextData": false
+    },
+    "hoopsnightly_teams": {
+      "httpStatus": 200,
+      "bytes": 222294,
+      "contentType": "text/html; charset=utf-8",
+      "tables": [
+        {
+          "rows": 31,
+          "header": [
+            "#",
+            "Team",
+            "W-L",
+            "Net",
+            "ORtg",
+            "DRtg",
+            "Pace",
+            "eFG%",
+            "TS%",
+            "REB%",
+            "TOV%",
+            "AST ratio",
+            "Pts"
+          ],
+          "example": [
+            "1",
+            "San Antonio Spurs 1 \u00b7 SAS",
+            "12-3",
+            "+11.1",
+            "118.1",
+            "107.0"
+          ]
+        }
+      ],
+      "maxRows": 31,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 0,
+        "OffRtg": 0,
+        "NetRtg": 0
+      },
+      "isNextData": false
+    },
+    "newstat_players": {
+      "httpStatus": 200,
+      "bytes": 453009,
+      "contentType": "text/html; charset=utf-8",
+      "tables": [
+        {
+          "rows": 0,
+          "header": [],
+          "example": []
+        },
+        {
+          "rows": 0,
+          "header": [],
+          "example": []
+        },
+        {
+          "rows": 0,
+          "header": [],
+          "example": []
+        },
+        {
+          "rows": 0,
+          "header": [],
+          "example": []
+        }
+      ],
+      "maxRows": 0,
+      "advancedTokens": {
+        "OFF_RATING": 0,
+        "DEF_RATING": 0,
+        "NET_RATING": 0,
+        "OffRtg": 0,
+        "NetRtg": 0
+      },
+      "isNextData": false
+    },
+    "nba_stats_team_api": {
+      "status": "unavailable",
+      "reason": "TimeoutError: The read operation timed out"
+    },
+    "nba_stats_player_api": {
+      "status": "unavailable",
+      "reason": "TimeoutError: The read operation timed out"
+    }
+  }
+}
