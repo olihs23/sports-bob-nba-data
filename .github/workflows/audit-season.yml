@@ -1,0 +1,28 @@
+name: Audit full official NBA game/boxscore coverage
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/audit_season_boxscores.py"
+      - ".github/workflows/audit-season.yml"
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify all stored final games against all player rows
+        run: python3 scripts/audit_season_boxscores.py
+      - name: Save verified audit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/season/integrity_audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit source-backed NBA season box scores [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
