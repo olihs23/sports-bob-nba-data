@@ -28,6 +28,7 @@ api_urls={
  "onoff_stat_defrating":"https://api.pbpstats.com/get-on-off/nba/stat?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","Stat":"DefRtg"}),
  "onoff_stat_points100":"https://api.pbpstats.com/get-on-off/nba/stat?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","Stat":"PtsPer100Poss"}),
  "onoff_stat_opp100":"https://api.pbpstats.com/get-on-off/nba/stat?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","Stat":"OppPtsPer100Poss"}),
+ "onoff_stat_opponentpoints":"https://api.pbpstats.com/get-on-off/nba/stat?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","Stat":"OpponentPtsPer100Poss"}),
  "onoff_stat_net":"https://api.pbpstats.com/get-on-off/nba/stat?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","Stat":"OnNetRtg"}),
  "onoff_player_brunson":"https://api.pbpstats.com/get-on-off/nba/player?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","PlayerId":"1628973"}),
  "onoff_team_brunson":"https://api.pbpstats.com/get-on-off/nba/team?"+urlencode({"Season":"2026-27","SeasonType":"Regular Season","TeamId":"1610612752","PlayerId":"1628973"})
@@ -38,6 +39,10 @@ for key,url in api_urls.items():
   r={"rootKeys":list(data)[:20] if isinstance(data,dict) else [],
      "rawType":type(data).__name__}
   if key in ("hoopsnightly_open","hoopsnightly_onoff"):r["payload"]=str(data)[:1000]
+  if key=="onoff_player_brunson":
+   options=data.get("stat_options",{})
+   r["ratingFields"]=[v for v in options.get("data",[]) if any(w in str(v).lower() for w in ("per100","rating","rtg","opp","points","poss"))]
+
   if key=="single_brunson":
    reg=data.get("results",{}).get("Regular Season",[])
    latest=[x for x in reg if x.get("Season")=="2026-27"]
@@ -48,7 +53,7 @@ for key,url in api_urls.items():
    reg=data.get("results",{}).get("Regular Season",[])
    latest=[x for x in reg if x.get("Season")=="2026-27"]
    r["currentRowRatingKeys"]={k:v for k,v in (latest[0].items() if latest else []) if any(word in k.lower() for word in ("rating","rtg","poss","point","net"))}
-  if key in ("onoff_nyk","onoff_stat_net","onoff_stat_offrating","onoff_stat_defrating","onoff_stat_points100","onoff_stat_opp100","onoff_player_brunson","onoff_team_brunson"):
+  if key in ("onoff_nyk","onoff_stat_net","onoff_stat_offrating","onoff_stat_defrating","onoff_stat_points100","onoff_stat_opp100","onoff_stat_opponentpoints","onoff_player_brunson","onoff_team_brunson"):
    r["keys"]=list(data)[:30]
    r["sample"]={k:(str(v)[:700] if isinstance(v,(dict,list)) else str(v)[:120]) for k,v in list(data.items())[:6]}
   out["sample"][key]=r
