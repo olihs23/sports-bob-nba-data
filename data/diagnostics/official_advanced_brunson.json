@@ -1,0 +1,51 @@
+{
+  "attempts": [
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "method": "league_advanced",
+      "status": "failed",
+      "url": "https://stats.nba.com/stats/leaguedashplayerstats?LeagueID=00&Season=2026-27&SeasonType=Regular+Season&MeasureType=Advanced&PerMode=Totals&LastNGames=0&Month=0&OpponentTeamID=0&Period=0&PaceAdjust=N&PlusMinus=N&Rank=N&DateFrom=&DateTo=&GameSegment=&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=&TeamID=0&TwoWay=&PlayerExperience=&PlayerPosition=&College=&Conference=&Country=&Division=&DraftPick=&DraftYear=&GameScope=&Height=&Weight=&ShotClockRange=&StarterBench=&PORound="
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "method": "player_dashboard",
+      "status": "failed",
+      "url": "https://stats.nba.com/stats/playerdashboardbygeneralsplits?LeagueID=00&Season=2026-27&SeasonType=Regular+Season&MeasureType=Advanced&PerMode=Totals&LastNGames=0&Month=0&OpponentTeamID=0&Period=0&PaceAdjust=N&PlusMinus=N&Rank=N&DateFrom=&DateTo=&GameSegment=&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=&PlayerID=1628973"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "method": "year_over_year",
+      "status": "failed",
+      "url": "https://stats.nba.com/stats/playerdashboardbyyearoveryear?LeagueID=00&Season=2026-27&SeasonType=Regular+Season&MeasureType=Advanced&PerMode=Totals&LastNGames=0&Month=0&OpponentTeamID=0&Period=0&PaceAdjust=N&PlusMinus=N&Rank=N&DateFrom=&DateTo=&GameSegment=&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=&PlayerID=1628973"
+    },
+    {
+      "containsAdvancedText": true,
+      "containsOffRatingToken": false,
+      "contentType": "text/html; charset=utf-8",
+      "method": "nba_player_page",
+      "note": "HTML alone is not accepted as proof of an official season rating.",
+      "responseSeconds": 0.95,
+      "status": "html_loaded_no_verified_ratings",
+      "url": "https://www.nba.com/stats/player/1628973/advanced?Season=2026-27"
+    },
+    {
+      "containsAdvancedText": true,
+      "containsOffRatingToken": false,
+      "contentType": "text/html; charset=utf-8",
+      "method": "nba_league_page",
+      "note": "HTML alone is not accepted as proof of an official season rating.",
+      "responseSeconds": 0.51,
+      "status": "html_loaded_no_verified_ratings",
+      "url": "https://www.nba.com/stats/players/advanced?Season=2026-27"
+    }
+  ],
+  "checkedAtUtc": "2026-11-20T03:41:39+00:00",
+  "playerId": 1628973,
+  "playerName": "Jalen Brunson",
+  "schema": 1,
+  "scope": "One-player diagnostic; do not use as a production ratings data feed",
+  "season": "2026-27",
+  "seasonType": "Regular Season",
+  "status": "unavailable",
+  "verifiedSourceCount": 0
+}
