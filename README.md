@@ -16,7 +16,7 @@ Last documented NBA.com collection: **November 19, 2026**. Counts describe that 
 | Official player OFFRTG, DEFRTG, NETRTG | **473 player rows (frozen November 20 capture)** | NBA.com `leaguedashplayerstats` Advanced API via owner's Chrome Network response |
 | Official team OFFRTG, DEFRTG, NETRTG | **Not yet collected** | Awaiting verified NBA.com advanced source |
 
-**Advanced ratings are a frozen NBA.com browser capture, NOT a live or GitHub-collected refresh.** The original capture timestamp was not provided; November 20, 2026 is the import date. NBA `OFF_RATING`, `DEF_RATING`, `NET_RATING` are preserved as distinct published fields; `E_*` estimate fields remain in the unmodified raw column set but must never substitute for the published ratings. A player's ratings describe team performance with that player on court, not individual offensive/defensive skill.
+**Advanced ratings are a frozen NBA.com browser capture, NOT a live or GitHub-collected refresh.** The latest uploaded Chrome capture records **2026-11-20 06:42:29.498 UTC (01:42:29 EST)**; November 20 is the import date too. A capture timestamp does not make this dataset live. NBA `OFF_RATING`, `DEF_RATING`, `NET_RATING` are preserved as distinct published fields; `E_*` estimate fields remain in the unmodified raw column set but must never substitute for the published ratings. A player's ratings describe team performance with that player on court, not individual offensive/defensive skill.
 
 Four scheduled November 19 game sources returned HTTP 403 at collection time; they were not counted as final games. The source coverage manifest records failures.
 
@@ -40,10 +40,10 @@ The browser's **Check latest data** button downloads saved records; it does not 
 
 ## Official advanced player snapshot — integration and refresh
 
-- [Frozen official-source 473-player advanced JSON](data/league/official_player_advanced_2026_27.json) — 2026–27, Advanced, Regular Season, PerGame, all 79 original fields.
+- [Frozen official-source 473-player advanced JSON](data/league/official_player_advanced_2026_27.json) — 2026–27, Advanced, Regular Season, PerGame, all 79 original fields. Last confirmed Chrome capture: November 20, 2026 at 06:42 UTC.
 - [Research / Matchups JavaScript adapter](web/official-advanced-adapter.js) — checks the exact NBA source, accepts no third-party or substitute ratings, indexes players by NBA ID and teams, and returns descriptive comparisons without inventing matchup advantages.
 - [Validator](scripts/validate_official_advanced.py) — rejects wrong seasons, missing players, bad rows or invalid ratings. [Validation workflow](.github/workflows/validate-official-advanced.yml) runs on changes to the snapshot and adapter.
-- [Chrome browser collection Snippet](scripts/chrome_official_advanced_collector.js) — an **experimental, manually triggered** way to download a fresh validated dataset straight from NBA.com while viewing its advanced table. It has been offline-tested against the captured response; repeatable **live Chrome success has not yet been confirmed**.
+- [Chrome browser collection Snippet](scripts/chrome_official_advanced_collector.js) — an **experimental, manually triggered** way to download a fresh validated dataset straight from NBA.com while viewing its advanced table. Its generated JSON was received and independently validated on November 20, confirming **one successful live Chrome capture**. Reliable repeatability and unattended refresh have not yet been established.
 
 ### How to refresh using Chrome (no paid services)
 
