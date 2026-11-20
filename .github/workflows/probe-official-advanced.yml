@@ -1,0 +1,45 @@
+name: Probe NBA.com official advanced ratings (one player)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/probe-official-advanced.yml"
+      - "scripts/probe_official_advanced.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-bob-nba-collector-writes
+  cancel-in-progress: false
+
+jobs:
+  official-brunson-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe official NBA.com advanced data (not alternative providers)
+        run: python3 scripts/probe_official_advanced.py
+      - name: Save one-player diagnostic report, not research ratings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diagnostics/official_advanced_brunson.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save official NBA.com advanced one-player probe [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "No change in diagnostic."
+          fi
+      - name: Attach diagnostic even if repository write fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-nba-advanced-brunson
+          path: data/diagnostics/official_advanced_brunson.json
+          retention-days: 7
+          if-no-files-found: warn
