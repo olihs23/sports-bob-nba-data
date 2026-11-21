@@ -9,24 +9,24 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 1,
-          "value": 30.9
+          "value": 30.8
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 20,
-          "value": 115.8
+          "nbaRank": 18,
+          "value": 114.6
         },
         "pointsPerGame": {
-          "nbaRank": 6,
-          "value": 117.7
+          "nbaRank": 8,
+          "value": 117.3
         },
         "reboundsPerGame": {
-          "nbaRank": 9,
-          "value": 45.2
+          "nbaRank": 12,
+          "value": 44.7
         }
       },
       "team": "Atlanta Hawks",
       "teamId": "1610612737",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "BKN": {
       "abbreviation": "BKN",
@@ -37,11 +37,11 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 26,
-          "value": 24.4
+          "value": 24.3
         },
         "pointsAllowedPerGame": {
           "nbaRank": 25,
-          "value": 119.2
+          "value": 118.8
         },
         "pointsPerGame": {
           "nbaRank": 23,
@@ -54,7 +54,7 @@
       },
       "team": "Brooklyn Nets",
       "teamId": "1610612751",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "BOS": {
       "abbreviation": "BOS",
@@ -64,7 +64,7 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 13,
+          "nbaRank": 14,
           "value": 26.8
         },
         "pointsAllowedPerGame": {
@@ -76,13 +76,13 @@
           "value": 113.9
         },
         "reboundsPerGame": {
-          "nbaRank": 10,
+          "nbaRank": 9,
           "value": 45.0
         }
       },
       "team": "Boston Celtics",
       "teamId": "1610612738",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "CHA": {
       "abbreviation": "CHA",
@@ -96,21 +96,21 @@
           "value": 22.0
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 8,
-          "value": 110.4
+          "nbaRank": 7,
+          "value": 110.5
         },
         "pointsPerGame": {
           "nbaRank": 30,
-          "value": 100.1
+          "value": 99.9
         },
         "reboundsPerGame": {
-          "nbaRank": 4,
-          "value": 46.9
+          "nbaRank": 3,
+          "value": 47.0
         }
       },
       "team": "Charlotte Hornets",
       "teamId": "1610612766",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "CHI": {
       "abbreviation": "CHI",
@@ -120,25 +120,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 7,
-          "value": 27.8
+          "nbaRank": 8,
+          "value": 27.5
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 30,
-          "value": 124.6
+          "nbaRank": 29,
+          "value": 122.8
         },
         "pointsPerGame": {
-          "nbaRank": 9,
-          "value": 116.2
+          "nbaRank": 11,
+          "value": 114.7
         },
         "reboundsPerGame": {
           "nbaRank": 15,
-          "value": 43.9
+          "value": 43.8
         }
       },
       "team": "Chicago Bulls",
       "teamId": "1610612741",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "CLE": {
       "abbreviation": "CLE",
@@ -149,24 +149,24 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 11,
-          "value": 27.5
+          "value": 27.4
         },
         "pointsAllowedPerGame": {
           "nbaRank": 22,
-          "value": 116.3
+          "value": 116.5
         },
         "pointsPerGame": {
           "nbaRank": 4,
-          "value": 118.3
+          "value": 118.8
         },
         "reboundsPerGame": {
           "nbaRank": 7,
-          "value": 45.9
+          "value": 45.6
         }
       },
       "team": "Cleveland Cavaliers",
       "teamId": "1610612739",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "DAL": {
       "abbreviation": "DAL",
@@ -184,17 +184,17 @@
           "value": 113.2
         },
         "pointsPerGame": {
-          "nbaRank": 18,
+          "nbaRank": 19,
           "value": 112.3
         },
         "reboundsPerGame": {
-          "nbaRank": 17,
+          "nbaRank": 16,
           "value": 43.2
         }
       },
       "team": "Dallas Mavericks",
       "teamId": "1610612742",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "DEN": {
       "abbreviation": "DEN",
@@ -204,25 +204,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 16,
-          "value": 26.6
+          "nbaRank": 12,
+          "value": 27.3
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 13,
-          "value": 112.2
+          "nbaRank": 14,
+          "value": 113.1
         },
         "pointsPerGame": {
-          "nbaRank": 16,
-          "value": 113.2
+          "nbaRank": 12,
+          "value": 114.6
         },
         "reboundsPerGame": {
-          "nbaRank": 22,
-          "value": 42.0
+          "nbaRank": 24,
+          "value": 41.6
         }
       },
       "team": "Denver Nuggets",
       "teamId": "1610612743",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "DET": {
       "abbreviation": "DET",
@@ -232,25 +232,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 5,
-          "value": 28.0
+          "nbaRank": 10,
+          "value": 27.5
         },
         "pointsAllowedPerGame": {
           "nbaRank": 6,
-          "value": 108.9
+          "value": 108.7
         },
         "pointsPerGame": {
-          "nbaRank": 12,
-          "value": 115.4
+          "nbaRank": 14,
+          "value": 114.5
         },
         "reboundsPerGame": {
-          "nbaRank": 16,
-          "value": 43.9
+          "nbaRank": 17,
+          "value": 43.1
         }
       },
       "team": "Detroit Pistons",
       "teamId": "1610612765",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "GSW": {
       "abbreviation": "GSW",
@@ -260,7 +260,7 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 12,
+          "nbaRank": 13,
           "value": 27.1
         },
         "pointsAllowedPerGame": {
@@ -268,7 +268,7 @@
           "value": 113.6
         },
         "pointsPerGame": {
-          "nbaRank": 17,
+          "nbaRank": 18,
           "value": 112.7
         },
         "reboundsPerGame": {
@@ -278,7 +278,7 @@
       },
       "team": "Golden State Warriors",
       "teamId": "1610612744",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "HOU": {
       "abbreviation": "HOU",
@@ -288,25 +288,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 10,
-          "value": 27.6
+          "nbaRank": 7,
+          "value": 27.8
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 7,
-          "value": 109.2
+          "nbaRank": 8,
+          "value": 110.6
         },
         "pointsPerGame": {
           "nbaRank": 5,
-          "value": 117.9
+          "value": 118.2
         },
         "reboundsPerGame": {
           "nbaRank": 8,
-          "value": 45.7
+          "value": 45.3
         }
       },
       "team": "Houston Rockets",
       "teamId": "1610612745",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "IND": {
       "abbreviation": "IND",
@@ -316,25 +316,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 9,
-          "value": 27.6
+          "nbaRank": 5,
+          "value": 28.1
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 18,
-          "value": 114.8
+          "nbaRank": 20,
+          "value": 115.6
         },
         "pointsPerGame": {
-          "nbaRank": 22,
-          "value": 111.5
+          "nbaRank": 20,
+          "value": 112.0
         },
         "reboundsPerGame": {
-          "nbaRank": 26,
-          "value": 41.2
+          "nbaRank": 23,
+          "value": 41.8
         }
       },
       "team": "Indiana Pacers",
       "teamId": "1610612754",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "LAC": {
       "abbreviation": "LAC",
@@ -344,7 +344,7 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 18,
+          "nbaRank": 17,
           "value": 26.6
         },
         "pointsAllowedPerGame": {
@@ -362,7 +362,7 @@
       },
       "team": "LA Clippers",
       "teamId": "1610612746",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "LAL": {
       "abbreviation": "LAL",
@@ -372,25 +372,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 25,
-          "value": 24.4
+          "nbaRank": 24,
+          "value": 24.6
         },
         "pointsAllowedPerGame": {
           "nbaRank": 17,
-          "value": 114.4
+          "value": 113.8
         },
         "pointsPerGame": {
-          "nbaRank": 2,
-          "value": 120.9
+          "nbaRank": 3,
+          "value": 120.0
         },
         "reboundsPerGame": {
-          "nbaRank": 24,
-          "value": 41.4
+          "nbaRank": 26,
+          "value": 41.1
         }
       },
       "team": "Los Angeles Lakers",
       "teamId": "1610612747",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "MEM": {
       "abbreviation": "MEM",
@@ -404,7 +404,7 @@
           "value": 29.3
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 11,
+          "nbaRank": 12,
           "value": 111.9
         },
         "pointsPerGame": {
@@ -418,7 +418,7 @@
       },
       "team": "Memphis Grizzlies",
       "teamId": "1610612763",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "MIA": {
       "abbreviation": "MIA",
@@ -436,7 +436,7 @@
           "value": 119.9
         },
         "pointsPerGame": {
-          "nbaRank": 3,
+          "nbaRank": 2,
           "value": 120.5
         },
         "reboundsPerGame": {
@@ -446,7 +446,7 @@
       },
       "team": "Miami Heat",
       "teamId": "1610612748",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "MIL": {
       "abbreviation": "MIL",
@@ -456,11 +456,11 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 24,
+          "nbaRank": 25,
           "value": 24.6
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 27,
+          "nbaRank": 28,
           "value": 121.1
         },
         "pointsPerGame": {
@@ -468,13 +468,13 @@
           "value": 108.1
         },
         "reboundsPerGame": {
-          "nbaRank": 12,
+          "nbaRank": 13,
           "value": 44.4
         }
       },
       "team": "Milwaukee Bucks",
       "teamId": "1610612749",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "MIN": {
       "abbreviation": "MIN",
@@ -502,7 +502,7 @@
       },
       "team": "Minnesota Timberwolves",
       "teamId": "1610612750",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "NOP": {
       "abbreviation": "NOP",
@@ -513,24 +513,24 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 27,
-          "value": 24.3
+          "value": 24.2
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 29,
-          "value": 122.8
+          "nbaRank": 30,
+          "value": 123.0
         },
         "pointsPerGame": {
-          "nbaRank": 11,
-          "value": 115.4
+          "nbaRank": 9,
+          "value": 115.6
         },
         "reboundsPerGame": {
-          "nbaRank": 23,
-          "value": 41.8
+          "nbaRank": 22,
+          "value": 41.9
         }
       },
       "team": "New Orleans Pelicans",
       "teamId": "1610612740",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "NYK": {
       "abbreviation": "NYK",
@@ -540,7 +540,7 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 17,
+          "nbaRank": 16,
           "value": 26.6
         },
         "pointsAllowedPerGame": {
@@ -548,7 +548,7 @@
           "value": 103.5
         },
         "pointsPerGame": {
-          "nbaRank": 25,
+          "nbaRank": 26,
           "value": 109.5
         },
         "reboundsPerGame": {
@@ -558,7 +558,7 @@
       },
       "team": "New York Knicks",
       "teamId": "1610612752",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "OKC": {
       "abbreviation": "OKC",
@@ -569,24 +569,24 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 29,
-          "value": 23.2
+          "value": 23.4
         },
         "pointsAllowedPerGame": {
           "nbaRank": 5,
-          "value": 107.7
+          "value": 108.5
         },
         "pointsPerGame": {
-          "nbaRank": 19,
-          "value": 112.1
+          "nbaRank": 17,
+          "value": 113.0
         },
         "reboundsPerGame": {
           "nbaRank": 6,
-          "value": 45.9
+          "value": 45.8
         }
       },
       "team": "Oklahoma City Thunder",
       "teamId": "1610612760",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "ORL": {
       "abbreviation": "ORL",
@@ -596,25 +596,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 14,
-          "value": 26.7
+          "nbaRank": 18,
+          "value": 26.5
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 14,
-          "value": 112.8
+          "nbaRank": 13,
+          "value": 112.7
         },
         "pointsPerGame": {
-          "nbaRank": 26,
-          "value": 109.4
+          "nbaRank": 25,
+          "value": 109.6
         },
         "reboundsPerGame": {
           "nbaRank": 19,
-          "value": 42.7
+          "value": 42.6
         }
       },
       "team": "Orlando Magic",
       "teamId": "1610612753",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "PHI": {
       "abbreviation": "PHI",
@@ -628,7 +628,7 @@
           "value": 26.3
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 10,
+          "nbaRank": 11,
           "value": 111.6
         },
         "pointsPerGame": {
@@ -642,7 +642,7 @@
       },
       "team": "Philadelphia 76ers",
       "teamId": "1610612755",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "PHX": {
       "abbreviation": "PHX",
@@ -653,24 +653,24 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 8,
-          "value": 27.6
+          "value": 27.5
         },
         "pointsAllowedPerGame": {
           "nbaRank": 19,
-          "value": 115.7
+          "value": 114.7
         },
         "pointsPerGame": {
-          "nbaRank": 14,
-          "value": 114.1
+          "nbaRank": 15,
+          "value": 113.9
         },
         "reboundsPerGame": {
-          "nbaRank": 28,
-          "value": 40.2
+          "nbaRank": 27,
+          "value": 40.8
         }
       },
       "team": "Phoenix Suns",
       "teamId": "1610612756",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "POR": {
       "abbreviation": "POR",
@@ -680,7 +680,7 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 23,
+          "nbaRank": 22,
           "value": 24.9
         },
         "pointsAllowedPerGame": {
@@ -688,7 +688,7 @@
           "value": 111.2
         },
         "pointsPerGame": {
-          "nbaRank": 8,
+          "nbaRank": 7,
           "value": 117.5
         },
         "reboundsPerGame": {
@@ -698,7 +698,7 @@
       },
       "team": "Portland Trail Blazers",
       "teamId": "1610612757",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "SAC": {
       "abbreviation": "SAC",
@@ -709,24 +709,24 @@
       "stats": {
         "assistsPerGame": {
           "nbaRank": 20,
-          "value": 25.4
+          "value": 25.6
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 28,
-          "value": 121.7
+          "nbaRank": 27,
+          "value": 120.7
         },
         "pointsPerGame": {
           "nbaRank": 29,
-          "value": 107.7
+          "value": 107.5
         },
         "reboundsPerGame": {
           "nbaRank": 29,
-          "value": 39.7
+          "value": 40.0
         }
       },
       "team": "Sacramento Kings",
       "teamId": "1610612758",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "SAS": {
       "abbreviation": "SAS",
@@ -744,7 +744,7 @@
           "value": 106.3
         },
         "pointsPerGame": {
-          "nbaRank": 7,
+          "nbaRank": 6,
           "value": 117.5
         },
         "reboundsPerGame": {
@@ -754,7 +754,7 @@
       },
       "team": "San Antonio Spurs",
       "teamId": "1610612759",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "TOR": {
       "abbreviation": "TOR",
@@ -768,21 +768,21 @@
           "value": 27.9
         },
         "pointsAllowedPerGame": {
-          "nbaRank": 12,
-          "value": 112.0
+          "nbaRank": 10,
+          "value": 111.4
         },
         "pointsPerGame": {
-          "nbaRank": 20,
-          "value": 112.0
+          "nbaRank": 22,
+          "value": 111.6
         },
         "reboundsPerGame": {
-          "nbaRank": 27,
+          "nbaRank": 28,
           "value": 40.6
         }
       },
       "team": "Toronto Raptors",
       "teamId": "1610612761",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "UTA": {
       "abbreviation": "UTA",
@@ -792,25 +792,25 @@
       "sourceType": "official NBA.com team profile",
       "stats": {
         "assistsPerGame": {
-          "nbaRank": 21,
-          "value": 25.1
+          "nbaRank": 23,
+          "value": 24.8
         },
         "pointsAllowedPerGame": {
           "nbaRank": 21,
-          "value": 116.0
+          "value": 115.7
         },
         "pointsPerGame": {
           "nbaRank": 27,
-          "value": 108.8
+          "value": 108.3
         },
         "reboundsPerGame": {
-          "nbaRank": 13,
-          "value": 44.4
+          "nbaRank": 10,
+          "value": 44.8
         }
       },
       "team": "Utah Jazz",
       "teamId": "1610612762",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     },
     "WAS": {
       "abbreviation": "WAS",
@@ -825,20 +825,20 @@
         },
         "pointsAllowedPerGame": {
           "nbaRank": 23,
-          "value": 117.9
+          "value": 116.5
         },
         "pointsPerGame": {
           "nbaRank": 24,
-          "value": 110.8
+          "value": 110.0
         },
         "reboundsPerGame": {
           "nbaRank": 20,
-          "value": 42.3
+          "value": 42.5
         }
       },
       "team": "Washington Wizards",
       "teamId": "1610612764",
-      "verifiedAtUtc": "2026-11-20T20:40:04+00:00"
+      "verifiedAtUtc": "2026-11-21T07:39:03+00:00"
     }
   },
   "schema": 1,

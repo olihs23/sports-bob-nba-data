@@ -1,20 +1,17 @@
 {
   "allDatePagesRetrieved": true,
-  "candidateGameIds": 235,
-  "checkedAtUtc": "2026-11-20T20:40:53+00:00",
-  "completedGamesStored": 226,
+  "candidateGameIds": 241,
+  "checkedAtUtc": "2026-11-21T07:39:32+00:00",
+  "completedGamesStored": 235,
   "failedGameIds": {
-    "0022600043": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600044": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600045": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600046": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600047": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600048": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600049": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600050": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600051": "HTTPError: HTTP Error 403: Forbidden"
+    "0022600274": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600275": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600276": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600277": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600278": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600279": "HTTPError: HTTP Error 403: Forbidden"
   },
-  "newGamesStored": 0,
+  "newGamesStored": 9,
   "notFinalGameIds": [],
   "officialDayPages": {
     "2026-10-20": {
@@ -138,21 +135,25 @@
       "status": "retrieved"
     },
     "2026-11-19": {
-      "candidateIds": 4,
+      "candidateIds": 5,
       "status": "retrieved"
     },
     "2026-11-20": {
-      "candidateIds": 11,
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-21": {
+      "candidateIds": 8,
       "status": "retrieved"
     }
   },
   "participatingPlayers": 473,
-  "playerAppearances": 5089,
+  "playerAppearances": 5270,
   "schema": 1,
   "scopeWarning": "Only final NBA 2026-27 regular-season games recovered from official dated NBA.com game pages and verified official NBA game boxscores. A source failure or incomplete page makes coverage incomplete. No calculated ratings, season stats, or ranks.",
   "searchedDates": {
-    "count": 32,
-    "end": "2026-11-20",
+    "count": 33,
+    "end": "2026-11-21",
     "start": "2026-10-20"
   },
   "season": "2026-27"
