@@ -85,7 +85,7 @@
       "source": "https://www.nba.com/player/1626157",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-21T19:43:11+00:00"
+      "verifiedAtUtc": "2026-11-22T07:21:23+00:00"
     },
     "1628369": {
       "games": [
@@ -172,7 +172,7 @@
       "source": "https://www.nba.com/player/1628369",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "BOS",
-      "verifiedAtUtc": "2026-11-21T19:43:11+00:00"
+      "verifiedAtUtc": "2026-11-22T07:21:23+00:00"
     },
     "1628384": {
       "games": [
@@ -259,10 +259,24 @@
       "source": "https://www.nba.com/player/1628384",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-21T19:43:11+00:00"
+      "verifiedAtUtc": "2026-11-22T07:21:23+00:00"
     },
     "1628404": {
       "games": [
+        {
+          "3PA": 4,
+          "3PM": 0,
+          "AST": 6,
+          "FGA": 7,
+          "FGM": 0,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 0,
+          "REB": 8,
+          "date": "2026-11-21",
+          "matchup": "NYK vs. POR",
+          "minutesRounded": 35
+        },
         {
           "3PA": 5,
           "3PM": 3,
@@ -318,20 +332,6 @@
           "date": "2026-11-13",
           "matchup": "NYK @ IND",
           "minutesRounded": 23
-        },
-        {
-          "3PA": 3,
-          "3PM": 0,
-          "AST": 3,
-          "FGA": 8,
-          "FGM": 3,
-          "FTA": 0,
-          "FTM": 0,
-          "PTS": 6,
-          "REB": 4,
-          "date": "2026-11-11",
-          "matchup": "NYK vs. CLE",
-          "minutesRounded": 26
         }
       ],
       "name": "Josh Hart",
@@ -339,17 +339,31 @@
       "scope": "NBA.com latest five displayed games only",
       "season": "2026-27",
       "seasonAveragesOfficial": {
-        "APG": 3.3,
-        "PPG": 6.8,
-        "RPG": 6.3
+        "APG": 3.5,
+        "PPG": 6.3,
+        "RPG": 6.4
       },
       "source": "https://www.nba.com/player/1628404",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-21T19:43:11+00:00"
+      "verifiedAtUtc": "2026-11-22T07:21:23+00:00"
     },
     "1628969": {
       "games": [
+        {
+          "3PA": 3,
+          "3PM": 2,
+          "AST": 3,
+          "FGA": 8,
+          "FGM": 5,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 12,
+          "REB": 2,
+          "date": "2026-11-21",
+          "matchup": "NYK vs. POR",
+          "minutesRounded": 28
+        },
         {
           "3PA": 4,
           "3PM": 2,
@@ -405,20 +419,6 @@
           "date": "2026-11-13",
           "matchup": "NYK @ IND",
           "minutesRounded": 29
-        },
-        {
-          "3PA": 0,
-          "3PM": 0,
-          "AST": 2,
-          "FGA": 3,
-          "FGM": 1,
-          "FTA": 0,
-          "FTM": 0,
-          "PTS": 2,
-          "REB": 1,
-          "date": "2026-11-11",
-          "matchup": "NYK vs. CLE",
-          "minutesRounded": 17
         }
       ],
       "name": "Mikal Bridges",
@@ -426,17 +426,31 @@
       "scope": "NBA.com latest five displayed games only",
       "season": "2026-27",
       "seasonAveragesOfficial": {
-        "APG": 2.2,
-        "PPG": 7.5,
-        "RPG": 3.5
+        "APG": 2.3,
+        "PPG": 7.8,
+        "RPG": 3.4
       },
       "source": "https://www.nba.com/player/1628969",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-21T19:43:11+00:00"
+      "verifiedAtUtc": "2026-11-22T07:21:23+00:00"
     },
     "1628973": {
       "games": [
+        {
+          "3PA": 10,
+          "3PM": 6,
+          "AST": 5,
+          "FGA": 23,
+          "FGM": 11,
+          "FTA": 3,
+          "FTM": 2,
+          "PTS": 30,
+          "REB": 7,
+          "date": "2026-11-21",
+          "matchup": "NYK vs. POR",
+          "minutesRounded": 36
+        },
         {
           "3PA": 5,
           "3PM": 4,
@@ -492,20 +506,6 @@
           "date": "2026-11-13",
           "matchup": "NYK @ IND",
           "minutesRounded": 36
-        },
-        {
-          "3PA": 8,
-          "3PM": 3,
-          "AST": 5,
-          "FGA": 23,
-          "FGM": 12,
-          "FTA": 0,
-          "FTM": 0,
-          "PTS": 27,
-          "REB": 3,
-          "date": "2026-11-11",
-          "matchup": "NYK vs. CLE",
-          "minutesRounded": 35
         }
       ],
       "name": "Jalen Brunson",
@@ -514,13 +514,13 @@
       "season": "2026-27",
       "seasonAveragesOfficial": {
         "APG": 5.9,
-        "PPG": 26.6,
-        "RPG": 2.9
+        "PPG": 26.8,
+        "RPG": 3.1
       },
       "source": "https://www.nba.com/player/1628973",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-21T19:43:11+00:00"
+      "verifiedAtUtc": "2026-11-22T07:21:23+00:00"
     }
   },
   "schema": 1,
