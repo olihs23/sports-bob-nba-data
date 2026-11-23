@@ -135,7 +135,7 @@ def injuries(today, stamp):
         teams[team] = result
         total += len(result)
     if len(teams) < 8 or not 5 <= total <= 500:
-        raise ValueError(f"ESPN injury listings incomplete: response_groups={len(groups)} matched_teams={len(teams)} entries={total} sample_abbreviations={[str(g.get('team',{}).get('abbreviation')) for g in groups[:8]]}")
+        raise ValueError(f"ESPN injury listings incomplete: response_groups={len(groups)} matched_teams={len(teams)} entries={total} sample_abbreviations={[str(g.get('team',{}).get('abbreviation')) for g in groups[:8]]} first_group_noninjury={{k:str(v)[:180] for k,v in groups[0].items() if k!='injuries'}}")
     save("injuries.json", {
         "schema": 1, "season": "2026-27", "source": "ESPN NBA injury listings (GitHub collector)",
         "sourceUrl": BASE + "injuries", "checkedAtUtc": stamp,
