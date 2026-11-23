@@ -96,6 +96,7 @@ def injuries(today, stamp):
     groups = obj if isinstance(obj, list) else (obj.get("injuries") or obj.get("teams"))
     if not isinstance(groups, list) or len(groups) < 5:
         raise ValueError("Unexpected ESPN injury schema")
+    print("ESPN_INJURY_GROUP_SAMPLE", {k: str(v)[:160] for k, v in groups[0].items() if k != "injuries"})
     teams = {}
     total = 0
     for item in groups:
