@@ -96,7 +96,6 @@ def injuries(today, stamp):
     groups = obj if isinstance(obj, list) else (obj.get("injuries") or obj.get("teams"))
     if not isinstance(groups, list) or len(groups) < 5:
         raise ValueError("Unexpected ESPN injury schema")
-    print("ESPN_INJURY_GROUP_SAMPLE", {k: str(v)[:160] for k, v in groups[0].items() if k != "injuries"})
     published = json.loads(Path("data/league/teams.json").read_text(encoding="utf-8"))
     official_names = {str(v.get("team", "")).lower(): k for k, v in published.get("items", {}).items() if k in TEAMS}
     official_names["los angeles clippers"] = "LAC"
@@ -135,7 +134,7 @@ def injuries(today, stamp):
                 status = "Unverified"
             typ = row.get("type") or {}
             detail = row.get("details") or {}
-            reason = str(typ.get("description") or typ.get("name") or detail.get("detail") or detail.get("description") or detail.get("type") or row.get("description") or "")[:180]
+            reason = str(detail.get("type") or detail.get("location") or detail.get("detail") or detail.get("description") or typ.get("description") or row.get("shortComment") or "")[:180]
             result.append([name, status, reason])
         teams[team] = result
         total += len(result)
@@ -160,8 +159,7 @@ def main():
             print(name, "NOT UPDATED", str(exc), file=sys.stderr)
             failures.append(name)
             issues[name] = str(exc)[:250]
-    if failures:
-        save("collector_status.json", {"checkedAtUtc": stamp, "failedCategories": failures, "errors": issues})
+    save("collector_status.json", {"checkedAtUtc": stamp, "failedCategories": failures, "errors": issues})
     if len(failures) == 2:
         raise SystemExit("Both ESPN feeds unavailable; older verified JSON retained")
     print("Completed. Failed categories:", failures)
