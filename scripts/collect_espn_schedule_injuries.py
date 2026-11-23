@@ -147,12 +147,16 @@ def main():
     today = datetime.now(ET).date()
     stamp = datetime.now(timezone.utc).isoformat()
     failures = []
+    issues = {}
     for name, action in (("schedule", schedule), ("injuries", injuries)):
         try:
             action(today, stamp)
         except Exception as exc:
             print(name, "NOT UPDATED", str(exc), file=sys.stderr)
             failures.append(name)
+            issues[name] = str(exc)[:250]
+    if failures:
+        save("collector_status.json", {"checkedAtUtc": stamp, "failedCategories": failures, "errors": issues})
     if len(failures) == 2:
         raise SystemExit("Both ESPN feeds unavailable; older verified JSON retained")
     print("Completed. Failed categories:", failures)
