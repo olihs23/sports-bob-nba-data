@@ -97,10 +97,14 @@ def injuries(today, stamp):
     if not isinstance(groups, list) or len(groups) < 5:
         raise ValueError("Unexpected ESPN injury schema")
     print("ESPN_INJURY_GROUP_SAMPLE", {k: str(v)[:160] for k, v in groups[0].items() if k != "injuries"})
+    published = json.loads(Path("data/league/teams.json").read_text(encoding="utf-8"))
+    official_names = {str(v.get("team", "")).lower(): k for k, v in published.get("items", {}).items() if k in TEAMS}
+    official_names["los angeles clippers"] = "LAC"
+    official_names["la clippers"] = "LAC"
     teams = {}
     total = 0
     for item in groups:
-        team = code(item.get("team", {}).get("abbreviation") or item.get("abbreviation"))
+        team = code(item.get("team", {}).get("abbreviation") or item.get("abbreviation")) or official_names.get(str(item.get("displayName") or item.get("team", {}).get("displayName") or "").strip().lower())
         if not team:
             continue
         rows = item.get("injuries")
@@ -125,13 +129,13 @@ def injuries(today, stamp):
                 status = "Probable"
             elif "available" in status or "active" in status:
                 status = "Available"
-            elif "day to day" in status:
+            elif "day to day" in status or "daytoday" in status:
                 status = "Day-to-day"
             else:
                 status = "Unverified"
             typ = row.get("type") or {}
             detail = row.get("details") or {}
-            reason = str(typ.get("description") or detail.get("detail") or detail.get("description") or row.get("description") or "")[:180]
+            reason = str(typ.get("description") or typ.get("name") or detail.get("detail") or detail.get("description") or detail.get("type") or row.get("description") or "")[:180]
             result.append([name, status, reason])
         teams[team] = result
         total += len(result)
