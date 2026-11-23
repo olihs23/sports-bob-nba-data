@@ -1,1 +1,1 @@
-{"checkedAtUtc":"2026-11-23T00:46:38.965516+00:00","failedCategories":["injuries"],"errors":{"injuries":"ESPN injury listings incomplete"}}
+{"checkedAtUtc":"2026-11-23T00:47:11.536362+00:00","failedCategories":["injuries"],"errors":{"injuries":"ESPN injury listings incomplete: response_groups=29 matched_teams=0 entries=0 sample_abbreviations=['None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']"}}
