@@ -31,7 +31,7 @@
     "UTA",
     "WAS"
   ],
-  "checkedAtUtc": "2026-11-23T08:04:15+00:00",
+  "checkedAtUtc": "2026-11-24T00:16:03+00:00",
   "schema": 1,
   "sources": {
     "ATL": {
@@ -286,7 +286,7 @@
     },
     "SAC": {
       "rosters": {
-        "count": 17,
+        "count": 18,
         "status": "verified"
       },
       "teams": {

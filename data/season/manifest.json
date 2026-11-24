@@ -1,161 +1,162 @@
 {
   "allDatePagesRetrieved": true,
   "candidateGameIds": 258,
-  "checkedAtUtc": "2026-11-23T08:04:45+00:00",
+  "checkedAtUtc": "2026-11-24T00:16:55+00:00",
   "completedGamesStored": 248,
   "failedGameIds": {
-    "0022600287": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600288": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600289": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600290": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600291": "HTTPError: HTTP Error 403: Forbidden",
     "0022600292": "HTTPError: HTTP Error 403: Forbidden",
     "0022600293": "HTTPError: HTTP Error 403: Forbidden",
     "0022600294": "HTTPError: HTTP Error 403: Forbidden",
     "0022600295": "HTTPError: HTTP Error 403: Forbidden",
     "0022600296": "HTTPError: HTTP Error 403: Forbidden"
   },
-  "newGamesStored": 7,
-  "notFinalGameIds": [],
+  "newGamesStored": 0,
+  "notFinalGameIds": [
+    "0022600287",
+    "0022600288",
+    "0022600289",
+    "0022600290",
+    "0022600291"
+  ],
   "officialDayPages": {
     "2026-10-20": {
-      "candidateIds": 8,
-      "status": "retrieved"
-    },
-    "2026-10-21": {
-      "candidateIds": 16,
-      "status": "retrieved"
-    },
-    "2026-10-22": {
-      "candidateIds": 7,
-      "status": "retrieved"
-    },
-    "2026-10-23": {
-      "candidateIds": 17,
-      "status": "retrieved"
-    },
-    "2026-10-24": {
-      "candidateIds": 13,
-      "status": "retrieved"
-    },
-    "2026-10-25": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-10-26": {
-      "candidateIds": 14,
-      "status": "retrieved"
-    },
-    "2026-10-27": {
-      "candidateIds": 9,
-      "status": "retrieved"
-    },
-    "2026-10-28": {
-      "candidateIds": 17,
-      "status": "retrieved"
-    },
-    "2026-10-29": {
-      "candidateIds": 8,
-      "status": "retrieved"
-    },
-    "2026-10-30": {
-      "candidateIds": 15,
-      "status": "retrieved"
-    },
-    "2026-10-31": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-11-01": {
-      "candidateIds": 9,
-      "status": "retrieved"
-    },
-    "2026-11-02": {
-      "candidateIds": 20,
-      "status": "retrieved"
-    },
-    "2026-11-03": {
       "candidateIds": 5,
       "status": "retrieved"
     },
-    "2026-11-04": {
-      "candidateIds": 19,
-      "status": "retrieved"
-    },
-    "2026-11-05": {
-      "candidateIds": 7,
-      "status": "retrieved"
-    },
-    "2026-11-06": {
-      "candidateIds": 14,
-      "status": "retrieved"
-    },
-    "2026-11-07": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-11-08": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-11-09": {
+    "2026-10-21": {
       "candidateIds": 13,
       "status": "retrieved"
     },
-    "2026-11-10": {
+    "2026-10-22": {
+      "candidateIds": 4,
+      "status": "retrieved"
+    },
+    "2026-10-23": {
+      "candidateIds": 14,
+      "status": "retrieved"
+    },
+    "2026-10-24": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-10-25": {
+      "candidateIds": 9,
+      "status": "retrieved"
+    },
+    "2026-10-26": {
       "candidateIds": 11,
       "status": "retrieved"
     },
-    "2026-11-11": {
-      "candidateIds": 15,
+    "2026-10-27": {
+      "candidateIds": 6,
       "status": "retrieved"
     },
-    "2026-11-12": {
+    "2026-10-28": {
+      "candidateIds": 14,
+      "status": "retrieved"
+    },
+    "2026-10-29": {
+      "candidateIds": 5,
+      "status": "retrieved"
+    },
+    "2026-10-30": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-10-31": {
       "candidateIds": 9,
       "status": "retrieved"
     },
-    "2026-11-13": {
-      "candidateIds": 14,
+    "2026-11-01": {
+      "candidateIds": 6,
       "status": "retrieved"
     },
-    "2026-11-14": {
-      "candidateIds": 10,
-      "status": "retrieved"
-    },
-    "2026-11-15": {
-      "candidateIds": 14,
-      "status": "retrieved"
-    },
-    "2026-11-16": {
-      "candidateIds": 13,
-      "status": "retrieved"
-    },
-    "2026-11-17": {
-      "candidateIds": 10,
-      "status": "retrieved"
-    },
-    "2026-11-18": {
+    "2026-11-02": {
       "candidateIds": 17,
       "status": "retrieved"
     },
-    "2026-11-19": {
+    "2026-11-03": {
+      "candidateIds": 2,
+      "status": "retrieved"
+    },
+    "2026-11-04": {
+      "candidateIds": 16,
+      "status": "retrieved"
+    },
+    "2026-11-05": {
+      "candidateIds": 4,
+      "status": "retrieved"
+    },
+    "2026-11-06": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
+    "2026-11-07": {
       "candidateIds": 9,
       "status": "retrieved"
     },
-    "2026-11-20": {
+    "2026-11-08": {
+      "candidateIds": 9,
+      "status": "retrieved"
+    },
+    "2026-11-09": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-10": {
+      "candidateIds": 8,
+      "status": "retrieved"
+    },
+    "2026-11-11": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-11-12": {
+      "candidateIds": 6,
+      "status": "retrieved"
+    },
+    "2026-11-13": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
+    "2026-11-14": {
+      "candidateIds": 7,
+      "status": "retrieved"
+    },
+    "2026-11-15": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
+    "2026-11-16": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-17": {
+      "candidateIds": 7,
+      "status": "retrieved"
+    },
+    "2026-11-18": {
       "candidateIds": 14,
       "status": "retrieved"
     },
+    "2026-11-19": {
+      "candidateIds": 6,
+      "status": "retrieved"
+    },
+    "2026-11-20": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
     "2026-11-21": {
-      "candidateIds": 9,
+      "candidateIds": 8,
       "status": "retrieved"
     },
     "2026-11-22": {
-      "candidateIds": 9,
+      "candidateIds": 8,
       "status": "retrieved"
     },
     "2026-11-23": {
-      "candidateIds": 15,
+      "candidateIds": 11,
       "status": "retrieved"
     }
   },
