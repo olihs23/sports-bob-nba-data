@@ -26,7 +26,7 @@
       },
       "team": "Atlanta Hawks",
       "teamId": "1610612737",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "BKN": {
       "abbreviation": "BKN",
@@ -54,7 +54,7 @@
       },
       "team": "Brooklyn Nets",
       "teamId": "1610612751",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "BOS": {
       "abbreviation": "BOS",
@@ -82,7 +82,7 @@
       },
       "team": "Boston Celtics",
       "teamId": "1610612738",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "CHA": {
       "abbreviation": "CHA",
@@ -110,7 +110,7 @@
       },
       "team": "Charlotte Hornets",
       "teamId": "1610612766",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "CHI": {
       "abbreviation": "CHI",
@@ -138,7 +138,7 @@
       },
       "team": "Chicago Bulls",
       "teamId": "1610612741",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "CLE": {
       "abbreviation": "CLE",
@@ -166,7 +166,7 @@
       },
       "team": "Cleveland Cavaliers",
       "teamId": "1610612739",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "DAL": {
       "abbreviation": "DAL",
@@ -194,7 +194,7 @@
       },
       "team": "Dallas Mavericks",
       "teamId": "1610612742",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "DEN": {
       "abbreviation": "DEN",
@@ -222,7 +222,7 @@
       },
       "team": "Denver Nuggets",
       "teamId": "1610612743",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "DET": {
       "abbreviation": "DET",
@@ -250,7 +250,7 @@
       },
       "team": "Detroit Pistons",
       "teamId": "1610612765",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "GSW": {
       "abbreviation": "GSW",
@@ -278,7 +278,7 @@
       },
       "team": "Golden State Warriors",
       "teamId": "1610612744",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "HOU": {
       "abbreviation": "HOU",
@@ -306,7 +306,7 @@
       },
       "team": "Houston Rockets",
       "teamId": "1610612745",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "IND": {
       "abbreviation": "IND",
@@ -334,7 +334,7 @@
       },
       "team": "Indiana Pacers",
       "teamId": "1610612754",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "LAC": {
       "abbreviation": "LAC",
@@ -362,7 +362,7 @@
       },
       "team": "LA Clippers",
       "teamId": "1610612746",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "LAL": {
       "abbreviation": "LAL",
@@ -390,7 +390,7 @@
       },
       "team": "Los Angeles Lakers",
       "teamId": "1610612747",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "MEM": {
       "abbreviation": "MEM",
@@ -418,7 +418,7 @@
       },
       "team": "Memphis Grizzlies",
       "teamId": "1610612763",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "MIA": {
       "abbreviation": "MIA",
@@ -446,7 +446,7 @@
       },
       "team": "Miami Heat",
       "teamId": "1610612748",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "MIL": {
       "abbreviation": "MIL",
@@ -474,7 +474,7 @@
       },
       "team": "Milwaukee Bucks",
       "teamId": "1610612749",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "MIN": {
       "abbreviation": "MIN",
@@ -502,7 +502,7 @@
       },
       "team": "Minnesota Timberwolves",
       "teamId": "1610612750",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "NOP": {
       "abbreviation": "NOP",
@@ -530,7 +530,7 @@
       },
       "team": "New Orleans Pelicans",
       "teamId": "1610612740",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "NYK": {
       "abbreviation": "NYK",
@@ -558,7 +558,7 @@
       },
       "team": "New York Knicks",
       "teamId": "1610612752",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "OKC": {
       "abbreviation": "OKC",
@@ -586,7 +586,7 @@
       },
       "team": "Oklahoma City Thunder",
       "teamId": "1610612760",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "ORL": {
       "abbreviation": "ORL",
@@ -614,7 +614,7 @@
       },
       "team": "Orlando Magic",
       "teamId": "1610612753",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "PHI": {
       "abbreviation": "PHI",
@@ -642,7 +642,7 @@
       },
       "team": "Philadelphia 76ers",
       "teamId": "1610612755",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "PHX": {
       "abbreviation": "PHX",
@@ -670,7 +670,7 @@
       },
       "team": "Phoenix Suns",
       "teamId": "1610612756",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "POR": {
       "abbreviation": "POR",
@@ -698,7 +698,7 @@
       },
       "team": "Portland Trail Blazers",
       "teamId": "1610612757",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "SAC": {
       "abbreviation": "SAC",
@@ -726,7 +726,7 @@
       },
       "team": "Sacramento Kings",
       "teamId": "1610612758",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "SAS": {
       "abbreviation": "SAS",
@@ -754,7 +754,7 @@
       },
       "team": "San Antonio Spurs",
       "teamId": "1610612759",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "TOR": {
       "abbreviation": "TOR",
@@ -782,7 +782,7 @@
       },
       "team": "Toronto Raptors",
       "teamId": "1610612761",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "UTA": {
       "abbreviation": "UTA",
@@ -810,7 +810,7 @@
       },
       "team": "Utah Jazz",
       "teamId": "1610612762",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     },
     "WAS": {
       "abbreviation": "WAS",
@@ -838,7 +838,7 @@
       },
       "team": "Washington Wizards",
       "teamId": "1610612764",
-      "verifiedAtUtc": "2026-11-24T10:20:55+00:00"
+      "verifiedAtUtc": "2026-11-24T22:43:40+00:00"
     }
   },
   "schema": 1,
