@@ -1,168 +1,178 @@
 {
-  "allDatePagesRetrieved": false,
-  "candidateGameIds": 261,
-  "checkedAtUtc": "2026-11-24T22:44:21+00:00",
-  "completedGamesStored": 258,
+  "allDatePagesRetrieved": true,
+  "candidateGameIds": 270,
+  "checkedAtUtc": "2026-11-25T09:02:35+00:00",
+  "completedGamesStored": 261,
   "failedGameIds": {
-    "0022600052": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600053": "HTTPError: HTTP Error 403: Forbidden",
-    "0022600054": "HTTPError: HTTP Error 403: Forbidden"
+    "0022600055": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600056": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600057": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600058": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600059": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600060": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600061": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600062": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600063": "HTTPError: HTTP Error 403: Forbidden"
   },
-  "newGamesStored": 0,
+  "newGamesStored": 3,
   "notFinalGameIds": [],
   "officialDayPages": {
     "2026-10-20": {
-      "candidateIds": 3,
+      "candidateIds": 6,
       "status": "retrieved"
     },
     "2026-10-21": {
-      "candidateIds": 11,
-      "status": "retrieved"
-    },
-    "2026-10-22": {
-      "candidateIds": 2,
-      "status": "retrieved"
-    },
-    "2026-10-23": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-10-24": {
-      "candidateIds": 8,
-      "status": "retrieved"
-    },
-    "2026-10-25": {
-      "candidateIds": 7,
-      "status": "retrieved"
-    },
-    "2026-10-26": {
-      "candidateIds": 9,
-      "status": "retrieved"
-    },
-    "2026-10-27": {
-      "candidateIds": 4,
-      "status": "retrieved"
-    },
-    "2026-10-28": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-10-29": {
-      "candidateIds": 3,
-      "status": "retrieved"
-    },
-    "2026-10-30": {
-      "candidateIds": 10,
-      "status": "retrieved"
-    },
-    "2026-10-31": {
-      "candidateIds": 7,
-      "status": "retrieved"
-    },
-    "2026-11-01": {
-      "candidateIds": 4,
-      "status": "retrieved"
-    },
-    "2026-11-02": {
-      "candidateIds": 15,
-      "status": "retrieved"
-    },
-    "2026-11-03": {
-      "reason": "ValueError: No season game IDs in official daily page",
-      "status": "unavailable"
-    },
-    "2026-11-04": {
       "candidateIds": 14,
       "status": "retrieved"
     },
-    "2026-11-05": {
-      "candidateIds": 2,
+    "2026-10-22": {
+      "candidateIds": 5,
       "status": "retrieved"
     },
-    "2026-11-06": {
-      "candidateIds": 9,
+    "2026-10-23": {
+      "candidateIds": 15,
       "status": "retrieved"
     },
-    "2026-11-07": {
-      "candidateIds": 7,
+    "2026-10-24": {
+      "candidateIds": 11,
       "status": "retrieved"
     },
-    "2026-11-08": {
-      "candidateIds": 7,
-      "status": "retrieved"
-    },
-    "2026-11-09": {
-      "candidateIds": 8,
-      "status": "retrieved"
-    },
-    "2026-11-10": {
-      "candidateIds": 6,
-      "status": "retrieved"
-    },
-    "2026-11-11": {
+    "2026-10-25": {
       "candidateIds": 10,
       "status": "retrieved"
     },
-    "2026-11-12": {
-      "candidateIds": 4,
-      "status": "retrieved"
-    },
-    "2026-11-13": {
-      "candidateIds": 9,
-      "status": "retrieved"
-    },
-    "2026-11-14": {
-      "candidateIds": 5,
-      "status": "retrieved"
-    },
-    "2026-11-15": {
-      "candidateIds": 9,
-      "status": "retrieved"
-    },
-    "2026-11-16": {
-      "candidateIds": 8,
-      "status": "retrieved"
-    },
-    "2026-11-17": {
-      "candidateIds": 5,
-      "status": "retrieved"
-    },
-    "2026-11-18": {
+    "2026-10-26": {
       "candidateIds": 12,
       "status": "retrieved"
     },
-    "2026-11-19": {
-      "candidateIds": 4,
-      "status": "retrieved"
-    },
-    "2026-11-20": {
-      "candidateIds": 9,
-      "status": "retrieved"
-    },
-    "2026-11-21": {
-      "candidateIds": 6,
-      "status": "retrieved"
-    },
-    "2026-11-22": {
+    "2026-10-27": {
       "candidateIds": 7,
       "status": "retrieved"
     },
-    "2026-11-23": {
+    "2026-10-28": {
+      "candidateIds": 15,
+      "status": "retrieved"
+    },
+    "2026-10-29": {
+      "candidateIds": 6,
+      "status": "retrieved"
+    },
+    "2026-10-30": {
+      "candidateIds": 13,
+      "status": "retrieved"
+    },
+    "2026-10-31": {
       "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-01": {
+      "candidateIds": 7,
+      "status": "retrieved"
+    },
+    "2026-11-02": {
+      "candidateIds": 18,
+      "status": "retrieved"
+    },
+    "2026-11-03": {
+      "candidateIds": 3,
+      "status": "retrieved"
+    },
+    "2026-11-04": {
+      "candidateIds": 17,
+      "status": "retrieved"
+    },
+    "2026-11-05": {
+      "candidateIds": 5,
+      "status": "retrieved"
+    },
+    "2026-11-06": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-11-07": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-08": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-09": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
+    "2026-11-10": {
+      "candidateIds": 9,
+      "status": "retrieved"
+    },
+    "2026-11-11": {
+      "candidateIds": 13,
+      "status": "retrieved"
+    },
+    "2026-11-12": {
+      "candidateIds": 7,
+      "status": "retrieved"
+    },
+    "2026-11-13": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-11-14": {
+      "candidateIds": 8,
+      "status": "retrieved"
+    },
+    "2026-11-15": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-11-16": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
+    "2026-11-17": {
+      "candidateIds": 8,
+      "status": "retrieved"
+    },
+    "2026-11-18": {
+      "candidateIds": 15,
+      "status": "retrieved"
+    },
+    "2026-11-19": {
+      "candidateIds": 7,
+      "status": "retrieved"
+    },
+    "2026-11-20": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-11-21": {
+      "candidateIds": 9,
+      "status": "retrieved"
+    },
+    "2026-11-22": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
+    "2026-11-23": {
+      "candidateIds": 13,
       "status": "retrieved"
     },
     "2026-11-24": {
       "candidateIds": 3,
       "status": "retrieved"
+    },
+    "2026-11-25": {
+      "candidateIds": 12,
+      "status": "retrieved"
     }
   },
   "participatingPlayers": 481,
-  "playerAppearances": 5772,
+  "playerAppearances": 5842,
   "schema": 1,
   "scopeWarning": "Only final NBA 2026-27 regular-season games recovered from official dated NBA.com game pages and verified official NBA game boxscores. A source failure or incomplete page makes coverage incomplete. No calculated ratings, season stats, or ranks.",
   "searchedDates": {
-    "count": 36,
-    "end": "2026-11-24",
+    "count": 37,
+    "end": "2026-11-25",
     "start": "2026-10-20"
   },
   "season": "2026-27"

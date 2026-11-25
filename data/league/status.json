@@ -31,7 +31,7 @@
     "UTA",
     "WAS"
   ],
-  "checkedAtUtc": "2026-11-24T22:43:40+00:00",
+  "checkedAtUtc": "2026-11-25T09:01:58+00:00",
   "schema": 1,
   "sources": {
     "ATL": {
@@ -76,7 +76,7 @@
     },
     "CHI": {
       "rosters": {
-        "count": 18,
+        "count": 17,
         "status": "verified"
       },
       "teams": {

@@ -85,10 +85,24 @@
       "source": "https://www.nba.com/player/1626157",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-24T22:44:13+00:00"
+      "verifiedAtUtc": "2026-11-25T09:02:28+00:00"
     },
     "1628369": {
       "games": [
+        {
+          "3PA": 15,
+          "3PM": 6,
+          "AST": 8,
+          "FGA": 25,
+          "FGM": 13,
+          "FTA": 14,
+          "FTM": 9,
+          "PTS": 41,
+          "REB": 6,
+          "date": "2026-11-24",
+          "matchup": "BOS @ WAS",
+          "minutesRounded": 37
+        },
         {
           "3PA": 11,
           "3PM": 4,
@@ -144,20 +158,6 @@
           "date": "2026-11-15",
           "matchup": "BOS vs. DAL",
           "minutesRounded": 30
-        },
-        {
-          "3PA": 11,
-          "3PM": 2,
-          "AST": 8,
-          "FGA": 21,
-          "FGM": 6,
-          "FTA": 12,
-          "FTM": 10,
-          "PTS": 24,
-          "REB": 7,
-          "date": "2026-11-11",
-          "matchup": "BOS @ TOR",
-          "minutesRounded": 38
         }
       ],
       "name": "Jayson Tatum",
@@ -165,14 +165,14 @@
       "scope": "NBA.com latest five displayed games only",
       "season": "2026-27",
       "seasonAveragesOfficial": {
-        "APG": 6.7,
-        "PPG": 26.4,
-        "RPG": 6.9
+        "APG": 6.8,
+        "PPG": 27.3,
+        "RPG": 6.8
       },
       "source": "https://www.nba.com/player/1628369",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "BOS",
-      "verifiedAtUtc": "2026-11-24T22:44:13+00:00"
+      "verifiedAtUtc": "2026-11-25T09:02:28+00:00"
     },
     "1628384": {
       "games": [
@@ -259,7 +259,7 @@
       "source": "https://www.nba.com/player/1628384",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-24T22:44:13+00:00"
+      "verifiedAtUtc": "2026-11-25T09:02:28+00:00"
     },
     "1628404": {
       "games": [
@@ -346,7 +346,7 @@
       "source": "https://www.nba.com/player/1628404",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-24T22:44:13+00:00"
+      "verifiedAtUtc": "2026-11-25T09:02:28+00:00"
     },
     "1628969": {
       "games": [
@@ -433,7 +433,7 @@
       "source": "https://www.nba.com/player/1628969",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-24T22:44:13+00:00"
+      "verifiedAtUtc": "2026-11-25T09:02:28+00:00"
     },
     "1628973": {
       "games": [
@@ -520,7 +520,7 @@
       "source": "https://www.nba.com/player/1628973",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-24T22:44:13+00:00"
+      "verifiedAtUtc": "2026-11-25T09:02:28+00:00"
     }
   },
   "schema": 1,

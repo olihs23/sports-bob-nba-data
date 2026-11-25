@@ -4127,9 +4127,57 @@
       },
       "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600296.json",
       "timeUTC": "2026-11-24T03:00:00Z"
+    },
+    {
+      "away": {
+        "score": 104,
+        "team": "DET",
+        "teamId": "1610612765"
+      },
+      "date": "2026-11-24",
+      "gameId": "0022600052",
+      "home": {
+        "score": 86,
+        "team": "ORL",
+        "teamId": "1610612753"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600052.json",
+      "timeUTC": "2026-11-25T00:00:00Z"
+    },
+    {
+      "away": {
+        "score": 131,
+        "team": "BOS",
+        "teamId": "1610612738"
+      },
+      "date": "2026-11-24",
+      "gameId": "0022600053",
+      "home": {
+        "score": 116,
+        "team": "WAS",
+        "teamId": "1610612764"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600053.json",
+      "timeUTC": "2026-11-25T01:00:00Z"
+    },
+    {
+      "away": {
+        "score": 120,
+        "team": "DAL",
+        "teamId": "1610612742"
+      },
+      "date": "2026-11-24",
+      "gameId": "0022600054",
+      "home": {
+        "score": 101,
+        "team": "DEN",
+        "teamId": "1610612743"
+      },
+      "source": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/boxscore/boxscore_0022600054.json",
+      "timeUTC": "2026-11-25T03:00:00Z"
     }
   ],
-  "generatedAtUtc": "2026-11-24T22:44:21+00:00",
+  "generatedAtUtc": "2026-11-25T09:02:35+00:00",
   "schema": 1,
   "scope": "verified final regular season NBA boxscores",
   "season": "2026-27",
