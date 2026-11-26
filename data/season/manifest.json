@@ -1,10 +1,10 @@
 {
   "allDatePagesRetrieved": true,
   "candidateGameIds": 270,
-  "checkedAtUtc": "2026-11-26T08:50:42+00:00",
+  "checkedAtUtc": "2026-11-26T21:51:50+00:00",
   "completedGamesStored": 270,
   "failedGameIds": {},
-  "newGamesStored": 9,
+  "newGamesStored": 0,
   "notFinalGameIds": [],
   "officialDayPages": {
     "2026-10-20": {
