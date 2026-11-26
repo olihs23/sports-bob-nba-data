@@ -3,6 +3,20 @@
     "1626157": {
       "games": [
         {
+          "3PA": 2,
+          "3PM": 1,
+          "AST": 7,
+          "FGA": 8,
+          "FGM": 4,
+          "FTA": 4,
+          "FTM": 3,
+          "PTS": 12,
+          "REB": 10,
+          "date": "2026-11-25",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 33
+        },
+        {
           "3PA": 4,
           "3PM": 4,
           "AST": 5,
@@ -57,20 +71,6 @@
           "date": "2026-11-15",
           "matchup": "NYK @ TOR",
           "minutesRounded": 43
-        },
-        {
-          "3PA": 7,
-          "3PM": 3,
-          "AST": 5,
-          "FGA": 19,
-          "FGM": 9,
-          "FTA": 3,
-          "FTM": 2,
-          "PTS": 23,
-          "REB": 15,
-          "date": "2026-11-13",
-          "matchup": "NYK @ IND",
-          "minutesRounded": 34
         }
       ],
       "name": "Karl-Anthony Towns",
@@ -78,14 +78,14 @@
       "scope": "NBA.com latest five displayed games only",
       "season": "2026-27",
       "seasonAveragesOfficial": {
-        "APG": 4.0,
-        "PPG": 21.8,
-        "RPG": 13.9
+        "APG": 4.2,
+        "PPG": 21.2,
+        "RPG": 13.6
       },
       "source": "https://www.nba.com/player/1626157",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-25T21:57:12+00:00"
+      "verifiedAtUtc": "2026-11-26T08:50:34+00:00"
     },
     "1628369": {
       "games": [
@@ -172,7 +172,7 @@
       "source": "https://www.nba.com/player/1628369",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "BOS",
-      "verifiedAtUtc": "2026-11-25T21:57:12+00:00"
+      "verifiedAtUtc": "2026-11-26T08:50:34+00:00"
     },
     "1628384": {
       "games": [
@@ -259,10 +259,24 @@
       "source": "https://www.nba.com/player/1628384",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-25T21:57:12+00:00"
+      "verifiedAtUtc": "2026-11-26T08:50:34+00:00"
     },
     "1628404": {
       "games": [
+        {
+          "3PA": 5,
+          "3PM": 1,
+          "AST": 11,
+          "FGA": 14,
+          "FGM": 6,
+          "FTA": 3,
+          "FTM": 2,
+          "PTS": 15,
+          "REB": 7,
+          "date": "2026-11-25",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 36
+        },
         {
           "3PA": 4,
           "3PM": 0,
@@ -318,20 +332,6 @@
           "date": "2026-11-17",
           "matchup": "NYK @ TOR",
           "minutesRounded": 31
-        },
-        {
-          "3PA": 1,
-          "3PM": 0,
-          "AST": 2,
-          "FGA": 5,
-          "FGM": 0,
-          "FTA": 0,
-          "FTM": 0,
-          "PTS": 0,
-          "REB": 5,
-          "date": "2026-11-15",
-          "matchup": "NYK @ TOR",
-          "minutesRounded": 26
         }
       ],
       "name": "Josh Hart",
@@ -339,17 +339,31 @@
       "scope": "NBA.com latest five displayed games only",
       "season": "2026-27",
       "seasonAveragesOfficial": {
-        "APG": 4.0,
-        "PPG": 6.6,
+        "APG": 4.5,
+        "PPG": 7.1,
         "RPG": 6.7
       },
       "source": "https://www.nba.com/player/1628404",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-25T21:57:12+00:00"
+      "verifiedAtUtc": "2026-11-26T08:50:34+00:00"
     },
     "1628969": {
       "games": [
+        {
+          "3PA": 4,
+          "3PM": 1,
+          "AST": 2,
+          "FGA": 15,
+          "FGM": 9,
+          "FTA": 0,
+          "FTM": 0,
+          "PTS": 19,
+          "REB": 8,
+          "date": "2026-11-25",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 37
+        },
         {
           "3PA": 8,
           "3PM": 2,
@@ -405,20 +419,6 @@
           "date": "2026-11-17",
           "matchup": "NYK @ TOR",
           "minutesRounded": 30
-        },
-        {
-          "3PA": 2,
-          "3PM": 0,
-          "AST": 3,
-          "FGA": 5,
-          "FGM": 2,
-          "FTA": 2,
-          "FTM": 1,
-          "PTS": 5,
-          "REB": 7,
-          "date": "2026-11-15",
-          "matchup": "NYK @ TOR",
-          "minutesRounded": 32
         }
       ],
       "name": "Mikal Bridges",
@@ -427,16 +427,30 @@
       "season": "2026-27",
       "seasonAveragesOfficial": {
         "APG": 2.2,
-        "PPG": 7.8,
-        "RPG": 3.4
+        "PPG": 8.4,
+        "RPG": 3.7
       },
       "source": "https://www.nba.com/player/1628969",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-25T21:57:12+00:00"
+      "verifiedAtUtc": "2026-11-26T08:50:34+00:00"
     },
     "1628973": {
       "games": [
+        {
+          "3PA": 8,
+          "3PM": 2,
+          "AST": 5,
+          "FGA": 22,
+          "FGM": 6,
+          "FTA": 6,
+          "FTM": 5,
+          "PTS": 19,
+          "REB": 3,
+          "date": "2026-11-25",
+          "matchup": "NYK vs. CLE",
+          "minutesRounded": 36
+        },
         {
           "3PA": 6,
           "3PM": 1,
@@ -492,20 +506,6 @@
           "date": "2026-11-17",
           "matchup": "NYK @ TOR",
           "minutesRounded": 34
-        },
-        {
-          "3PA": 6,
-          "3PM": 3,
-          "AST": 9,
-          "FGA": 22,
-          "FGM": 9,
-          "FTA": 8,
-          "FTM": 7,
-          "PTS": 28,
-          "REB": 1,
-          "date": "2026-11-15",
-          "matchup": "NYK @ TOR",
-          "minutesRounded": 41
         }
       ],
       "name": "Jalen Brunson",
@@ -514,13 +514,13 @@
       "season": "2026-27",
       "seasonAveragesOfficial": {
         "APG": 5.9,
-        "PPG": 26.5,
+        "PPG": 26.1,
         "RPG": 3.1
       },
       "source": "https://www.nba.com/player/1628973",
       "sourceType": "NBA.com official player page",
       "teamAbbreviation": "NYK",
-      "verifiedAtUtc": "2026-11-25T21:57:12+00:00"
+      "verifiedAtUtc": "2026-11-26T08:50:34+00:00"
     }
   },
   "schema": 1,
