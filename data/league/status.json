@@ -31,7 +31,7 @@
     "UTA",
     "WAS"
   ],
-  "checkedAtUtc": "2026-11-27T08:59:07+00:00",
+  "checkedAtUtc": "2026-11-27T21:34:57+00:00",
   "schema": 1,
   "sources": {
     "ATL": {
@@ -176,7 +176,7 @@
     },
     "MEM": {
       "rosters": {
-        "count": 18,
+        "count": 19,
         "status": "verified"
       },
       "teams": {

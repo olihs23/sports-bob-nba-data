@@ -1,7 +1,7 @@
 {
   "allDatePagesRetrieved": true,
   "candidateGameIds": 281,
-  "checkedAtUtc": "2026-11-27T08:59:45+00:00",
+  "checkedAtUtc": "2026-11-27T21:35:41+00:00",
   "completedGamesStored": 270,
   "failedGameIds": {
     "0022600064": "HTTPError: HTTP Error 403: Forbidden",
@@ -20,155 +20,155 @@
   "notFinalGameIds": [],
   "officialDayPages": {
     "2026-10-20": {
-      "candidateIds": 11,
+      "candidateIds": 12,
       "status": "retrieved"
     },
     "2026-10-21": {
-      "candidateIds": 19,
+      "candidateIds": 20,
       "status": "retrieved"
     },
     "2026-10-22": {
-      "candidateIds": 10,
+      "candidateIds": 11,
       "status": "retrieved"
     },
     "2026-10-23": {
-      "candidateIds": 20,
+      "candidateIds": 21,
       "status": "retrieved"
     },
     "2026-10-24": {
-      "candidateIds": 16,
+      "candidateIds": 17,
       "status": "retrieved"
     },
     "2026-10-25": {
-      "candidateIds": 15,
+      "candidateIds": 16,
       "status": "retrieved"
     },
     "2026-10-26": {
-      "candidateIds": 17,
+      "candidateIds": 18,
       "status": "retrieved"
     },
     "2026-10-27": {
-      "candidateIds": 12,
+      "candidateIds": 13,
       "status": "retrieved"
     },
     "2026-10-28": {
-      "candidateIds": 20,
+      "candidateIds": 21,
       "status": "retrieved"
     },
     "2026-10-29": {
-      "candidateIds": 11,
+      "candidateIds": 12,
       "status": "retrieved"
     },
     "2026-10-30": {
-      "candidateIds": 18,
+      "candidateIds": 19,
       "status": "retrieved"
     },
     "2026-10-31": {
-      "candidateIds": 15,
+      "candidateIds": 16,
       "status": "retrieved"
     },
     "2026-11-01": {
-      "candidateIds": 12,
+      "candidateIds": 13,
       "status": "retrieved"
     },
     "2026-11-02": {
-      "candidateIds": 23,
+      "candidateIds": 24,
       "status": "retrieved"
     },
     "2026-11-03": {
-      "candidateIds": 8,
-      "status": "retrieved"
-    },
-    "2026-11-04": {
-      "candidateIds": 22,
-      "status": "retrieved"
-    },
-    "2026-11-05": {
-      "candidateIds": 10,
-      "status": "retrieved"
-    },
-    "2026-11-06": {
-      "candidateIds": 17,
-      "status": "retrieved"
-    },
-    "2026-11-07": {
-      "candidateIds": 15,
-      "status": "retrieved"
-    },
-    "2026-11-08": {
-      "candidateIds": 15,
-      "status": "retrieved"
-    },
-    "2026-11-09": {
-      "candidateIds": 16,
-      "status": "retrieved"
-    },
-    "2026-11-10": {
-      "candidateIds": 14,
-      "status": "retrieved"
-    },
-    "2026-11-11": {
-      "candidateIds": 18,
-      "status": "retrieved"
-    },
-    "2026-11-12": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-11-13": {
-      "candidateIds": 17,
-      "status": "retrieved"
-    },
-    "2026-11-14": {
-      "candidateIds": 13,
-      "status": "retrieved"
-    },
-    "2026-11-15": {
-      "candidateIds": 17,
-      "status": "retrieved"
-    },
-    "2026-11-16": {
-      "candidateIds": 16,
-      "status": "retrieved"
-    },
-    "2026-11-17": {
-      "candidateIds": 13,
-      "status": "retrieved"
-    },
-    "2026-11-18": {
-      "candidateIds": 20,
-      "status": "retrieved"
-    },
-    "2026-11-19": {
-      "candidateIds": 12,
-      "status": "retrieved"
-    },
-    "2026-11-20": {
-      "candidateIds": 17,
-      "status": "retrieved"
-    },
-    "2026-11-21": {
-      "candidateIds": 14,
-      "status": "retrieved"
-    },
-    "2026-11-22": {
-      "candidateIds": 15,
-      "status": "retrieved"
-    },
-    "2026-11-23": {
-      "candidateIds": 18,
-      "status": "retrieved"
-    },
-    "2026-11-24": {
-      "candidateIds": 11,
-      "status": "retrieved"
-    },
-    "2026-11-25": {
       "candidateIds": 9,
       "status": "retrieved"
     },
+    "2026-11-04": {
+      "candidateIds": 23,
+      "status": "retrieved"
+    },
+    "2026-11-05": {
+      "candidateIds": 11,
+      "status": "retrieved"
+    },
+    "2026-11-06": {
+      "candidateIds": 18,
+      "status": "retrieved"
+    },
+    "2026-11-07": {
+      "candidateIds": 16,
+      "status": "retrieved"
+    },
+    "2026-11-08": {
+      "candidateIds": 16,
+      "status": "retrieved"
+    },
+    "2026-11-09": {
+      "candidateIds": 17,
+      "status": "retrieved"
+    },
+    "2026-11-10": {
+      "candidateIds": 15,
+      "status": "retrieved"
+    },
+    "2026-11-11": {
+      "candidateIds": 19,
+      "status": "retrieved"
+    },
+    "2026-11-12": {
+      "candidateIds": 13,
+      "status": "retrieved"
+    },
+    "2026-11-13": {
+      "candidateIds": 18,
+      "status": "retrieved"
+    },
+    "2026-11-14": {
+      "candidateIds": 14,
+      "status": "retrieved"
+    },
+    "2026-11-15": {
+      "candidateIds": 18,
+      "status": "retrieved"
+    },
+    "2026-11-16": {
+      "candidateIds": 17,
+      "status": "retrieved"
+    },
+    "2026-11-17": {
+      "candidateIds": 14,
+      "status": "retrieved"
+    },
+    "2026-11-18": {
+      "candidateIds": 21,
+      "status": "retrieved"
+    },
+    "2026-11-19": {
+      "candidateIds": 13,
+      "status": "retrieved"
+    },
+    "2026-11-20": {
+      "candidateIds": 18,
+      "status": "retrieved"
+    },
+    "2026-11-21": {
+      "candidateIds": 15,
+      "status": "retrieved"
+    },
+    "2026-11-22": {
+      "candidateIds": 16,
+      "status": "retrieved"
+    },
+    "2026-11-23": {
+      "candidateIds": 19,
+      "status": "retrieved"
+    },
+    "2026-11-24": {
+      "candidateIds": 12,
+      "status": "retrieved"
+    },
+    "2026-11-25": {
+      "candidateIds": 10,
+      "status": "retrieved"
+    },
     "2026-11-26": {
-      "candidateIds": 8,
+      "candidateIds": 9,
       "status": "retrieved"
     },
     "2026-11-27": {
