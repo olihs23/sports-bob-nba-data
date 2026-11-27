@@ -1,9 +1,21 @@
 {
   "allDatePagesRetrieved": true,
-  "candidateGameIds": 270,
-  "checkedAtUtc": "2026-11-26T21:51:50+00:00",
+  "candidateGameIds": 281,
+  "checkedAtUtc": "2026-11-27T08:59:45+00:00",
   "completedGamesStored": 270,
-  "failedGameIds": {},
+  "failedGameIds": {
+    "0022600064": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600065": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600066": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600067": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600068": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600069": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600070": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600071": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600072": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600073": "HTTPError: HTTP Error 403: Forbidden",
+    "0022600074": "HTTPError: HTTP Error 403: Forbidden"
+  },
   "newGamesStored": 0,
   "notFinalGameIds": [],
   "officialDayPages": {
@@ -158,6 +170,10 @@
     "2026-11-26": {
       "candidateIds": 8,
       "status": "retrieved"
+    },
+    "2026-11-27": {
+      "candidateIds": 19,
+      "status": "retrieved"
     }
   },
   "participatingPlayers": 482,
@@ -165,8 +181,8 @@
   "schema": 1,
   "scopeWarning": "Only final NBA 2026-27 regular-season games recovered from official dated NBA.com game pages and verified official NBA game boxscores. A source failure or incomplete page makes coverage incomplete. No calculated ratings, season stats, or ranks.",
   "searchedDates": {
-    "count": 38,
-    "end": "2026-11-26",
+    "count": 39,
+    "end": "2026-11-27",
     "start": "2026-10-20"
   },
   "season": "2026-27"
